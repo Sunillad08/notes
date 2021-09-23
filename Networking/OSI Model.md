@@ -1,5 +1,5 @@
 # OSI Model
-[Back to Networking page](Networking)
+[Back to Networking page](Networking.md)
 - --
 - Open system interconnection model
 - 7 Layers

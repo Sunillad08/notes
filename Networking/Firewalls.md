@@ -1,5 +1,5 @@
 ## Firewalls
-[Back to Networking page](Networking)
+[Back to Networking page](Networking.md)
 - --
 Types of firewalls
 1. Packet filtering firewalls

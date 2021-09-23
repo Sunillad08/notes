@@ -1,5 +1,5 @@
 ## Network topologies
-[Back to Networking page](Networking)
+[Back to Networking page](Networking.md)
 - --
 ### Star topology
 ![Star|700](https://www.dnsstuff.com/wp-content/uploads/2019/09/Star-Topology.jpg)

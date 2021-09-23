@@ -1,5 +1,5 @@
 # NIC
-[Back to Networking page](Networking)
+[Back to Networking page](Networking.md)
 - --
 ## What is NIC
 **Network Interface Card**
