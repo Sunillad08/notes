@@ -15,7 +15,10 @@ iwconfig : manage wireless network connections
 iwconfig
 
 netstat : Display connection information.
-netstat
+netstat -t , netstat -r
+
+netdiscover : active/passive ARP reconnaissance tool
+netdiscover -i eth0
 
 ss : Investigate sockets
 ss , ss -s
@@ -29,8 +32,6 @@ ping 192.168.0.108 , ping -c 4 192.168.0.1
 traceroute : shows path packets follow an amount of time it takes
 traceroute fb.com
 
-tracepath : shows path of packet travelling throught internet
-tracepath fb.com
 - --
 ## DNS related commands
 
@@ -53,6 +54,10 @@ curl link
 whois : gets info about website
 whois google.com
 
+- --
+## DHCP 
+dhclient : command to run dhcp related commands
+dhclient -4
 - --
 ### Sources
 - [Java point website](https://www.javatpoint.com/linux-networking-commands)

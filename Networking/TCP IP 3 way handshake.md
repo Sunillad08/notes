@@ -1,7 +1,7 @@
 ## TCP 3 way handshake
 [Back to Networking page](Networking)
 - --
-- TCP connection is done through 3 way handshake process
+- [[TCP]] connection is done through 3 way handshake process
 - 3 way handshake establishes connection.
 
 ### Diagram

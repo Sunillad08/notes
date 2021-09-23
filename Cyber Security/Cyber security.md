@@ -2,7 +2,7 @@
 
 [Back to Index](Index)
 
-- [[Tyeps of Hackers]]
+- [[Types of Hackers]]
 - [[CIA Triad]]
 - [[Information gathering]]
 - [[Footprinting & scanning]]

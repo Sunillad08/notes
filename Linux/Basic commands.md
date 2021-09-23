@@ -50,6 +50,9 @@ df , df -m
 du : disk usage shown in blocks
 du , du -h , du -sh
 
+free : check RAM usage
+free , free -h
+
 diff : compare contents of two files and display difference[[]]
 diff file.txt test.txt
 
@@ -107,8 +110,8 @@ top
 kill : kill process using PID from top
 kill 123455 , kill -9(SIGTERM) PID , kill -15(SIGKILL) PID
 
-ps : return process status
-ps
+ps : return running process status
+ps , ps aux
 
 fg : get process to foreground
 fg id
@@ -124,6 +127,8 @@ systemctl start ssh
 journalctl : logs about service
 journalctl -u ssh.service
 
+service : run a System V init script
+service name start , service tor stop
 - --
 ## Users , system and group commands 
 
