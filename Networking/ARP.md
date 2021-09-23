@@ -1,9 +1,9 @@
 # ARP
-[[Networking|Back to networking page]]
+[Back to networking page](Networking.md)
 - --
 ## What is ARP?
 **Address Resolution Protocol**
-The Address Resolution Protocol(ARP) is a communication protocol used to discover the data-link layer address(Layer 2 address like Media Access Control ie [[MAC address]] associated with an Internet layer address(Layer 3 address like [[IP]]. ... As a result, ARP is said to be a link layer protocol.
+The Address Resolution Protocol(ARP) is a communication protocol used to discover the data-link layer address(Layer 2 address like Media Access Control ie [MAC](MAC.md) associated with an Internet layer address(Layer 3 address like [IP](IP.md). ... As a result, ARP is said to be a link layer protocol.
 - --
 ## Why?
 Devices in a Local Area Network(LAN) are programmed to communicate using link layer addresses. Switches are not configured for a standard that will allow destination decisions to be based on IP within the same broadcast domain. A device that is not connected to the internet will not have an IP address. In that case, the network has to resort to using MAC addresses for communication. If a device wants to communicate with another device in the same LAN, it needs to know the MAC address of the other device’s network interface. This allows for the communication between the two end devices to be unicast.

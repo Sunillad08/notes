@@ -1,6 +1,6 @@
 # What is topic ?
 
-[Index](Index.md)
+[Index](../Index.md)
 - --
 - [About Linux](About%20Linux.md)
 - [Linux file system](Linux%20file%20system.md)

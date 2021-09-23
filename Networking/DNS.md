@@ -1,9 +1,9 @@
 # DNS : Domain Name System
-[[Networking| Back to networking page]]
+[Back to networking page](Networking.md)
 - --
 ## What is DNS?
 DNS is **Domain Name System** which converts domain name to IP addresses.
-Domain names -> [[IP]]
+Domain names -> [IP](IP.md)
 Example : play.google.com -> 185.056.012.155
 
 The Domain Name System is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities.

@@ -1,5 +1,5 @@
 # Subnetting
-[[Networking|Back to networking page]]
+[Back to Networking page](Networking)
 - --
 ## What is subnetting?
 A subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting. Computers that belong to the same subnet are addressed with an identical most-significant bit-group in their IP addresses. 
@@ -18,7 +18,7 @@ Logical subdivision of a network is called subnetting.
 a.b.c.d / x is CIDR format (Classless inter domain routing)
 where a,b,c,d are octets and x is value that denotes common bits from left to right
 example : 192.168.0.1/24 -> 255 Devices can be identified
-Check [[IP]] for classes about subnetting in IP's classes.
+Check [IP](IP.md) for classes about subnetting in IP's classes.
 
 ![wiki|700](https://upload.wikimedia.org/wikipedia/commons/b/b3/Subnetting_Concept.svg)
 

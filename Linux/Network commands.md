@@ -1,5 +1,5 @@
 # Network Commands 
-[[Linux|Back to linux page]]
+[Back to linux page](Linux.md)
 - --
 ## IP related commands
 ip : show ip of device

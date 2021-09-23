@@ -1,5 +1,5 @@
 # Linux file system hierarchy
-[[Linux|Back to linux page]]
+[Back to linux page](Linux.md)
 - --
 
 ## File system hierarchy

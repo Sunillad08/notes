@@ -1,5 +1,5 @@
 # IP address
-[[Networking|Back to Networking Page]]
+[Back to networking page](Networking.md)
 - --
 ## What is IP address?
 Internet Protocol address
@@ -11,13 +11,13 @@ On internet we need to communicate using packets . So where should we send one? 
 - --
 ## How do we get one?
 We get IP address based on router , subnetting and many more things.
-[[DHCP]] protocol gives us IP address.
+[DHCP](DHCP.md) protocol gives us IP address.
 In home network router is your DHCP server.
 - --
 ## Private & Public IP?
 ### Public IP address
 Public IP is IP which is displayed to all other devices on Internet but as IPv4 is limited so some devices share same public IP.
-Private IP is IP given in Internal network and using [[Subnetting]] we can get many devices to share same public IP.
+Private IP is IP given in Internal network and using [Subnetting](Subnetting.md) we can get many devices to share same public IP.
 - -- 
 ## IP addresses : 
  ![ip address blocks|700](https://4.bp.blogspot.com/--yi2nvFpat4/U-3d8GB9KvI/AAAAAAAANoo/EjfJIHi8jM4/s1600/Classes%2Bof%2BIP.png)

@@ -1,5 +1,5 @@
 # Information Gathering
-[[Cyber security | Back to Cyber security page]]
+[Back to Cyber security page](Cyber%20security.md)
 
 -  -- 
 ### Why?

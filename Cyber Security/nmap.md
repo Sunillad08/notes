@@ -1,5 +1,5 @@
 # nmap : scanning & footprinting tool!
-[[Tools |Back to tools page]]
+[Back to tools page](Tools.md)
 
 - --
 ## What is nmap?

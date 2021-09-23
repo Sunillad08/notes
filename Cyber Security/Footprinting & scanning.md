@@ -1,5 +1,5 @@
 # Footprinting & scanning
-[[Cyber security|Back to cyber security page]]
+[Back to cyber security page](Cyber%20security.md)
 - --
 
 ## Mapping network & scanning targets
@@ -23,13 +23,13 @@ First we need ip of network to scan.
 	- --
 - nmap
 	- nmap -sn 192.168.0.1
-	- [[nmap|More about nmap]]
+	- [More about nmap](nmap.md)
 
 - --
 
 ## Port scanning methods
 ### TCP Port scanner
-[[TCP IP 3 way handshake| TCP 3 way handshake]]
+[TCP IP 3 way handshake](../Networking/TCP%20IP%203%20way%20handshake.md)
 - --
 **TCP Full Scan**
 - To detect if port is open If 3 way handshake is completed then we send RST + ACK packet to close connection.
@@ -53,12 +53,8 @@ First we need ip of network to scan.
 ### Tools:
 - nmap 
 	- nmap -O 192.168.0.2
-	- [[nmap|More about nmap]]
-	- --
+	- [More about nmap](nmap.md)
 - --
 
 ### Sources :
 - [ine](https://my.ine.com/CyberSecurity/courses/6f986ca5/penetration-testing-basics)
-
-
-

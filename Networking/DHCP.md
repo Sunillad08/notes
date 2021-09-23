@@ -1,8 +1,8 @@
 # DHCP 
-[[Networking|Back to networking page]]
+[Back to networking page](Networking.md)
 - --
 ## What is DHCP?
-Dynamic Host Configuration Protocol is protocols that assign [[IP]] to connected devices.
+Dynamic Host Configuration Protocol is protocols that assign [IP](IP.md) to connected devices.
 The **Dynamic Host Configuration Protocol** is a network management protocol used on Internet Protocol(IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture.
 - --
 ## Why ?
@@ -26,7 +26,7 @@ Ports use for DHCP communication :
 - Server : port 67
 - UDP protocol
 - --
-If DHCP fails then windows has backup plan called [[APIPA]]
+If DHCP fails then windows has backup plan called [APIPA](APIPA.md)
 - --
 ### Sources
 - [DHCP Youtube](https://youtu.be/e6-TaH5bkjo)

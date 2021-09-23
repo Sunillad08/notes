@@ -1,5 +1,5 @@
 # Basic linux commands 
-[[Linux | Back to linux page ]]
+[Back to linux page ](Linux.md)
 - --
 
 ## Basic navigation and creation commands
@@ -53,7 +53,7 @@ du , du -h , du -sh
 free : check RAM usage
 free , free -h
 
-diff : compare contents of two files and display difference[[]]
+diff : compare contents of two files and display difference
 diff file.txt test.txt
 
 tar : convert into tarball or zip basically archiving

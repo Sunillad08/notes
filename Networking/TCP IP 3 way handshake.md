@@ -1,7 +1,7 @@
 ## TCP 3 way handshake
 [Back to Networking page](Networking)
 - --
-- [[TCP]] connection is done through 3 way handshake process
+- [TCP](TCP.md) connection is done through 3 way handshake process
 - 3 way handshake establishes connection.
 
 ### Diagram
@@ -14,6 +14,7 @@
 - Server sends SYN+ACK message with seq number & Ack number which is client seq number + 1 .
 - Client sends ACK message with client seq+1 and Ack number which is server seq number + 1.
 - If server replies with RST & ACK flag then port status is closed.
+- --
 ### Sources :
 - [Youtube video - short](https://www.youtube.com/watch?v=xMtP5ZB3wSk&ab_channel=SunnyClassroom)
 - [Youtube video - detailed](https://www.youtube.com/watch?v=qIEHUUt2Wfc&ab_channel=GateSmashers)

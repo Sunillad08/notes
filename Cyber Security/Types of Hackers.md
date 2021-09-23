@@ -1,5 +1,5 @@
 # Types of Hackers
-[[Cyber security|Back to cyber security page]]
+[Back to cyber security page](Cyber%20security.md)
  - --
  ## White hat hackers
  - Allowed to performing hacking

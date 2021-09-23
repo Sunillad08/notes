@@ -1,7 +1,7 @@
 # TCP/IP Model
 [Back to Networking page](Networking)
 - --
-- TCP/IP model is actual implementation of [[OSI Model]]
+- TCP/IP model is actual implementation of [OSI Model](OSI%20Model.md)
 - 5 Layers
 - Has many different diagrams in different formats
 - Layer 7 to 5 of OSI layer combined into application layer in TCP/IP model.
