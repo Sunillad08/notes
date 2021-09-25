@@ -47,7 +47,7 @@ wget : download file from internet
 wget link
 
 curl : download file directly
-curl link
+curl -O link , curl -o fllename link
 
 - --
 ## Info about website

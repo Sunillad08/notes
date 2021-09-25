@@ -64,7 +64,10 @@ SERVICE/VERSION DETECTION:
 --version-light: Limit to most likely probes (intensity 2)
 --version-all: Try every single probe (intensity 9)
 --version-trace: Show detailed version scan activity (for debugging)
+```
+- --
 SCRIPT SCAN:
+```bash
 -sC: equivalent to --script=default
 --script=<Lua scripts>: <Lua scripts> is a comma separated list of
 	   directories, script-files or script-categories
@@ -155,4 +158,4 @@ nmap -v -iR 10000 -Pn -p 80
 - --
 ### Sources
 - [Nmap 7.92SVN](https://nmap.org)
-- 
+- [Tryhackme](https://tryhackme.com/room/furthernmap)

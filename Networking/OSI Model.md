@@ -5,7 +5,7 @@
 - 7 Layers
 - Developed by ISO
 ---
-#### OSI Model Diagram
+## OSI Model Diagram
 |Layer number|Name|
 |:--:|:--:|
 |7|Application layer|
@@ -26,7 +26,10 @@
 - Physical Layer :  Handles data conversion such as signal to bits . Determines types of media like light i.e. optical fiber, voltage like cable or signal  like wifi.
 
 ![OSI](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-oL2B7rB_Ddc%2FUXus4JZPgXI%2FAAAAAAAAAKc%2Fe0pDS9JpRD8%2Fs1600%2Fosi.gif&f=1&nofb=1)
+
+![Detailed OSI|700](https://media.fs.com/images/community/upload/kindEditor/202107/29/original-seven-layers-of-osi-model-1627523878-JYjV8oybcC.png)
 - --
-#### Sources : 
-[OSI Model vidoe youtube](https://www.youtube.com/watch?v=vv4y_uOneC0&ab_channel=TechTerms)
-[Wiki Page](https://en.wikipedia.org/wiki/OSI_model)
+### Sources : 
+- [OSI Model vidoe youtube](https://youtu.be/vv4y_uOneC0)
+- [Wiki Page](https://en.wikipedia.org/wiki/OSI_model)
+- [OSI Model Youtube Hindi](https://youtu.be/UvHr0yL-wJg)

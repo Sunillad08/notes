@@ -22,6 +22,11 @@
 - [Network types](Network%20types.md)
 - [HTTP](HTTP.md)
 - [HTTPS](HTTPS.md)
+- [Telnet](Telnet.md)
 - [SSH](SSH.md)
 - [SSL](SSL.md)
-- - --
+- [TLS](TLS.md)
+- [Network Devices](Network%20Devices.md)
+- [Transmission Media](Transmission%20Media.md)
+- [Switching](Switching.md)
+- --

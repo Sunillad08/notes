@@ -31,6 +31,7 @@ First we need ip of network to scan.
 ### TCP Port scanner
 [TCP IP 3 way handshake](../Networking/TCP%20IP%203%20way%20handshake.md)
 - --
+**About [TCP](../Networking/TCP.md)**
 **TCP Full Scan**
 - To detect if port is open If 3 way handshake is completed then we send RST + ACK packet to close connection.
 - If after SYN request we get RST + ACK from server then port is closed.
@@ -44,6 +45,14 @@ First we need ip of network to scan.
 - If RST then port is closed and ACK then port is open(Sends RST to stop handshake).
 - namp -sS 192.168.0.125
 ![TCP SYN scan | 600](https://static.packt-cdn.com/products/9781788995177/graphics/d4140e2f-98ec-4859-89f2-81e2abc92aaf.png)
+- --
+**About [UDP](../Networking/UDP.md)**
+**UDP Scan**
+- UDP scans are slower
+- If reponse is ICMP packet then port is closed
+- If reponse is not there then open|filtered
+- As UDP is connection-less so determining state is tough
+- --
 - --
 ## OS Fingerprinting
 ### What is OS fingerprinting

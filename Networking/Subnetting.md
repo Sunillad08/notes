@@ -25,17 +25,28 @@ Check [IP](IP.md) for classes about subnetting in IP's classes.
 ![subnetting|700](https://miro.medium.com/max/1400/0*xvktLgjkeydPSp5M.png)
 - --
 ## Common terms in subnetting
+IF IP= 192.168.0.1/24
+
 **Broadcast ID/address**
-An address that enables transmission to every node in a local network. The address is the highest numeric value of the address format being used. An Ethernet broadcast address is all binary 1's. An IP broadcast address is the highest number in its class.The Ethernet **broadcast address** is distinguished by having all of its bits set to 1. As such, its MAC address is the hexadecimal value of FF:FF:FF:FF:FF:FF. The broadcast address is used by multiple protocols such as ARP, the Routing Information Protocol (RIP), and other protocols that must transmit data before they know the local subnet mask.
+A broadcast address is a network address used to transmit to all devices connected to a multiple-access communications network. A message sent to a broadcast address may be received by all network-attached hosts.The broadcast address is used by multiple protocols such as ARP, the Routing Information Protocol (RIP), and other protocols that must transmit data before they know the local subnet mask.
+Last IP address : 192.168.0.255
 
 **Network ID** is the portion of an IP address that identifies the TCP/IP network on which a host resides. The network ID portion of an IP address uniquely identifies the host's network on an internetwork, while the host ID portion of the IP address identifies the host within its network.
+First IP address : 192.168.0.0
 
 **Host Range**
 Number of host that can connect to network is host range.
 Host range is always available IP - 2 .
+IP range : 192.168.0.1-192.168.0.254
+
+**Default gateway**
+Default gateway is an IP address that traffic gets sent to when it's bound for a destination outside the current network. Basically IP of router
+IP : 192.168.0.1 ( generally at start of possible )
 - --
 ### Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Subnetwork)
 - [Youtube](https://youtu.be/OqsXzkXfwRw)
 - [subnetting YT](https://www.youtube.com/watch?v=ecCuyq-Wprc)
 - [Network id and broadcast id](https://www.youtube.com/watch?v=uHabBNAFakA)
+- [Sum](https://youtu.be/vTzrn_M77mo)
+- [Default Gateway](https://youtu.be/pCcJFdYNamc)

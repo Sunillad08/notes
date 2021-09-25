@@ -6,6 +6,7 @@
 - Has many different diagrams in different formats
 - Layer 7 to 5 of OSI layer combined into application layer in TCP/IP model.
 - Also layer 1 to 2 of OSI layer combined to form network access layer .
+- Network layer is also renamed as Internet layer
 ---
 #### TCP/IP Model Diagram
 |Layer number|Name|
