@@ -7,6 +7,8 @@ Domain names -> [IP](IP.md)
 Example : play.google.com -> 185.056.012.155
 
 The Domain Name System is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities.
+
+Port 53 is used.
 - --
 ## Why?
 DNS is phonebook of Internet. Domain name is searched and they return IP. Remebering numerical values that changes frequently is not the best way to remember any website. DNS is used to resolve domain names to IP's so that we only have to remember particular string.
