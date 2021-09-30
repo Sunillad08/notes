@@ -29,4 +29,11 @@
 - [Network Devices](Network%20Devices.md)
 - [Transmission Media](Transmission%20Media.md)
 - [Switching](Switching.md)
+- [Frames](Frames.md)
+- [Packets](Packets.md)
+- [EUI-64](EUI-64.md)
+- [TCP IP Protocol suite](TCP%20IP%20Protocol%20suite.md)
+- [IPv4](IPv4.md)
+- [IPv6](IPv6.md)
+- [Types of casting](Types%20of%20casting.md)
 - --

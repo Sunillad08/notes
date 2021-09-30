@@ -74,6 +74,9 @@ uniq file.txt
 wc : word count 
 wc file.txt , wc -l file.txt
 
+scp : opensssh secure shell file copy
+scp file.txt 
+
 - --
 ## Text editors and file viewing commands
 

@@ -39,12 +39,12 @@ Classless Routing imports subnet mask and in this, triggered updates are used. I
 
 - --
  ## Two types of IP address
- - IPv4
+ - [IPv4](IPv4.md)
 	 - 0-255 count
 	 - xxx.xxx.xxx.xxx format
 	 - 32 bit address
 	 - 2^32 Devices can be addressed
-- IPv6
+- [IPv6](IPv6.md)
 	- Running out of IP address hence IPv6
 	- 128 bits address
 	- XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
@@ -52,6 +52,9 @@ Classless Routing imports subnet mask and in this, triggered updates are used. I
 
 ![headers|700](https://www.researchgate.net/profile/Muzhir-Al-Ani/publication/269810379/figure/fig1/AS:295073662160901@1447362451826/Comparison-of-IPv4-and-IPv6-headers-structures-15.png)
 
+**Difference between IPv4 and IPv6**
+
+![difference|700](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
 - --
 ### Sources :
 - [Youtube](https://www.youtube.com/watch?v=8npT9AALbrI&list=WL&index=97&ab_channel=TechTerms)
