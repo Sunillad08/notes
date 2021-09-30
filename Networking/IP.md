@@ -20,6 +20,7 @@ Private IP is IP given in Internal network and using [Subnetting](Subnetting.md)
 - -- 
 ## IP addresses divided in classes: 
  ![ip address blocks|700](https://4.bp.blogspot.com/--yi2nvFpat4/U-3d8GB9KvI/AAAAAAAANoo/EjfJIHi8jM4/s1600/Classes%2Bof%2BIP.png)
+ 
   ![ip address blocks|700](https://embeddedgeeks.com/wp-content/uploads/2020/06/ip_Class-1.png)
 - --
 ## Class types
