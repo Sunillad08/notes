@@ -44,6 +44,17 @@ All general-purpose HTTP servers are required to implement at least the GET and 
 
 ![http|700](https://media.geeksforgeeks.org/wp-content/uploads/20191025104128/1041.png)
 - --
+## Status code
+A basic breakdown of the status codes is:
+
+100-199: Information
+200-299: Successes (200 OK is the "normal" response for a GET)
+300-399: Redirects (the information you want is elsewhere)
+400-499: Client errors (You did something wrong, like asking for something that doesn't exist)
+500-599: Server errors (The server tried, but something went wrong on their side)
+
+Check more detailed status code [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) ....
+- --
 ## HTTP versions
 - HTTP/1.0 (1996)  
 - HTTP/1.1 (1997)  

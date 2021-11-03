@@ -77,6 +77,9 @@ wc file.txt , wc -l file.txt
 scp : opensssh secure shell file copy
 scp file.txt 
 
+cut : cut strings
+cut -d "-" -f 2
+
 - --
 ## Text editors and file viewing commands
 
