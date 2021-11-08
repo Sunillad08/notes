@@ -43,6 +43,10 @@ IP range : 192.168.0.1-192.168.0.254
 Default gateway is an IP address that traffic gets sent to when it's bound for a destination outside the current network. Basically IP of router
 IP : 192.168.0.1 ( generally at start of possible )
 - --
+## VLSM
+Variable Length Subnetting Mask
+IP blocks are divided even further and length of network id varies.
+- --
 ### Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Subnetwork)
 - [Youtube](https://youtu.be/OqsXzkXfwRw)
@@ -51,3 +55,4 @@ IP : 192.168.0.1 ( generally at start of possible )
 - [Sum](https://youtu.be/vTzrn_M77mo)
 - [Default Gateway](https://youtu.be/pCcJFdYNamc)
 - [Detailed YT video](https://youtu.be/s_Ntt6eTn94)
+- [VLSM](https://youtu.be/ERICyrV9QiQ)

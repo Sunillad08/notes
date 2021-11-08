@@ -65,6 +65,12 @@ zip files
 unzip : to unzip files
 zip file.zip
 
+gzip : to zip files
+gzip files
+
+gunzip : to unzip files
+gzip file.zip
+
 sort : sort list
 sort file.txt
 
@@ -79,6 +85,9 @@ scp file.txt
 
 cut : cut strings
 cut -d "-" -f 2
+
+ln : link for file
+ln test.txt , ln -s test.txt
 
 - --
 ## Text editors and file viewing commands
@@ -135,6 +144,10 @@ journalctl -u ssh.service
 
 service : run a System V init script
 service name start , service tor stop
+
+xargs : pass list as input
+cat filenames.txt | xargs rm
+
 - --
 ## Users , system and group commands 
 
@@ -186,6 +199,7 @@ su user
 visudo : sudoers list can be edited
 visudo
 
+- --
 ## Help and info about commands
 man : manual page
 man nmap , man ls
