@@ -10,7 +10,7 @@
 **Privileged Access Management** : Manage the privileges a system access role had
 - --
 ## Security models
-[[Security models]]
+[Control policies and models](Control%20policies%20and%20models.md)
 - --
 ## Threat Modelling & Incident Response
  ### **STRIDE** 

@@ -7,7 +7,7 @@
 - Defines how files are exchanged on the web
 ### [HTTPS](HTTPS.md) : Hyper Text Transfer Protocol Secure with SSL
 - Defines how files are exchanged on the web with security
-### [[FTP]] : File Transfer Protocol
+### [FTP](FTP.md) : File Transfer Protocol
 - Provides services for file transfer and manipulation
 ### [DHCP](DHCP.md) : Dynamic Host Configuration Protocol
 - Automatically assigns IP address
@@ -31,6 +31,7 @@
 ### [UDP](UDP.md) : User Datagram Protocols
 - Transports data on the Internet with connection-less
 ### SCTP
-### ICMP
+### [ICMP](ICMP.md) : Internet Control Message Protocol
+- Supporting protocol for IP , used for error reporting and controlling.
 ### IGMP
 
