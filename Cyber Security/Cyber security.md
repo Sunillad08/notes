@@ -18,6 +18,7 @@
 - [Information gathering](Information%20gathering.md)
 - [Footprinting & scanning](Footprinting%20&%20scanning.md)
 - [Content Discovery](Content%20Discovery.md)
+- [[DNS Enumeration]]
 - --
 ## Tools
 - [nmap](nmap.md)
@@ -26,3 +27,4 @@
 - [Netcat](Netcat.md)
 - [tmux](tmux.md)
 - [Google Dorking](Google%20Dorking.md)
+- [sherlock](sherlock.md)

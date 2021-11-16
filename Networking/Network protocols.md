@@ -14,7 +14,9 @@
 ### [Telnet](Telnet.md)
 - Uses a text-based connection to a remote TCP/IP computer
 ### SMTP
-### POP3 :
+### [POP3](POP3.md) : Post office protocol
+- Downloads e-mail messages from an e-mail server
+### [IMAP](IMAP.md) : Post office protocol
 - Downloads e-mail messages from an e-mail server
 ### MIME
 ### [SSL](SSL.md) : Secure Socket Layer

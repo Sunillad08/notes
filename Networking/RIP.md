@@ -15,3 +15,4 @@ The **Routing Information Protocol** (RIP) is one of the oldest distance-vector 
 - [Wiki](https://en.wikipedia.org/wiki/Routing_Information_Protocol)
 - [geeksforgeeks](https://www.geeksforgeeks.org/routing-information-protocol-rip/)
 - [Youtube video](https://youtu.be/rIU2dKnPd0E)
+- [Youtube detailed](https://youtu.be/pQQ5wNgbQw8)

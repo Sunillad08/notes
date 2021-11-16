@@ -7,7 +7,7 @@ The File Transfer Protocol (FTP) is a standard communication protocol used for t
 FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. 
 For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol [SFTP](FTP.md#SFTP).
 
-Used TCP
+Uses TCP
 - --
 ## Why it is used?
 - To transfer files between computes
