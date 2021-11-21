@@ -13,7 +13,8 @@
 - Automatically assigns IP address
 ### [Telnet](Telnet.md)
 - Uses a text-based connection to a remote TCP/IP computer
-### SMTP
+### [SMTP](SMTP.md) : Simple Mail Transfer Protocol
+- Send emails to mail server
 ### [POP3](POP3.md) : Post office protocol
 - Downloads e-mail messages from an e-mail server
 ### [IMAP](IMAP.md) : Post office protocol
@@ -35,5 +36,6 @@
 ### SCTP
 ### [ICMP](ICMP.md) : Internet Control Message Protocol
 - Supporting protocol for IP , used for error reporting and controlling.
-### IGMP
+### [IGMP](IGMP.md): Internet Group Message Protocol
+- To set multicast communicatin rules
 

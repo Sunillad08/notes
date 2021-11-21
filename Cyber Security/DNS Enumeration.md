@@ -17,7 +17,7 @@ It gives up information about IP adddress and internal and external DNS
 |SRV (Service) |Identifies services such as directory services|
 |PTR (Pointer) |Maps IP addresses to hostnames |
 |NS (Name Server)|Identifies other name servers for the domain|
-
+|TXT (Text) | Add Text data in DNS Records
 
 - --
 ## How to do it?

@@ -30,6 +30,7 @@
 - [OSPF](OSPF.md)
 - [RIP](RIP.md)
 - [BGP](BGP.md)
+- [Routing table](Routing%20table.md)
 - --
 ## Protocols
 - [Network protocols](Network%20protocols.md)
@@ -55,8 +56,12 @@
 - [SMTP](SMTP.md)
 - [POP3](POP3.md)
 - [IMAP](IMAP.md)
+- [SNMP](SNMP.md)
+- [IGMP](IGMP.md)
 - --
 ## Unclassified
 - [EUI-64](EUI-64.md)
 - [TCP IP Protocol suite](TCP%20IP%20Protocol%20suite.md)
+- [Port Mirroring](Port%20Mirroring.md)
+- [DNS Concepts](DNS%20Concepts.md)
 - --
