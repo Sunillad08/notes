@@ -18,4 +18,5 @@
 ### Sources :
 - [Youtube video - short](https://www.youtube.com/watch?v=xMtP5ZB3wSk&ab_channel=SunnyClassroom)
 - [Youtube video - detailed](https://www.youtube.com/watch?v=qIEHUUt2Wfc&ab_channel=GateSmashers)
+- [Detailed Hindi video](https://youtu.be/s9FDHiCb2nk)
 - [Website](https://www.guru99.com/tcp-3-way-handshake.html)

@@ -104,3 +104,8 @@ traceroute to example.com (93.184.216.34), 30 hops max, 60 byte packets
 5. dnsdumpster.com
 https://dnsdumpster.com/
 Check details about DNS data and overall data.
+- --
+### Source
+- [Tryhackme](https://tryhackme.com/room/passiverecon)
+- [hsploit Youtube video](https://youtu.be/rQ-dc5kwRtU)
+- [Youtube video]()

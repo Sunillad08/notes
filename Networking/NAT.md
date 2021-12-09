@@ -10,6 +10,8 @@ NAT stands for network address translation. It’s a way to map multiple local p
 - However, the internet has exploded, and while not all 7 billion people on the planet access the internet regularly, those that do often have multiple connected devices: phones, personal desktop, work laptop, tablet, TV, even refrigerators.
 
 - Therefore, the number of devices accessing the internet far surpasses the number of IP addresses available. Routing all of these devices via one connection using NAT helps to consolidate multiple private IP addresses into one public IP address. This helps to keep more public IP addresses available even while private IP addresses proliferate.
+
+![NAT](https://i0.wp.com/networkustad.com/wp-content/uploads/2019/10/Dynamic-NAT-Configration.png)
 - --
 ## Types of NAT (CompTIA)
 1. Static NAT - **SNAT**
@@ -26,5 +28,6 @@ PAT stands for port address translation. It’s a type of dynamic NAT, but it ba
 - [Computerphile](https://youtu.be/01ajHxPLxAw)
 - [CompTIA page](https://www.comptia.org/content/guides/what-is-network-address-translation)
 - [Youtube](https://youtu.be/FTUV0t6JaDA)
+- [Youtube](https://youtu.be/47PUj7OSGkA)
 - [NAT woking](https://youtu.be/qij5qpHcbBk)
 - [SNAT,DNAT,PAT](https://youtu.be/wg8Hosr20yw)

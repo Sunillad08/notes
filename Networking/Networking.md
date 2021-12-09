@@ -31,6 +31,8 @@
 - [RIP](RIP.md)
 - [BGP](BGP.md)
 - [Routing table](Routing%20table.md)
+- [NAT](NAT.md)
+- [PAT](PAT.md)
 - --
 ## Protocols
 - [Network protocols](Network%20protocols.md)
@@ -40,7 +42,6 @@
 - [MAC](MAC.md)
 - [IPv4](IPv4.md)
 - [IPv6](IPv6.md)
-- [NAT](NAT.md)
 - [DHCP](DHCP.md)
 - [APIPA](APIPA.md)
 - [ARP](ARP.md)

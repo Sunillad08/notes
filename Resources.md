@@ -2,7 +2,7 @@
 [Index](Index.md)
 - --
 ## **Networking**  
-- [ ] [Youtube Series](https://www.youtube.com/playlist?list=PLkW9FMxqUvyZaSQNQslneeODER3bJCb2K) 
+- [x] [Bitten tech Youtube Series](https://www.youtube.com/playlist?list=PLkW9FMxqUvyZaSQNQslneeODER3bJCb2K) 
 - [ ] [Youtube Series](https://www.youtube.com/playlist?list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd)  
 - [ ] [Youtube Series](https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_)  
 - [ ] [Youtube Series](https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8)  

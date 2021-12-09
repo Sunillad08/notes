@@ -19,6 +19,8 @@ Both the tmux and GNU screen commands are terminal multiplexers. They allow you 
 |\> tmux ls|list active sessions|
 
 [Cheatsheet](https://duckduckgo.com/?q=tmux+cheat+sheet&atb=v258-1&ia=cheatsheet&iax=cheatsheet)
+
+![tmux](https://i.imgur.com/bL9Dn3U.png)
 - --
 ### Source
 - [openbsd](https://duckduckgo.com/?q=tmux+cheat+sheet&atb=v258-1&ia=cheatsheet&iax=cheatsheet)

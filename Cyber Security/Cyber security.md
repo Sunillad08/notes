@@ -28,6 +28,9 @@
 - [tmux](tmux.md)
 - [Google Dorking](Google%20Dorking.md)
 - [sherlock](sherlock.md)
+- [hping3](hping3.md)
+- [dirb](dirb.md)
+- [hydra](hydra.md)
 
 - --
 ## Securing
