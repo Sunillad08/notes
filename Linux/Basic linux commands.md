@@ -1,7 +1,6 @@
 # Basic linux commands 
 [Back to linux page ](Linux.md)
 - --
-
 ## Basic navigation and creation commands
 pwd : print working directory
 pwd 

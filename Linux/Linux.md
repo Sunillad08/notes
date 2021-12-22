@@ -1,5 +1,4 @@
 # What is topic ?
-
 [Back to Index](../Index.md)
 - --
 ## Linux Information
@@ -7,5 +6,5 @@
 - [Linux file system](Linux%20file%20system.md)
 - --
 ## Network command
-- [Basic commands](Basic%20commands.md)
+- [Basic linux commands](Basic%20linux%20commands.md)
 - [Network commands](Network%20commands.md)

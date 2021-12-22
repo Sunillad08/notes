@@ -1,7 +1,6 @@
 # Linux file system hierarchy
 [Back to linux page](Linux.md)
 - --
-
 ## File system hierarchy
 
 The Linux operating system is structured in a tree-like hierarchy and is documented in the [Filesystem Hierarchy](http://www.pathname.com/fhs/) Standard (FHS). Linux is structured with the following standard top-level directories:

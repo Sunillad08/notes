@@ -31,6 +31,10 @@
 - [hping3](hping3.md)
 - [dirb](dirb.md)
 - [hydra](hydra.md)
+- [BurpSuite](BurpSuite.md)
+- [Wireshark](Wireshark.md)
+- [[tcpdump]]
+- [[Metasploit]]
 
 - --
 ## Securing
