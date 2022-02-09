@@ -39,3 +39,5 @@ hyphens in port names must be backslash escaped (e.g. 'ftp\-data').
 - --
 ### Source
 - [Website](https://www.varonis.com/blog/netcat-commands/)
+- [Youtube video](https://youtu.be/VF4In6rIPGc)
+- [Youtube video hindi](https://youtu.be/Wzc9cgEar7g)

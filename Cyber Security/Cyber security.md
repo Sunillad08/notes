@@ -33,9 +33,14 @@
 - [hydra](hydra.md)
 - [BurpSuite](BurpSuite.md)
 - [Wireshark](Wireshark.md)
-- [[tcpdump]]
-- [[Metasploit]]
-
+- [tcpdump](tcpdump.md)
+- [Metasploit](Metasploit.md)
+- [searchsploit](searchsploit.md)
+- [John the ripper](John%20the%20ripper.md)
+- [[hashcat]]
+- --
+## Privelege escalation
+- [Linux PrivEsc](Linux%20PrivEsc.md)
 - --
 ## Securing
 - [Wifi security](Wifi%20security.md)

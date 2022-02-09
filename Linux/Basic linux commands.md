@@ -88,6 +88,15 @@ cut -d "-" -f 2
 ln : link for file
 ln test.txt , ln -s test.txt
 
+strings : sequence of printable characters in files
+strings data.txt
+
+gpg : encrypt and decrypt file
+gpg file.txt.gpg , gpg file.txt
+
+tac : reverse print file
+tac file.txt > reverse.txt
+
 - --
 ## Text editors and file viewing commands
 
