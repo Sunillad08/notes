@@ -18,7 +18,7 @@
 - [Information gathering](Information%20gathering.md)
 - [Footprinting & scanning](Footprinting%20&%20scanning.md)
 - [Content Discovery](Content%20Discovery.md)
-- [[DNS Enumeration]]
+- [DNS Enumeration](DNS%20Enumeration.md)
 - --
 ## Tools
 - [nmap](nmap.md)
@@ -37,7 +37,10 @@
 - [Metasploit](Metasploit.md)
 - [searchsploit](searchsploit.md)
 - [John the ripper](John%20the%20ripper.md)
-- [[hashcat]]
+- [hashcat](hashcat.md)
+- [sqlmap](sqlmap.md)
+- [smbmap](smbmap.md)
+- [smbclient](smbclient.md)
 - --
 ## Privelege escalation
 - [Linux PrivEsc](Linux%20PrivEsc.md)

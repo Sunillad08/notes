@@ -97,6 +97,11 @@ gpg file.txt.gpg , gpg file.txt
 tac : reverse print file
 tac file.txt > reverse.txt
 
+stat : Information about file
+stat file.txt
+
+tr : translate
+cat file.txt | tr -s '[a-z]' '[A-Z]'
 - --
 ## Text editors and file viewing commands
 
