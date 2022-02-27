@@ -13,4 +13,4 @@ relative_links:
 include:
   - index.md
 
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-slate
