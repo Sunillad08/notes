@@ -1,10 +1,10 @@
 # Frames
-[Back to networking page](Networking.md)
+[Back to networking page](index.md)
 - --
 ## What are frames?
 A frame is a digital data transmission unit in computer networking and telecommunication. In packet switched systems, a frame is a simple container for a single network packet. In other telecommunications systems, a frame is a repeating structure supporting time-division multiplexing.
 
-In the [OSI Model](OSI%20Model.md)  of computer networking, a frame is the protocol data unit at the data link layer. Even in [TCP IP](TCP%20IP.md) .
+In the [OSI_Model](OSI_Model.md)  of computer networking, a frame is the protocol data unit at the data link layer. Even in [TCP_IP](TCP_IP.md) .
 - --
 ## Why we use frame?
 A frame typically includes frame synchronization features consisting of a sequence of bits or symbols that indicate to the receiver the beginning and end of the payload data within the stream of symbols or bits it receives. If a receiver is connected to the system during frame transmission, it ignores the data until it detects a new frame synchronization sequence.

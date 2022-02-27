@@ -1,5 +1,5 @@
 # APIPA
-[Back to networking page](Networking.md)
+[Back to networking page](index.md)
 - --
 ## What is APIPA?
 **Automatic Private IP Addressing**

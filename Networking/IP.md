@@ -1,5 +1,5 @@
 # IP address
-[Back to networking page](Networking.md)
+[Back to networking page](index.md)
 - --
 ## What is IP address?
 Internet Protocol address

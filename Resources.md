@@ -1,5 +1,5 @@
 # Resources
-[Index](Index.md)
+[Back to Index page](index.md)
 - --
 ## **Networking**  
 - [x] [Bitten tech Youtube Series](https://www.youtube.com/playlist?list=PLkW9FMxqUvyZaSQNQslneeODER3bJCb2K) 

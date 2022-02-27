@@ -1,5 +1,5 @@
 # DHCP 
-[Back to networking page](Networking.md)
+[Back to networking page](index.md)
 - --
 ## What is DHCP?
 Dynamic Host Configuration Protocol is protocols that assign [IP](IP.md) to connected devices.

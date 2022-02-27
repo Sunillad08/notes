@@ -1,5 +1,5 @@
 # IGMP
-[Back to networking page](Networking.md)
+[Back to networking page](index.md)
 - --
 ## What is IGMP?
 **Internet Group Management Protocol** (IGMP) is a communications protocol used by hosts and adjacent routers on IPv4 networks to establish multicast group memberships. IGMP is an integral part of IP multicast and allows the network to direct multicast transmissions only to hosts that have requested them.

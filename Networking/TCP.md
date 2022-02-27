@@ -1,5 +1,5 @@
 # TCP
-[Back to Networking page](Networking.md)
+[Back to Networking page](index.md)
 - --
 ## What is TCP
 Transmission Control Protocol
@@ -37,7 +37,7 @@ TCP is connection-oriented, and a connection between client and server is establ
 	The length of this field is determined by the data offset field. Options have up to three fields: Option-Kind (1 byte), Option-Length (1 byte), Option-Data (variable). The Option-Kind field indicates the type of option and is the only field that is not optional. Depending on Option-Kind value, the next two fields may be set. Option-Length indicates the total length of the option, and Option-Data contains data associated with the option, if applicable. For example, an Option-Kind byte of 1 indicates that this is a no operation option used only for padding, and does not have an Option-Length or Option-Data fields following it. An Option-Kind byte of 0 marks the end Of options, and is also only one byte. An Option-Kind byte of 2 is used to indicate Maximum Segment Size option, and will be followed by an Option-Length byte specifying the length of the MSS field. Option-Length is the total length of the given options field, including Option-Kind and Option-Length fields. So while the MSS value is typically expressed in two bytes, Option-Length will be 4. As an example, an MSS option field with a value of 0x05B4 is coded as (0x02 0x04 0x05B4) in the TCP options section.
 - --
 ## TCP Connection
-Check [TCP IP 3 way handshake](TCP%20IP%203%20way%20handshake.md) for connection info
+Check [TCP_IP_3_way_handshake](TCP_IP_3_way_handshake.md) for connection info
 
 For termination this is procedure
 ![TCP close connection|700](http://www.cablefree.net/support/radio/software/images/f/fc/Image2001.gif)

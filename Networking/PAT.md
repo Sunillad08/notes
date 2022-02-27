@@ -1,5 +1,5 @@
 # PAT
-[Back to networking page](Networking.md)
+[Back to networking page](index.md)
 - --
 ## What is PAT?
 PAT stands for port address translation. It’s a type of dynamic NAT, but it bands several local IP addresses to a singular public one. Organizations that want all their employees’ activity to use a singular IP address use a PAT, often under the supervision of a network administrator.

@@ -1,5 +1,5 @@
 # IPv6
-[Back to networking page](Networking.md)
+[Back to networking page](index.md)
 - --
 ## What is IPv6?
 An IPv6 packet is the smallest message entity exchanged using Internet Protocol [IP](IP.md)version 6 (IPv6). 128 bits length and developed by IETF IPv6 was invented because [IPv4](IPv4.md) IP's are limited.

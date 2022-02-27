@@ -1,5 +1,5 @@
 # SSH
-[Back to networking page](Networking.md)
+[Back to networking page](index.md)
 - --
 ## What is SSH?
 **Secure Shell**

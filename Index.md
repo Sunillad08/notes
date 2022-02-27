@@ -1,6 +1,6 @@
 # What section topic belong to ?
 - --
-## Networking : [Networking](Networking/Networking.md)
-## Linux Command : [Linux](Linux/Linux.md)
-## Cyber security : [Cyber security](Cyber%20Security/Cyber%20security.md)
-## Windows : [Windows](Windows/Windows.md)
+## Networking : [Networking](Networking/index.md)
+## Linux  : [Linux](Linux/index.md)
+## Cyber security : [Cyber Security](Cyber_Security/index.md)
+## Windows : [Windows](Windows/index.md)

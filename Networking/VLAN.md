@@ -1,5 +1,5 @@
 # VLAN
-[Bacl to networking page](Networking.md)
+[Bacl to networking page](index.md)
 - --
 ## What is VLAN?
 **Virtual LAN (VLAN)** is a concept in which we can divide the devices logically on layer 2 (data link layer). Generally, layer 3 devices divide broadcast domain but broadcast domain can be divided by switches using the concept of VLAN.

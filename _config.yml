@@ -1,0 +1,14 @@
+title: "Notes"
+# Baseurl
+baseurl: "notes"
+
+# Build settigs
+markdown: kramdown
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - index.md
