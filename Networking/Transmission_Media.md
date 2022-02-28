@@ -1,5 +1,5 @@
 # Transmission Media
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## Types of Transmission Media
 ![Types|700](https://www.elprocus.com/wp-content/uploads/types-of-transmission-media.jpg)

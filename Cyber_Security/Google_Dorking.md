@@ -1,5 +1,5 @@
 # Google Dorking / Google Hacking
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is google dorking?
 **Google Dorking** or **Google hacking** is technique to find information from googling search specific term with keywords. Basically using google's dominance and advance tech to find information.

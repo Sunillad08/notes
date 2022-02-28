@@ -1,5 +1,5 @@
 # DNS Concepts
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is DNS
 Check other pages about [DNS](DNS.md) and [DNS_Enumeration](../Cyber_Security/DNS_Enumeration.md).

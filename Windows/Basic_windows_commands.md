@@ -1,5 +1,5 @@
 # Basic commands
-[Back to windows page](../index.md)
+[Back to windows page](./index.md)
 - --
 ## CMD vs Powershell
 Command prompt or cmd is a default application of windows that are used to interact with any windows objects in the windows os.

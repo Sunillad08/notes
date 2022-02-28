@@ -1,5 +1,5 @@
 # OWASP
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is OWASP?
 ![owasp|700](https://owasp.org/www-project-mobile-security/assets/images/owasp_logo_milan.png)

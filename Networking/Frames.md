@@ -1,5 +1,5 @@
 # Frames
-[Back to networking page](index.md)
+[Back to networking page](./index.md)
 - --
 ## What are frames?
 A frame is a digital data transmission unit in computer networking and telecommunication. In packet switched systems, a frame is a simple container for a single network packet. In other telecommunications systems, a frame is a repeating structure supporting time-division multiplexing.

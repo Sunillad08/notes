@@ -1,5 +1,5 @@
 ## Reverse shell & Bind shell
-[Back to Cyber security page](index.md)
+[Back to Cyber security page](../index.md)
 - --
 ## Reverse shell
 In reverse shell , attacker listens on port and victim connects to it with execution shell. It is preffered as it can be tunneled to avoid firewall.

@@ -1,5 +1,5 @@
 # Windows file system
-[Back to windows page](../index.md)
+[Back to windows page](./index.md)
 - --
 ## Windows versions
 The Windows operating system has a long history dating back to 1985, and currently, it is the dominant operating system in both home use and corporate networks. Because of this, Windows has always been targeted by hackers & malware writers.

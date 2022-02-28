@@ -1,5 +1,5 @@
 # NAT : Network Address Translation
-[Back to Networking page](index.md)
+[Back to Networking page](../index.md)
 - --
 ## What is NAT?
 NAT stands for network address translation. It’s a way to map multiple local private addresses to a public one before transferring the information. Organizations that want multiple devices to employ a single IP address use NAT, as do most home routers.

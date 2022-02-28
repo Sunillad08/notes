@@ -1,5 +1,5 @@
 # OSPF
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is OSPF?
 Open Shortest Path First is a routing protocol for Internet Protocol networks. It uses a link state([Link_state_distance_vector_&_hybrid](Link_state_distance_vector_&_hybrid.md)) routing algorithm and falls into the group of interior gateway protocols, operating within a single autonomous system. It is defined as OSPF Version 2 in RFC 2328 for IPv4

@@ -1,5 +1,5 @@
 # TCP IP Protocol Suite
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## TCP IP
 About [TCP_IP](TCP_IP.md)

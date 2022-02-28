@@ -1,5 +1,5 @@
 # nmap : scanning & footprinting tool!
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 
 - --
 ## What is nmap?

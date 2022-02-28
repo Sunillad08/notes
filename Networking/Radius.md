@@ -1,4 +1,4 @@
 # Radius
-[index](index.md)
+[index](../index.md)
 - --
 ## 

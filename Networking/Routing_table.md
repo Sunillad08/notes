@@ -1,5 +1,5 @@
 # Routing table
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is routing table?
 In computer networking, a **routing table**, or routing information base (RIB), is a data table stored in a router or a network host that lists the routes to particular network destinations, and in some cases, metrics (distances) associated with those routes. The routing table contains information about the topology of the network immediately around it.

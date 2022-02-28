@@ -1,5 +1,5 @@
 ## Network & Internet Protocols
-[Back to Networking page](index.md)
+[Back to Networking page](../index.md)
 - --
 ### [DNS](DNS.md) : Domain name server
 - Gives IP of requested domain 

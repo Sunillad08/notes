@@ -1,5 +1,5 @@
 # John the ripper (JTR)
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is JTR?
 John, better known as John the Ripper, is a tool to find weak passwords of users in a server. John can use a dictionary or some search pattern as well as a password file to check for passwords. John supports different cracking modes  and  understands  many  ciphertext formats, like several DES variants, MD5 and blowfish. It can also be used to extract AFS and Windows NT passwords.

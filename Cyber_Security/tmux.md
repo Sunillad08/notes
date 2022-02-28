@@ -1,5 +1,5 @@
 # tmux
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## Why use tmux?
 Both the tmux and GNU screen commands are terminal multiplexers. They allow you to have multiple windows within a single terminal window, and to jump back and forth between them. A window can be divided into panes, each of which gives you an independent command line.

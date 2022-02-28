@@ -1,5 +1,5 @@
 # smbclient
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is smbclient?
 ftp-like client to access SMB/CIFS resources on servers

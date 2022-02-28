@@ -1,5 +1,5 @@
 # IMAP
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is IMAP?
 **Internet Message Access Protocol**(IMAP) is an Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection.

@@ -1,5 +1,5 @@
 # netcat
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is netcat?
 **TCP/IP swiss army knife**

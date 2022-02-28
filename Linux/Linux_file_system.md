@@ -1,5 +1,5 @@
 # Linux file system hierarchy
-[Back to linux page](index.md)
+[Back to linux page](./index.md)
 - --
 ## File system hierarchy
 

@@ -1,7 +1,8 @@
 # Basic linux commands 
-[Back to linux page ](index.md)
+[Back to linux page ](./index.md)
 - --
 ## Basic navigation and creation commands
+```bash
 pwd : print working directory
 pwd 
 
@@ -43,7 +44,7 @@ grep "hello" file.txt , grep "hello"
 
 - --
 ## Storage and files related commands
-df : report on the system's disk space use 
+df : report on the system\'s disk space use 
 df , df -m
 
 du : disk usage shown in blocks
@@ -230,9 +231,12 @@ clear / ctrl + l
 
 history : shows commands that you ran
 history
+```
 
-- --
+---
+
 ## Devices attached commands
+```bash
 lsblk : Lists block devices.
 lsblk
 
@@ -244,8 +248,12 @@ lsof
 
 lspci : Lists PCI devices.
 lspci
-- --
+```
+
+---
+
 ## Package manager (List)
+```bash
 dpkg : The dpkg is a tool to install, build, remove, and manage Debian packages. The primary and more user-friendly front-end for dpkg is aptitude.
 
 apt : Apt provides a high-level command-line interface for the package management system.
@@ -259,7 +267,7 @@ gem : Gem is the front-end to RubyGems, the standard package manager for Ruby.
 pip : Pip is a Python package installer recommended for installing Python packages that are not available in the Debian archive. It can work with version control repositories (currently only Git, Mercurial, and Bazaar repositories), logs output extensively, and prevents partial installs by downloading all requirements before starting installation.
 
 git : Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
-
+```
 - --
 ## Running commands in sequence
 ; 

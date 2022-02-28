@@ -1,5 +1,5 @@
 # TCP/IP Model
-[Back to Networking page](index.md)
+[Back to Networking page](./index.md)
 - --
 - TCP/IP model is actual implementation of [OSI_Model](OSI_Model.md)
 - 5 Layers

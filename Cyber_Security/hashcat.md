@@ -1,5 +1,5 @@
 # Hashcat
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is hashcat?
 Hashcat is the world’s fastest CPU-based password recovery tool.

@@ -1,5 +1,5 @@
 # tcpdump
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is tcpdump?
 tcpdump (8)          - dump traffic on a network

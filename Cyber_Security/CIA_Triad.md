@@ -1,5 +1,5 @@
 # CIA Triad
-[Back to Cyber security page](index.md)
+[Back to Cyber security page](./index.md)
 - --
 ## CIA -> Confidentiality , Integrity & Availability
 ![CIA|500](https://www.ibm.com/blogs/cloud-computing/wp-content/uploads/2018/01/TRIAD.png)

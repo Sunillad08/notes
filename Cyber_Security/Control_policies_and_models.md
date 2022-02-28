@@ -1,5 +1,5 @@
 # Control policies and models
-[index](index.md)
+[index](./index.md)
 - --
 ## DAC
 **Discretionary Access Control**

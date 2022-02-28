@@ -1,5 +1,5 @@
 # ICMP
-[Back to Networking page](index.md)
+[Back to Networking page](../index.md)
 - --
 ## What is ICMP?
 The **Internet Control Message Protocol** (ICMP) is a supporting protocol in the Internet protocol suite. It is used by network devices, including routers, to send error messages and operational information indicating success or failure when communicating with another IP address, for example, when an error is indicated when a requested service is not available or that a host or router could not be reached. 

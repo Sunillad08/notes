@@ -1,5 +1,5 @@
 # Principles of Security
-[Back to Cyber security page](index.md)
+[Back to Cyber security page](../index.md)
 - --
 ## CIA Triad
 [CIA_Triad](CIA_Triad.md)

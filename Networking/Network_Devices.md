@@ -1,5 +1,5 @@
 # Network Devices
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## HUB
 - Connects all Internal devices

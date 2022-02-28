@@ -1,5 +1,5 @@
 # Switching
-[Back to networking page](index.md)
+[Back to networking page](./index.md)
 - --
 ## What is switching
 Switching is the practice of directing a signal or data element toward a particular hardware destination. Switching may be applied in various formats and can function in diverse ways within a greater network infrastructure.

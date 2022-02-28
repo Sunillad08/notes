@@ -1,5 +1,5 @@
 # Content Discovery
-[Back to cyber security](index.md)
+[Back to cyber security](../index.md)
 - --
 ##  What is Content Discovery?
 Discovering confidential and hidden pages or portals intended for staff usage, older versions of the website, backup files, configuration files, administration panels, etc.

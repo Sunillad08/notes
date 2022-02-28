@@ -1,5 +1,5 @@
 # Linux Privelege Escalation
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## Enumeration
 Enumeration is the first step you have to take once you gain access to any system. You may have accessed the system by exploiting a critical vulnerability that resulted in root-level access or just found a way to send commands using a low privileged account. Penetration testing engagements, unlike CTF machines, don't end once you gain access to a specific system or user privilege level. As you will see, enumeration is as important during the post-compromise phase as it is before.

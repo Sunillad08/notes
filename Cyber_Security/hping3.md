@@ -1,5 +1,5 @@
 # Hping3
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## Hping3
 Hping3 is used to ping sweep network

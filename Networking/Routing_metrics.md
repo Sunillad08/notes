@@ -1,5 +1,5 @@
 # Routing metrics
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
  - --
 ## Hop counts
  HOP counts refer to the number of devices, usually routers, that a piece of data travels through. Each time that a packet of data moves from one router (or device) to another — say from the router of your home network to the one just outside your county line — that is considered one HOP.

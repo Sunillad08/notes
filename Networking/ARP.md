@@ -1,5 +1,5 @@
 # ARP
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is ARP?
 **Address Resolution Protocol**

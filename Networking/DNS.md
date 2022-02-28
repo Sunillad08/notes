@@ -1,5 +1,5 @@
 # DNS : Domain Name System
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is DNS?
 DNS is **Domain Name System** which converts domain name to IP addresses.

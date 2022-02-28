@@ -1,5 +1,5 @@
 # Searchsploit
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is searchsploit ?
 Exploit Database Archive Search

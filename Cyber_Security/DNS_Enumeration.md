@@ -1,5 +1,5 @@
 # DNS Enumeration
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is DNS Enumeration?
 DNS enumeration is the process of locating all the [DNS](../Networking/DNS.md) servers and their corresponding records for an organization.

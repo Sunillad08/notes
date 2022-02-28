@@ -1,5 +1,5 @@
 # EUI-64
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is EUI-64
 **Extended Unique Identifier**

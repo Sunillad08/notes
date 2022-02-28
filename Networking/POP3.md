@@ -1,5 +1,5 @@
 # POP
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is POP3?
 In computing, the **Post Office Protocol** (POP) is an application-layer Internet standard protocol used by e-mail clients to retrieve e-mail from a mail server. POP version 3 (POP3) is the version in common use.

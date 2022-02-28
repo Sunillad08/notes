@@ -1,5 +1,5 @@
 # Footprinting & scanning
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 
 ## Mapping network & scanning targets

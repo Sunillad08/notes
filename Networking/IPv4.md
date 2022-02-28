@@ -1,5 +1,5 @@
 # IPv4
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is IPv4?
 Check what is [IP](IP.md)

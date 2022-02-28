@@ -1,5 +1,5 @@
 # SMBMAP
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is SMBMAP?
 SMBMAP is SMB enumeration tool.

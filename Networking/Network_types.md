@@ -1,5 +1,5 @@
 # Network Types
-[Back to Networking page](index.md)
+[Back to Networking page](../index.md)
 - --
 # Personal Area Network (PAN)
 The smallest and most basic type of network, a PAN is made up of a wireless modem, a computer or two, phones, printers, tablets, etc., and revolves around one person in one building. These types of networks are typically found in small offices or residences, and are managed by one person or organization from a single device.

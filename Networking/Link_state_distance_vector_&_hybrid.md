@@ -1,5 +1,5 @@
 # Link state vs. distance vector vs. hybrid
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## Link state
 Each router floods information about itself (its link states) either to all other routers in the network or to a part of the network (area). Each router makes its own routing decision based on all received information and using the shortest path first (SPF) algorithm (also called the Dijkstra algorithm), which calculates the shortest path to any destination. Link-state protocols are fast to converge, have less routing traffic overhead, and scale well. However, because of their complexity, link-state protocols are more difficult to implement and maintain. The IP link-state protocols are [OSPF](OSPF.md) and Integrated IS-IS.

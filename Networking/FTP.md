@@ -1,5 +1,5 @@
 # FTP
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is FTP?
 **File Transfer Protocol**

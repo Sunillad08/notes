@@ -1,5 +1,5 @@
 # Sherlock
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is sherlock??
 🔎 Hunt down social media accounts by username across social networks!

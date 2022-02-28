@@ -1,5 +1,5 @@
 # EIGRP
-[index](index.md)
+[index](../index.md)
 - --
 ## What is EIGRP?
 Enhanced Interior Gateway Routing Protocol (EIGRP) is a network protocol that enables routers to exchange information more efficiently than earlier network protocols, such as Interior Gateway Routing Protocol (IGRP) or Border Gateway Protocol (BGP).

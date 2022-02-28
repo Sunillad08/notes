@@ -1,5 +1,5 @@
 # Port Mirroring
-[Back to networking page](index.md)
+[Back to networking page](../index.md)
 - --
 ## What is port mirroring?
 Port mirroring is used on a network switch or a router to send a copy of network packets seen on the specified [Ports](Ports.md) (source ports) to other specified ports (destination ports). With port mirroring enables, the packets can be monitored and analyzed.

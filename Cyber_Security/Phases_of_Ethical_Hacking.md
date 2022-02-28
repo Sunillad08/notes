@@ -1,5 +1,5 @@
 # Phases of Ethical Hacking
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## Steps 1 : Reconnaissance
 Gathering information about potential target

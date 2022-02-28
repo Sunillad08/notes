@@ -1,5 +1,5 @@
 # Hydra
-[Back to cyber security page](index.md)
+[Back to cyber security page](../index.md)
 - --
 ## What is Hydra?
 Hydra is brute-forcing common passwords for many protocols.
