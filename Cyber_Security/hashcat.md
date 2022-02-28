@@ -1,13 +1,16 @@
 # Hashcat
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is hashcat?
 Hashcat is the world’s fastest CPU-based password recovery tool.
 
 While it's not as fast as its GPU counterpart oclHashcat, large lists can be easily split in half with a good dictionary and a bit of knowledge of the command switches.
 
 Hashcat is the self-proclaimed world’s fastest CPU-based password recovery tool, Examples of hashcat supported hashing algorithms are Microsoft LM Hashes, MD4, MD5, SHA-family, Unix Crypt formats, MySQL, Cisco PIX.
-- --
+
+---
 
 ## Options
 ```bash
@@ -120,7 +123,9 @@ Hashcat is the self-proclaimed world’s fastest CPU-based password recovery too
 --brain-session=HEX       Overrides automatically calculated brain session
 --brain-session-whitelist=HEX       Allow given sessions only, separated with commas
 ```
-- --
+
+---
+
 ## Hash modes
 
 | # | Name | Category|
@@ -448,13 +453,17 @@ Hashcat is the self-proclaimed world’s fastest CPU-based password recovery too
 |  21600 | Web2py pbkdf2-sha512                             | Framework|
 |  10000 | Django (PBKDF2-SHA256)                           | Framework|
 |    124 | Django (SHA-1)                                   | Framework|
-- --
+
+---
+
 ## Basic Examples 
 hashcat -a 0 -m 400 example400.hash example.dict
 hashcat -a 0 -m 0 example0.hash example.dict -r rules/best64.rule
 hashcat -a 3 -m 0 example0.hash ?a?a?a?a?a?a
 hashcat -a 1 -m 0 example0.hash example.dict example.dict
-- --
+
+---
+
 ### Source
 - Man page
 - [Youtube video](https://youtu.be/aSj_uyPPxQk)

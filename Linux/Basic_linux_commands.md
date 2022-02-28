@@ -41,9 +41,12 @@ find test*
 
 grep : show lines that consists word
 grep "hello" file.txt , grep "hello"
+```
 
-- --
+---
+
 ## Storage and files related commands
+```bash
 df : report on the system\'s disk space use 
 df , df -m
 
@@ -103,9 +106,12 @@ stat file.txt
 
 tr : translate
 cat file.txt | tr -s '[a-z]' '[A-Z]'
-- --
-## Text editors and file viewing commands
+```
 
+---
+
+## Text editors and file viewing commands
+```bash
 head : view starting n lines of files
 head file.txt , head -n 10 file.txt
 
@@ -117,9 +123,12 @@ vi file.txt
 
 nano : nano editor
 nano file.txt
+```
 
-- --
+---
+
 ## Permission of files
+```bash
 chmod : change permission of files (ls -la for permissions)
 chmod ugo+rwx file.txt , chmod ugo-rwx file.txt  , chmod 777 file.txt 
 
@@ -127,9 +136,12 @@ chown : change ownership of file
 chown root(user) file.tar
 
 chgrp : change group ownership
-- --
-## Running processes commands
+```
 
+---
+
+## Running processes commands
+```bash
 jobs : current jobs along with status
 jobs
 
@@ -147,9 +159,12 @@ fg id
 
 bg : get process in background
 bg
-- --
-## System related commands 
+```
 
+---
+
+## System related commands 
+```bash
 systemctl : start , stop or check status of service
 systemctl start ssh
 
@@ -161,10 +176,12 @@ service name start , service tor stop
 
 xargs : pass list as input
 cat filenames.txt | xargs rm
+```
 
-- --
+---
+
 ## Users , system and group commands 
-
+```bash
 uname : Unix name , details about system
 uname , uname -a , uname -r
 
@@ -212,9 +229,12 @@ su user
 
 visudo : sudoers list can be edited
 visudo
+```
 
-- --
+---
+
 ## Help and info about commands
+```bash
 man : manual page
 man nmap , man ls
 
@@ -223,9 +243,12 @@ apropos sudo
 
 whatis : simple description
 whatis cd
+```
 
-- --
+---
+
 ## Commands not to specific
+```bash
 clear : clear terminal window
 clear / ctrl + l
 

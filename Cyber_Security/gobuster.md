@@ -1,9 +1,13 @@
 # gobuster
-[Back to Cyber security page](../index.md)
-- --
+[Back to Cyber security page](./index.md)
+
+---
+
 ## Usage:
 gobuster command
-- --
+
+---
+
 ## Available Commands:
 ``` bash
 dir         Uses directory/file enumeration mode
@@ -14,7 +18,9 @@ s3          Uses aws bucket enumeration mode
 version     shows the current version
 vhost       Uses VHOST enumeration mode
 ```
-- --
+
+---
+
 ## Flags:
 ```bash
       --delay duration    Time each thread waits between requests (e.g. 1500ms)
@@ -29,7 +35,9 @@ vhost       Uses VHOST enumeration mode
   -w, --wordlist string   Path to the wordlist
   -e, 					  Print full link
 ```
-- --
+
+---
+
 ## Dir flags                                                                 
 Uses directory/file enumeration mode
 
@@ -59,7 +67,9 @@ Usage : gobuster dir flags
   -a, --useragent string                Set the User-Agent string (default "gobuster/3.1.0")
   -U, --username string                 Username for Basic Auth
       --wildcard                        Force continued operation when wildcard found
- ```
-- --
+```
+
+---
+
 ### Source:
 - gobuster --help

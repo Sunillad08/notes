@@ -1,10 +1,14 @@
 # Searchsploit
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is searchsploit ?
 Exploit Database Archive Search
 Allow you to search through exploits and shellcodes using one or more terms from Exploit-DB
-- --
+
+---
+
 ## Options
 - Search Terms
 ```bash
@@ -17,7 +21,9 @@ Allow you to search through exploits and shellcodes using one or more terms from
     --exclude="term"       Remove values from results. By using "|" to separate, you can chain multiple values
                                 e.g. --exclude="term1|term2|term3"
 ```
-- --
+
+---
+
 - Output
 ```bash
 -j, --json     [Term]      Show result in JSON format
@@ -28,13 +34,17 @@ Allow you to search through exploits and shellcodes using one or more terms from
     --id                   Display the EDB-ID value rather than local path
     --colour               Disable colour highlighting in search results
 ```
-- --
+
+---
+
 -  Non-Searching
 ```bash
 -m, --mirror   [EDB-ID]    Mirror (aka copies) an exploit to the current working directory
 -x, --examine  [EDB-ID]    Examine (aka opens) the exploit using $PAGER
 ```
-- --
+
+---
+
 - Non-Searching
 ```bash
 -h, --help                 Show this help screen
@@ -46,7 +56,9 @@ Allow you to search through exploits and shellcodes using one or more terms from
                                 e.g.: nmap [host] -sV -oX file.xml
 ```
 
-- --
+
+---
+
 ### Source
 - Man page of searchsploit
 - [Hackersploit youtube video](https://youtu.be/29GlfaH5qCM?t=326)

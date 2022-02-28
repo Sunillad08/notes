@@ -1,24 +1,32 @@
 # Switching
 [Back to networking page](./index.md)
-- --
+
+---
+
 ## What is switching
 Switching is the practice of directing a signal or data element toward a particular hardware destination. Switching may be applied in various formats and can function in diverse ways within a greater network infrastructure.
-- --
+
+---
+
 ## Types of switching
-![types|700](https://www.tutorialride.com/images/computer-network/type-switching.jpeg)
+![types](https://www.tutorialride.com/images/computer-network/type-switching.jpeg)
 
 ### Message Switching
 - Whole message is stored and transferred directly.
 
-![ms|700](https://www.tutorialride.com/images/computer-network/message-switching.jpeg)
-- --
+![ms](https://www.tutorialride.com/images/computer-network/message-switching.jpeg)
+
+---
+
 ### Circuit Switching
 - Reserve the link between nodes and transfer data at same speed.
 - Dedicated path is reserved and another path can't be used.
 - Physical layer
 
-![cs|700](https://www.tutorialride.com/images/computer-network/circuit-switching.jpeg)
-- --
+![cs](https://www.tutorialride.com/images/computer-network/circuit-switching.jpeg)
+
+---
+
 ### Packet Switching
 - Path doesn't matter , it just have to reach destination
 - Data transferred in packets/frames
@@ -27,12 +35,14 @@ Switching is the practice of directing a signal or data element toward a particu
 -   Each packet carries a header that contains the full information about the destination.
 -   When the switch receives the packet, the destination address in the header of the packet is examined; the routing table is consulted to find the corresponding port through which the packet should be forwarded
 
-![ps datagram | 700](https://www.tutorialride.com/images/computer-network/datagram-packet-switching.jpeg)
+![ps datagram](https://www.tutorialride.com/images/computer-network/datagram-packet-switching.jpeg)
 
 -   Virtual circuit packet switching establishes a fixed path between a source and a destination to transfer the packets.
 
-![ps virtual | 700](https://www.tutorialride.com/images/computer-network/virtual-circuit-packet-switching.jpeg)
-- --
+![ps virtual](https://www.tutorialride.com/images/computer-network/virtual-circuit-packet-switching.jpeg)
+
+---
+
 ### Sources 
 - [Detailed YT video](https://youtu.be/sbopgWeSnZQ)
 - [Detailed info website](https://www.tutorialride.com/computer-network/switching-methods-in-computer-network.htm)

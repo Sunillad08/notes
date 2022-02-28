@@ -34,7 +34,7 @@
 
 ![OSI](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-oL2B7rB_Ddc%2FUXus4JZPgXI%2FAAAAAAAAAKc%2Fe0pDS9JpRD8%2Fs1600%2Fosi.gif&f=1&nofb=1)
 
-![Detailed OSI|700](https://media.fs.com/images/community/upload/kindEditor/202107/29/original-seven-layers-of-osi-model-1627523878-JYjV8oybcC.png)
+![Detailed OSI](https://media.fs.com/images/community/upload/kindEditor/202107/29/original-seven-layers-of-osi-model-1627523878-JYjV8oybcC.png)
 - --
 ### Sources : 
 - [OSI Model vidoe youtube](https://youtu.be/vv4y_uOneC0)

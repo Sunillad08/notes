@@ -1,20 +1,28 @@
 # Hydra
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is Hydra?
 Hydra is brute-forcing common passwords for many protocols.
 On github of hydra project , it is refered as  "Hydra is a tool to guess/crack valid login/password pairs."
-- --
+
+---
+
 ## Syntax
 
 Syntax: hydra -l LOGIN|-L FILE -p PASS|-P FILE | -C FILE -e nsr -o FILE -t TASKS -M FILE -T TASKS -w TIME -W TIME -f -s PORT -x MIN:MAX:CHARSET -c TIME -ISOuvVd46 -m MODULE_OPT service://server[:PORT][/OPT
-- --
+
+---
+
 - Session
 ```bash
   -R        restore a previous aborted/crashed session
   -I        ignore an existing restore file (don't wait 10 seconds)
 ```
-- --
+
+---
+
 - Options
 ```bash
   -S        perform an SSL connect
@@ -51,7 +59,9 @@ Syntax: hydra -l LOGIN|-L FILE -p PASS|-P FILE | -C FILE -e nsr -o FILE -t TASKS
   OPT       some service modules support additional input (-U for module help)
 ```
 
-- --
+
+---
+
 ## Supported services: 
 - adam6500 
 - asterisk 
@@ -103,7 +113,9 @@ Syntax: hydra -l LOGIN|-L FILE -p PASS|-P FILE | -C FILE -e nsr -o FILE -t TASKS
 - xmpp
 
 These services were not compiled in: afp ncp oracle sapr3 smb2.
-- --
+
+---
+
 ## Hydra proxy & Example
 Use HYDRA_PROXY_HTTP or HYDRA_PROXY environment variables for a proxy setup.
 E.g. % export HYDRA_PROXY=socks5://l:p@127.0.0.1:9150 (or: socks4:// connect://)
@@ -118,7 +130,9 @@ Examples:
   hydra -l admin -p password ftp://[192.168.0.0/24]/
   hydra -L logins.txt -P pws.txt -M targets.txt ssh
   hydra -l username -P wordlist MACHINE_IP http-post-form "login/:username=^USER^&password=^PASS^:F=incorrect" 
-- --
+
+---
+
 ### Source
 - [github repository](https://github.com/vanhauser-thc/thc-hydra)
 - [Youtube Hindi](https://youtu.be/-gE4leMl5Gg)

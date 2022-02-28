@@ -1,8 +1,11 @@
 # OWASP
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is OWASP?
-![owasp|700](https://owasp.org/www-project-mobile-security/assets/images/owasp_logo_milan.png)
+
+![owasp](https://owasp.org/www-project-mobile-security/assets/images/owasp_logo_milan.png)
 
 **Open Web Application Security Project**
 
@@ -10,7 +13,9 @@ The Open Web Application Security Project® (OWASP) is a nonprofit foundation th
 
 > Note : OWASP updated Top 10 list 
 [Check the here](OWASP.md#Top%2010%20Web%20Application%20Security%20Risks)
-- --
+
+---
+
 ## **OWASP Topics**
 -   Injection
 -   Broken Authentication
@@ -22,7 +27,9 @@ The Open Web Application Security Project® (OWASP) is a nonprofit foundation th
 -   Insecure Deserialization
 -   Components with Known Vulnerabilities
 -   Insufficent Logging & Monitoring
-- --
+
+---
+
 ## Injection
 Injection flaws are very common in applications today. These flaws occur because user controlled input is interpreted as actual commands or parameters by the application. Injection attacks depend on what technologies are being used and how exactly the input is interpreted by these technologies.
 
@@ -46,7 +53,9 @@ Command Injection occurs when server-side code (like PHP) in a web application m
 A simple `nc -e /bin/bash` is all that's needed and they own your server; some variants of netcat don't support the -e option. You can use a list of [these](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md) reverse shells as an alternative.
 
 Blind command injection occurs when the system command made to the server does not return the response to the user in the HTML document.  Active command injection will return the response to the user.  It can be made visible through several HTML elements. 
-- --
+
+---
+
 ##  Broken Authentication
 
 Authentication and session management constitute core components of modern web applications. Authentication allows users to gain access to web applications by verifying their identities. The most common form of authentication is using a username and password mechanism. A user would enter these credentials, the server would verify them. If they are correct, the server would then provide the users’ browser with a session cookie. A session cookie is needed because web servers use HTTP(S) to communicate which is stateless. Attaching session cookies means that the server will know who is sending what data. The server can then keep track of users' actions. 
@@ -62,12 +71,16 @@ There can be various mitigation for broken authentication mechanisms depending o
 - To avoid password guessing attacks, ensure the application enforces a strong password policy. 
 - To avoid brute force attacks, ensure that the application enforces an automatic lockout after a certain number of attempts. This would prevent an attacker from launching more brute force attacks.
 - Implement Multi Factor Authentication - If a user has multiple methods of authentication, for example, using username and passwords and receiving a code on their mobile device, then it would be difficult for an attacker to get access to both credentials to get access to their account.
-- --
+
+---
+
 ##  Sensitive Data Exposure
 When a webapp accidentally divulges sensitive data, we refer to it as "Sensitive Data Exposure". This is often data directly linked to customers (e.g. names, dates-of-birth, financial information, etc), but could also be more technical information, such as usernames and passwords. At more complex levels this often involves techniques such as a "Man in The Middle Attack", whereby the attacker would force user connections through a device which they control, then take advantage of weak encryption on any transmitted data to gain access to the intercepted information
 
 The most common way to store a large amount of data in a format that is easily accessible from many locations at once is in a database. This is obviously perfect for something like a web application, as there may be many users interacting with the website at any one time. Database engines usually follow the Structured Query Language (SQL) syntax; however, alternative formats (such as NoSQL) are rising in popularity.
-- --
+
+---
+
 ## XML External Entity 
 
 An XML External Entity (XXE) attack is a vulnerability that abuses features of XML parsers/data. It often allows an attacker to interact with any backend or external systems that the application itself can access and can allow the attacker to read the file on that system. They can also cause Denial of Service (DoS) attack or could use XXE to perform Server-Side Request Forgery (SSRF) inducing the web application to make requests to other applications. XXE may even enable port scanning and lead to remote code execution.
@@ -89,7 +102,9 @@ XML code to read /etc/passwd
 <!DOCTYPE root [<!ENTITY read SYSTEM 'file:///etc/passwd'>]>
 <root>&read;</root>
 ```
-- --
+
+---
+
 ## Broken Access Control 
 
 Websites have pages that are protected from regular visitors, for example only the site's admin user should be able to access a page to manage other users. If a website visitor is able to access the protected page/pages that they are not authorised to view, the access controls are broken.
@@ -104,7 +119,9 @@ A regular visitor being able to access protected pages, can lead to the followin
 For example, let's say we're logging into our bank account, and after correctly authenticating ourselves, we get taken to a URL like this https://example.com/bank?account_number=1234. On that page we can see all our important bank details, and a user would do whatever they needed to do and move along their way thinking nothing is wrong.
 
 There is however a potentially huge problem here, a hacker may be able to change the account_number parameter to something else like 1235, and if the site is incorrectly configured, then he would have access to someone else's bank information.
-- --
+
+---
+
 ## Security Misconfiguration 
 Security Misconfigurations are distinct from the other Top 10 vulnerabilities, because they occur when security could have been configured properly but was not.
 
@@ -119,7 +136,9 @@ Security misconfigurations include:
 This vulnerability can often lead to more vulnerabilities, such as default credentials giving you access to sensitive data, XXE or command injection on admin pages.
 
 For more info, I recommend having a look at the OWASP top 10 entry for [Security Misconfiguration](https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html)
-- --
+
+---
+
 ## Cross-site Scripting 
 Cross-site scripting, also known as XSS is a security vulnerability typically found in web applications. It’s a type of injection which can allow an attacker to execute malicious scripts and have it execute on a victim’s machine.
 
@@ -139,7 +158,9 @@ Remember, cross-site scripting is a vulnerability that can be exploited to execu
    - Port scanning (http://www.xss-payloads.com/payloads/scripts/portscanapi.js.html) - A mini local port scanner (more information on this is covered in the TryHackMe XSS room).
 
 XSS-Payloads.com (http://www.xss-payloads.com/) is a website that has XSS related Payloads, Tools, Documentation and more. You can download XSS payloads that take snapshots from a webcam or even get a more capable port and network scanner.
-- --
+
+---
+
 ## Insecure Deserialization
 "Insecure Deserialization is a vulnerability which occurs when untrusted data is used to abuse the logic of an application" (Acunetix., 2017)
 
@@ -179,14 +200,16 @@ Cookies are not permanent storage solutions like databases. Some cookies such as
 Some cookies have additional attributes, a small list of these are below:
 
 |Attribute|Description|Required?|
-|--::|--::|::--|
+|:--|:--|:--|
 |Cookie Name|The Name of the Cookie to be set|Yes|
 |Cookie Value|Value, this can be anything plaintext or encoded |Yes|
 |Secure Only|If set, this cookie will only be set over HTTPS connections|No|
 |Expiry	|Set a timestamp where the cookie will be removed from the browser|No|
 |Path|The cookie will only be sent if the specified URL is within the request|No|
 
-- --
+
+---
+
 ## Components With Known Vulnerabilities
 Occasionally, you may find that the company/entity that you're pen-testing is using a program that already has a well documented vulnerability.
 
@@ -195,7 +218,9 @@ For example, let's say that a company hasn't updated their version of WordPress 
 As you can see this would be quite devastating, because it requires very little work on the part of the attacker as often times since the vulnerability is already well known, someone else has made an exploit for the vulnerability. The situation becomes even worse when you realize, that it's really quite easy for this to happen, if a company misses a single update for a program they use, they could be vulnerable to any number of attacks.
 
 Hence, why OWASP has rated this a 3(meaning high) on the prevalence scale, it is incredibly easy for a company to miss an update for an application.
-- --
+
+---
+
 ## Insufficient Logging and Monitoring 
 When web applications are set up, every action performed by the user should be logged. Logging is important because in the event of an incident, the attackers actions can be traced. Once their actions are traced, their risk and impact can be determined. Without logging, there would be no way to tell what actions an attacker performed if they gain access to particular web applications. The bigger impacts of these include:
 
@@ -222,7 +247,9 @@ As you may have noticed, logging is more important after a breach or incident ha
 Just detecting suspicious activity isn't helpful. This suspicious activity needs to be rated according to the impact level. For example, certain actions will higher impact than others. These higher impact actions need to be responded to sooner thus they should raise an alarm which raises the attention of the relevant party.
 
 Put this knowledge to practise by analysing this sample log file.
-- --
+
+---
+
 ## Top 10 Web Application Security Risks
 
 ![New OWASP](https://owasp.org/www-project-top-ten/assets/images/mapping.png)
@@ -247,7 +274,8 @@ Put this knowledge to practise by analysing this sample log file.
     
  - A10:2021-Server-Side Request Forgery is added from the Top 10 community survey (#1). The data shows a relatively low incidence rate with above average testing coverage, along with above-average ratings for Exploit and Impact potential. This category represents the scenario where the security community members are telling us this is important, even though it’s not illustrated in the data at this time.
 
-- --
+---
+
 ### Sources
 - [OWASP website](https://owasp.org/)
 - [OWASP 10](https://tryhackme.com/room/owasptop10)

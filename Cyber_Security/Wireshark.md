@@ -1,19 +1,25 @@
 # Wireshark
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is wireshark?
 Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education. Originally named Ethereal, the project was renamed Wireshark in May 2006 due to trademark issues.
 
 Wireshark is cross-platform, using the Qt widget toolkit in current releases to implement its user interface, and using pcap to capture packets; it runs on Linux, macOS, BSD, Solaris, some other Unix-like operating systems, and Microsoft Windows. There is also a terminal-based (non-GUI) version called TShark. Wireshark, and the other programs distributed with it such as TShark, are free software, released under the terms of the GNU General Public License version 2 or any later version.
 
-- --
+
+---
+
 ## How to use wireshark?
 - Open wireshark
 - Select interface to listen on
 - Start capture
 - Save file
 
-- --
+
+---
+
 ## Options
 Usage: wireshark options infile
 ```bash
@@ -112,7 +118,9 @@ Miscellaneous:
   --display <X display>    X display to use
   --fullscreen             start Wireshark in full screen
 ```
-- --
+
+---
+
 ## Filters
 Filters are used for filtering packets to find particular packets
 Example : 
@@ -124,7 +132,9 @@ tcp.port == xxx
 tcp contains xxx
 
 Check out more filters [Website](https://insights.profitap.com/14-powerful-wireshark-filters-to-use) & [Wireshark filter website](https://www.wireshark.org/docs/man-pages/wireshark-filter.html)
-- --
+
+---
+
 ### Source
 - [Wikipedia](https://en.wikipedia.org/wiki/Wireshark)
 - [Wireshark](https://www.wireshark.org/)

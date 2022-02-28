@@ -1,9 +1,13 @@
 # SMBMAP
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is SMBMAP?
 SMBMAP is SMB enumeration tool.
-- --
+
+---
+
 ## Options
 - usage: 
 ```bash
@@ -79,6 +83,7 @@ $ smbmap -u jsmith -p 'aad3b435b51404eeaad3b435b51404ee:da76f2c4c96028b7a6111aef
 $ smbmap -u 'apadmin' -p 'asdf1234!' -d ACME -h 10.1.3.30 -x 'net group "Domain Admins" /domain'
 ```
 
-- --
+---
+
 ### Source :
 - Man page SMBMAP

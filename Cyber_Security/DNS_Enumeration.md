@@ -1,11 +1,15 @@
 # DNS Enumeration
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is DNS Enumeration?
 DNS enumeration is the process of locating all the [DNS](../Networking/DNS.md) servers and their corresponding records for an organization.
 
 It gives up information about IP adddress and internal and external DNS
-- --
+
+---
+
 ## DNS Information
 
 |Types|Use|
@@ -19,7 +23,8 @@ It gives up information about IP adddress and internal and external DNS
 |NS (Name Server)|Identifies other name servers for the domain|
 |TXT (Text) | Add Text data in DNS Records
 
-- --
+---
+
 ## How to do it?
 1. nslookup : query Internet name servers interactively
 nslookup example.com
@@ -104,7 +109,9 @@ traceroute to example.com (93.184.216.34), 30 hops max, 60 byte packets
 5. dnsdumpster.com
 https://dnsdumpster.com/
 Check details about DNS data and overall data.
-- --
+
+---
+
 ### Source
 - [Tryhackme](https://tryhackme.com/room/passiverecon)
 - [hsploit Youtube video](https://youtu.be/rQ-dc5kwRtU)

@@ -1,9 +1,13 @@
 # BurpSuite
-[Back to cyber security page](index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is BurpSuite?
 Burp Suite is one of the most popular penetration testing and vulnerability finder tools, and is often used for checking web application security. Proxy , reapeater , Intruder are one of many feature in BurpSuite.
-- --
+
+---
+
 ## Usage
 ### Target
 - Add IP's in scope for itercept
@@ -22,7 +26,9 @@ Burp Suite is one of the most popular penetration testing and vulnerability find
 - Decode URL , HTML , HEX and Binary
 ### Comparer
 - Compare two different responses
-- --
+
+---
+
 ## Documentation
 - Target - This tool contains detailed information about your target applications, and lets you drive the process of testing for vulnerabilities.
 - Proxy - This is an intercepting web proxy that operates as a man-in-the-middle between the end browser and the target web application. It lets you intercept, inspect and modify the raw traffic passing in both directions.
@@ -38,7 +44,9 @@ Burp Suite is one of the most popular penetration testing and vulnerability find
 - Mobile Assistant - This is a tool to facilitate testing of mobile apps with Burp Suite.
 - Logger - This is a tool for recording and analyzing HTTP traffic that Burp Suite generates.
 - DOM Invader - This is a tool for finding DOM XSS vulnerabilities.
-- --
+
+---
+
 ### Source
 - [Burpsuite playlist](https://www.youtube.com/playlist?list=PLoX0sUafNGbH9bmbIANk3D50FNUmuJIF3)
 - [BurpSuite tutorial](https://youtu.be/G3hpAeoZ4ek)

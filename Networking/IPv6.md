@@ -1,9 +1,13 @@
 # IPv6
-[Back to networking page](../index.md)
-- --
+[Back to networking page](./index.md)
+
+---
+
 ## What is IPv6?
 An IPv6 packet is the smallest message entity exchanged using Internet Protocol [IP](IP.md)version 6 (IPv6). 128 bits length and developed by IETF IPv6 was invented because [IPv4](IPv4.md) IP's are limited.
-- --
+
+---
+
 ## IPv6 format
 IPv6 format : XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
 
@@ -14,7 +18,9 @@ Example:
 2001:db8:3333:4444:5555:6666:7777:8888. 2001:db8:3333:4444:CCCC:DDDD:EEEE:FFFF.
 
 ![ip format](https://www.redhat.com/sysadmin/sites/default/files/styles/embed_medium/public/2019-09/IPv6%20addresses.png?itok=AlrTREni)
-- --
+
+---
+
 ## IPv6 Header
 ![header|700](https://upload.wikimedia.org/wikipedia/commons/6/6b/IPv6_header_rv1.png)
 
@@ -38,15 +44,20 @@ Example:
 
 
 In order to increase performance, and since current link layer technology and transport layer protocols are assumed to provide sufficient error detection, the header has no checksum to protect it.
-- --
+
+---
+
 ## Extension headers
 ![extension headers|700](https://media.geeksforgeeks.org/wp-content/uploads/next-header-2.png)
 
-- --
+---
+
 **Difference between IPv4 and IPv6**
 
 ![difference|700](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
-- --
+
+---
+
 ### Source
 - [Wikipedia](https://en.wikipedia.org/wiki/IPv6_packet)
 - [Youtube 1](https://youtu.be/1GbJUAcHfKU)

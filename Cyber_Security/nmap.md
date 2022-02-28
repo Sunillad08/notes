@@ -1,12 +1,17 @@
 # nmap : scanning & footprinting tool!
-[Back to cyber security page](../index.md)
+[Back to cyber security page](./index.md)
 
-- --
+---
+
 ## What is nmap?
 - nmap is reconnaissance tool which can provide background about devices running in network & can guess OS.
-- --
+
+---
+
  Nmap (“Network Mapper”) is an open source tool for network exploration and security auditing. It was designed to rapidly scan large networks, although it works fine against single hosts. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. While Nmap is commonly used for security audits, many systems and network administrators find it useful for routine tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.
-- --
+
+---
+
 
 ## nmap flags
 
@@ -14,7 +19,9 @@ Usage: nmap 'Scan Type(s)' 'Options' 'target'
 
 TARGET SPECIFICATION: Can pass hostnames, IP addresses, networks, etc.
 Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
-- --
+
+---
+
 - Providing IP from file or input
 ```bash
 -iL <inputfilename>: Input from list of hosts/networks
@@ -22,7 +29,9 @@ Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
 --exclude <host1[,host2][,host3],...>: Exclude hosts/networks
 --excludefile <exclude_file>: Exclude list from file
 ```
-- --
+
+---
+
 - Host Discovery
 ```bash
 -sL: List Scan - simply list targets to scan
@@ -36,7 +45,9 @@ Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
 --system-dns: Use OS's DNS resolver
 --traceroute: Trace hop path to each host
 ```
-- --
+
+---
+
 - SCAN TECHNIQUES
 ```bash
 -sS/sT/sA/sW/sM: TCP SYN/Connect()/ACK/Window/Maimon scans
@@ -56,7 +67,9 @@ Ex: -p22; -p1-65535; -p U:53,111,137,T:21-25,80,139,8080,S:9
 --top-ports <number>: Scan <number> most common ports
 --port-ratio <ratio>: Scan ports more common than <ratio>
 ```
-- --
+
+---
+
 SERVICE/VERSION DETECTION:
 ```bash
 -sV: Probe open ports to determine service/version info
@@ -65,7 +78,9 @@ SERVICE/VERSION DETECTION:
 --version-all: Try every single probe (intensity 9)
 --version-trace: Show detailed version scan activity (for debugging)
 ```
-- --
+
+---
+
 SCRIPT SCAN:
 ```bash
 -sC: equivalent to --script=default
@@ -79,14 +94,18 @@ SCRIPT SCAN:
 	   <Lua scripts> is a comma-separated list of script-files or
 	   script-categories.
 ```
-- --
+
+---
+
 OS DETECTION:
 ```bash
 -O: Enable OS detection
 --osscan-limit: Limit OS detection to promising targets
 --osscan-guess: Guess OS more aggressively
 ```
-- --
+
+---
+
 TIMING AND PERFORMANCE:
 ```bash
 Options which take <time> are in seconds, or append 'ms' (milliseconds),
@@ -102,7 +121,9 @@ Options which take <time> are in seconds, or append 'ms' (milliseconds),
 --min-rate <number>: Send packets no slower than <number> per second
 --max-rate <number>: Send packets no faster than <number> per second
 ```
-- --
+
+---
+
 FIREWALL/IDS EVASION AND SPOOFING:
 ```bash
 -f; --mtu <val>: fragment packets (optionally w/given MTU)
@@ -119,7 +140,9 @@ FIREWALL/IDS EVASION AND SPOOFING:
 --spoof-mac <mac address/prefix/vendor name>: Spoof your MAC address
 --badsum: Send packets with a bogus TCP/UDP/SCTP checksum
 ```
-- --
+
+---
+
 OUTPUT:
 ```bash
 -oN/-oX/-oS/-oG <file>: Output scan in normal, XML, s|<rIpt kIddi3,
@@ -138,7 +161,9 @@ OUTPUT:
 --webxml: Reference stylesheet from Nmap.Org for more portable XML
 --no-stylesheet: Prevent associating of XSL stylesheet w/XML output
 ```
-- --
+
+---
+
 MISC:
 ```bash
 -6: Enable IPv6 scanning
@@ -150,12 +175,16 @@ MISC:
 -V: Print version number
 -h: Print this help summary page.
 ```
-- --
+
+---
+
 EXAMPLES:
 nmap -v -A scanme.nmap.org
 nmap -v -sn 192.168.0.0/16 10.0.0.0/8
 nmap -v -iR 10000 -Pn -p 80
-- --
+
+---
+
 ### Sources
 - [Nmap 7.92SVN](https://nmap.org)
 - [Tryhackme](https://tryhackme.com/room/furthernmap)

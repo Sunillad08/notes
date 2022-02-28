@@ -1,11 +1,16 @@
 # Basic commands
 [Back to windows page](./index.md)
-- --
+
+---
+
 ## CMD vs Powershell
 Command prompt or cmd is a default application of windows that are used to interact with any windows objects in the windows os.
 PowerShell is a more advanced version of cmd. It is not only an interface but also a scripting language that is used to carry out administrative tasks more easily.
-- --
+
+---
+
 ## CMD
+
 ## Basic commands
  cd : change directory
  cd /Documents
@@ -39,8 +44,11 @@ PowerShell is a more advanced version of cmd. It is not only an interface but al
  
  date : show date
  date
-- --
+
+---
+
 ## CMD
+
 ## Basic commands
  Set-Location : change directory -> cd
  Set-Location /Documents
@@ -74,7 +82,9 @@ Test-Connection -ComputerName (hostname)
  
  date : show date
  date
-- --
+ 
+---
+
 ### Source
 - [cmd vs psh video](https://youtu.be/H0gwnFV_SFs)
 - [cmd vs psh website](https://www.educba.com/powershell-vs-command-prompt/)

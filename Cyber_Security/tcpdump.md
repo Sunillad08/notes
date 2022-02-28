@@ -1,11 +1,15 @@
 # tcpdump
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is tcpdump?
 tcpdump (8)          - dump traffic on a network
 tcpdump is used to track traffic in network.
 Basically command line [Wireshark](Wireshark.md).
-- --
+
+---
+
 ## tcpdump syntax
 ```bash
 tcpdump [ -AbdDefhHIJKlLnNOpqStuUvxX# ] [ -B buffer_size ]
@@ -21,7 +25,9 @@ tcpdump [ -AbdDefhHIJKlLnNOpqStuUvxX# ] [ -B buffer_size ]
                [ --micro ] [ --nano ]
                [ expression ]
 ```
-- --
+
+---
+
 Options
 ```bash
 -X : Show the packet’s contents in both hex and ascii.
@@ -41,7 +47,9 @@ Options
 -E : Decrypt IPSEC traffic by providing an encryption key.
 ```
 Read [site](https://danielmiessler.com/study/tcpdump/) for more information.
-- --
+
+---
+
 ### Source 
 - [Website](https://danielmiessler.com/study/tcpdump/)
 - Man page of tcpdump

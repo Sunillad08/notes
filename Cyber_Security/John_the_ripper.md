@@ -1,9 +1,13 @@
 # John the ripper (JTR)
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is JTR?
 John, better known as John the Ripper, is a tool to find weak passwords of users in a server. John can use a dictionary or some search pattern as well as a password file to check for passwords. John supports different cracking modes  and  understands  many  ciphertext formats, like several DES variants, MD5 and blowfish. It can also be used to extract AFS and Windows NT passwords.
-- --
+
+---
+
 ## Modes
 John can work in the following modes:
 -  Wordlist : John will simply use a file with a list of words that will be checked against the passwords. See RULES for the format of wordlist files.
@@ -11,14 +15,18 @@ John can work in the following modes:
 - Single crack : In this mode, john will try to crack the password using the login/GECOS information as passwords.
 
 - Incremental : This  is  the  most  powerful  mode. John will try any character combination to resolve the password.  Details about these modes can be found in the MODES file in john's documentation, including how to define your own cracking methods.
-- --
+
+---
+
 ## Files
 /etc/john/john.conf is where you configure how john will behave.
 
 /etc/john/john-mail.msg has the message sent to users when their passwords are successfully cracked.
 
 /etc/john/john-mail.conf is used to configure how john will send messages to users that had their passwords cracked.
-- --
+
+---
+
 ## Options
 ```bash
 Usage: john [OPTIONS] [PASSWORD-FILES]
@@ -134,12 +142,17 @@ Usage: john [OPTIONS] [PASSWORD-FILES]
                            format(s), including using classes and wildcards.
 
 ```
-- --
+
+---
+
 ## Getting hash
 - zip2john for zip
 - pdf2john for pdf
 - rat2hohn for rar
-- --
+- ssh2john for ssh password
+
+---
+
 ### Source : 
 - [Youtube video](https://youtu.be/aCVr7anoBxg)
 - [Blog post](https://www.varonis.com/blog/john-the-ripper/)

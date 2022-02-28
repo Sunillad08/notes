@@ -1,13 +1,19 @@
 # TCP
-[Back to Networking page](../index.md)
-- --
+[Back to Networking page](./index.md)
+
+---
+
 ## What is TCP
 Transmission Control Protocol
 The **Transmission Control Protocol** (TCP) is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP). Therefore, the entire suite is commonly referred to as TCP/IP. TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network. Major internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP, which is part of the Transport Layer of the TCP/IP suite. SSL/TLS often runs on top of TCP.
-- --
+
+---
+
 ## Why TCP?
 TCP is connection-oriented, and a connection between client and server is established before data can be sent. The server must be listening (passive open) for connection requests from clients before a connection is established. Three-way handshake (active open), retransmission, and error-detection adds to reliability but lengthens latency. Applications that do not require reliable data stream service may use the User Datagram Protocol [UDP](UDP.md), which provides a connectionless datagram service that prioritizes time over reliability. TCP employs network congestion avoidance. However, there are vulnerabilities to TCP including denial of service, connection hijacking, TCP veto, and reset attack.
-- --
+
+---
+
 ## TCP Header
 ![TCP|700](https://www.lifewire.com/thmb/OhU9Rn5-Myfpbzjyy98U8UMAMCs=/1235x695/smart/filters:no_upscale()/tcp-headers-f2c0881ea4c94e919794b7c0677ab90a.jpg)
 - Source port (16 bits) : Identifies the sending port.
@@ -35,13 +41,17 @@ TCP is connection-oriented, and a connection between client and server is establ
 - Urgent pointer (16 bits) : If the URG flag is set, then this 16-bit field is an offset from the sequence number indicating the last urgent data byte.
 - Options (Variable 0–320 bits, in units of 32 bits)
 	The length of this field is determined by the data offset field. Options have up to three fields: Option-Kind (1 byte), Option-Length (1 byte), Option-Data (variable). The Option-Kind field indicates the type of option and is the only field that is not optional. Depending on Option-Kind value, the next two fields may be set. Option-Length indicates the total length of the option, and Option-Data contains data associated with the option, if applicable. For example, an Option-Kind byte of 1 indicates that this is a no operation option used only for padding, and does not have an Option-Length or Option-Data fields following it. An Option-Kind byte of 0 marks the end Of options, and is also only one byte. An Option-Kind byte of 2 is used to indicate Maximum Segment Size option, and will be followed by an Option-Length byte specifying the length of the MSS field. Option-Length is the total length of the given options field, including Option-Kind and Option-Length fields. So while the MSS value is typically expressed in two bytes, Option-Length will be 4. As an example, an MSS option field with a value of 0x05B4 is coded as (0x02 0x04 0x05B4) in the TCP options section.
-- --
+
+---
+
 ## TCP Connection
 Check [TCP_IP_3_way_handshake](TCP_IP_3_way_handshake.md) for connection info
 
 For termination this is procedure
 ![TCP close connection|700](http://www.cablefree.net/support/radio/software/images/f/fc/Image2001.gif)
-- --
+
+---
+
 ### Sources
 - [wikipedia](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 - [TCP connection](https://youtu.be/zlIHLnOigmA)

@@ -1,6 +1,8 @@
 # Network Devices
-[Back to networking page](../index.md)
-- --
+[Back to networking page](./index.md)
+
+---
+
 ## HUB
 - Connects all Internal devices
 - Not so smart , transmitts packets to all connected devices
@@ -9,14 +11,18 @@
 - No more used 
 
 ![hub|700](https://upload.wikimedia.org/wikipedia/commons/d/d9/4_port_netgear_ethernet_hub.jpg)
-- --
+
+---
+
 ## Repeater
 - Receives and retransmits signals
 - Used for extending range , improving speed
 - Mainly used in wireless but wired use too
 
 ![Repeater|700](https://ecomputerconcepts.com/wp-content/uploads/2020/11/Network-Repeater.jpg)
-- --
+
+---
+
 ## Bridge
 - Intelligent repeater
 - Works on data link layer
@@ -24,17 +30,23 @@
 - Passes packets based on MAC address and where device is located
 
 ![Bridge](https://www.lifewire.com/thmb/Xkm1rc4iiMVjeoWz5N5cX19d07w=/1500x1000/filters:fill(auto,1)/how-network-bridges-work-816357-eea65d0c474e429883dca2bfdcc83c30.png)
-- --
+
+---
+
 ## Modem
 - Converts data from analog to digital and vice-versa
 - Used to modulate and demodulate
 - Need high speed conversion
 
 ![Modem|700](https://i2.wp.com/www.edupointbd.com/wp-content/uploads/2017/08/1.png?w=606&ssl=1)
-- --
+
+---
+
 ## NIC
 - For more Info check [NIC](NIC.md)
-- --
+
+---
+
 ## Switch
 - Connects all Internal devices
 - Smart , transmitts packets to only destination device
@@ -45,7 +57,9 @@
 - Effiecient at connecting devices
 
 ![Switch|700](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/555px-2550T-PWR-Front.jpg)
-- --
+
+---
+
 ## Router
 - Router is used for routing
 - Use to connect to Internet
@@ -55,16 +69,24 @@
 - Have in-built switch properties
 
 ![Router|700](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Adsl_connections.jpg/1200px-Adsl_connections.jpg)
-- --
+
+---
+
 ## Gateways
 -  Works like router 
 -  Used to connect networks which uses different protocols
-- --
+
+---
+
 ## Wireless access point (WAP)
 - Basically routers with wireless connectivity 
-- --
+
+---
+
 ![all-in-one](https://i2.wp.com/www.edupointbd.com/wp-content/uploads/2020/01/some-network-devices.png?resize=768%2C422&ssl=1)
-- --
+
+---
+
 ### Sources
 - [HUB](https://en.wikipedia.org/wiki/Ethernet_hub)
 - [Repeater](https://en.wikipedia.org/wiki/Repeater)

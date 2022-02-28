@@ -1,6 +1,8 @@
 ## Ports
-[Back to Networking page](../index.md)
-- --
+[Back to Networking page](./index.md)
+
+---
+
 #### Physical ports :
 - serial ports
 - Ethernet , USB & serial
@@ -38,7 +40,9 @@ Common port numbers
 |443|HTTP with Secure Sockets Layer (SSL)|TCP and UDP|
 |989, 990|FTP over SSL/TLS (implicit mode)|TCP|
 |3389|Remote Desktop Protocol|TCP and UDP|
-- --
+
+---
+
 ### Sources :
 - [BItten tech youtube](https://www.youtube.com/watch?v=R_cYrZhtXFk&ab_channel=BittenTech)
 - [Website](https://www.utilizewindows.com/list-of-common-network-port-numbers/)

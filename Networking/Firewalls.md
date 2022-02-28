@@ -1,6 +1,8 @@
 ## Firewalls
-[Back to Networking page](../index.md)
-- --
+[Back to Networking page](./index.md)
+
+---
+
 Types of firewalls
 1. Packet filtering firewalls
 	- Checks sender's & recievers IP address and port number
@@ -18,7 +20,8 @@ Types of firewalls
 	- Most secure as best of both world
 	- Used in mostly high security environments 
 
-- --
+---
+
 ### Sources :
 - [Wiki](https://en.wikipedia.org/wiki/Firewall_(computing))
 - [Youtube video](https://youtu.be/aUPoA3MSajU)

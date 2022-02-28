@@ -1,10 +1,14 @@
 # IPv4
-[Back to networking page](../index.md)
-- --
+[Back to networking page](./index.md)
+
+---
+
 ## What is IPv4?
 Check what is [IP](IP.md)
 Internet Protocol version 4 (IPv4) is the fourth version of the Internet Protocol (IP). It is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 was the first version deployed for production on SATNET in 1982 and on the ARPANET in January 1983. It is still used to route most Internet traffic today, despite the ongoing deployment of a successor protocol, [IPv6](IPv6.md).
-- --
+
+---
+
 ## IPv4 format
 Format xxx:xxx:xxx:xxx
 Length of IPv4 address is 32 bits.
@@ -15,7 +19,9 @@ Example:
 192.168.0.104
 
 ![format|700](https://www.cuehosting.com/blog/wp-content/uploads/2019/04/ipv41.jpg)
-- --
+
+---
+
 ## Header format
 ![header|700](https://cdn.networklessons.com/wp-content/uploads/2015/07/xip-packet-header-fields.png.pagespeed.ic.dUO9mx29JP.png)
 
@@ -51,11 +57,15 @@ Example:
 - Destination address
 	This field is the IPv4 address of the receiver of the packet. As with the source address, this may be changed in transit by a network address translation device.
 	
-- --
+
+---
+
 **Difference between IPv4 and IPv6**
 
 ![difference|700](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
-- --
+
+---
+
 ### Source
 - [wiki](https://en.wikipedia.org/wiki/IPv4)
 - [Detailed Youtube Video](https://youtu.be/zt95uE42gIs)

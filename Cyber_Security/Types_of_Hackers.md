@@ -1,6 +1,8 @@
 # Types of Hackers
 [Back to cyber security page](./index.md)
- - --
+
+---
+
  ## White hat hackers
  - Allowed to performing hacking
  - Ethical hackers with permission

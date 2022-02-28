@@ -1,13 +1,19 @@
 # ARP
-[Back to networking page](../index.md)
-- --
+[Back to networking page](./index.md)
+
+---
+
 ## What is ARP?
 **Address Resolution Protocol**
 The Address Resolution Protocol(ARP) is a communication protocol used to discover the data-link layer address(Layer 2 address like Media Access Control ie [MAC](MAC.md) associated with an Internet layer address(Layer 3 address like [IP](IP.md). ... As a result, ARP is said to be a link layer protocol.
-- --
+
+---
+
 ## Why?
 Devices in a Local Area Network(LAN) are programmed to communicate using link layer addresses. Switches are not configured for a standard that will allow destination decisions to be based on IP within the same broadcast domain. A device that is not connected to the internet will not have an IP address. In that case, the network has to resort to using MAC addresses for communication. If a device wants to communicate with another device in the same LAN, it needs to know the MAC address of the other device’s network interface. This allows for the communication between the two end devices to be unicast.
-- --
+
+---
+
 ## How does it work?
 - Every device that is capable of handling IPv4 packets has an ARP table. An ARP table consists of IPv4 address to MAC address mappings. Switches do not have an ARP table as they are not equipped to handle IP packets. However, switches maintain another kind of cache mapping the MAC address of the non-switch devices connected to this LAN to the port where packets should go to reach that device. Switches will send out the packet on all the enabled ports if they do not have the destination MAC address in the cache.
 
@@ -18,7 +24,8 @@ Devices in a Local Area Network(LAN) are programmed to communicate using link la
 _On Linux systems, ARP table can be displayed with the command “arp -an”._
 _On Windows systems, ARP table can be displayed with the command “arp -a”._
 
-- --
+---
+
 ### Sources
 - [website](https://www.section.io/engineering-education/address-resolution-protocol/)
 - [Youtube 1](https://youtu.be/tXzKjtMHgWI)

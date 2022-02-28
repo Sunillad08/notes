@@ -1,18 +1,24 @@
 # Subnetting
 [Back to Networking page](./index.md)
-- --
+
+---
+
 ## What is subnetting?
 A subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting. Computers that belong to the same subnet are addressed with an identical most-significant bit-group in their IP addresses. 
 
 Logical subdivision of a network is called subnetting.
-- --
+
+---
+
 ## Why subnetting required?
 - Security
 - Similar IP address format
 - saving IPv4 IP's
 - organizing network
 - Reduce congestion
-- --
+
+---
+
 ## How to do subnetting?
 *Many methods are there but we are going to see only CIDR*
 a.b.c.d / x is CIDR format (Classless inter domain routing)
@@ -20,10 +26,12 @@ where a,b,c,d are octets and x is value that denotes common bits from left to ri
 example : 192.168.0.1/24 -> 255 Devices can be identified
 Check [IP](IP.md) for classes about subnetting in IP's classes.
 
-![wiki|700](https://upload.wikimedia.org/wikipedia/commons/b/b3/Subnetting_Concept.svg)
+![wiki](https://upload.wikimedia.org/wikipedia/commons/b/b3/Subnetting_Concept.svg)
 
-![subnetting|700](https://miro.medium.com/max/1400/0*xvktLgjkeydPSp5M.png)
-- --
+![subnetting](https://miro.medium.com/max/1400/0*xvktLgjkeydPSp5M.png)
+
+---
+
 ## Common terms in subnetting
 IF IP= 192.168.0.1/24
 
@@ -42,11 +50,15 @@ IP range : 192.168.0.1-192.168.0.254
 **Default gateway**
 Default gateway is an IP address that traffic gets sent to when it's bound for a destination outside the current network. Basically IP of router
 IP : 192.168.0.1 ( generally at start of possible )
-- --
+
+---
+
 ## VLSM
 Variable Length Subnetting Mask
 IP blocks are divided even further and length of network id varies.
-- --
+
+---
+
 ### Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Subnetwork)
 - [Youtube](https://youtu.be/OqsXzkXfwRw)

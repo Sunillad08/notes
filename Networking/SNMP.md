@@ -1,16 +1,22 @@
 # SNMP
-[Back to networking page](../index.md)
-- --
+[Back to networking page](./index.md)
+
+---
+
 ## What is SNMP?
 **Simple Network Management Protocol** (SNMP) is an Internet Standard protocol for collecting and organizing information about managed devices on IP networks and for modifying that information to change device behaviour. Devices that typically support SNMP include cable modems, routers, switches, servers, workstations, printers, and more.
 
 ![snmp|700](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SNMP_communication_principles_diagram.PNG/500px-SNMP_communication_principles_diagram.PNG)
-- --
+
+---
+
 ## Why SNMP is used?
 SNMP is widely used in network management for network monitoring. SNMP exposes management data in the form of variables on the managed systems organized in a management information base (MIB) which describe the system status and configuration. These variables can then be remotely queried (and, in some circumstances, manipulated) by managing applications.
 
 Runs on port 161 and 162.
-- --
+
+---
+
 ## SNMP Header
 
 |IP header|UDP header|version|community|PDU-type|request-id|error-status|error-index|variable bindings|
@@ -32,7 +38,9 @@ The seven SNMP PDU types as identified by the PDU-type field are as follows:
 	Asynchronous notification from agent to manager. While in other SNMP communication, the manager actively requests information from the agent, these are PDUs that are sent from the agent to the manager without being explicitly requested. SNMP traps enable an agent to notify the management station of significant events by way of an unsolicited SNMP message. Trap PDUs include current sysUpTime value, an OID identifying the type of trap and optional variable bindings. Destination addressing for traps is determined in an application-specific manner typically through trap configuration variables in the MIB. The format of the trap message was changed in SNMPv2 and the - PDU was renamed SNMPv2-Trap.
 - InformRequest
 	Acknowledged asynchronous notification. This PDU was introduced in SNMPv2 and was originally defined as manager to manager communication. Later implementations have loosened the original definition to allow agent to manager communications. Manager-to-manager notifications were already possible in SNMPv1 using a Trap, but as SNMP commonly runs over UDP where delivery is not assured and dropped packets are not reported, delivery of a Trap was not guaranteed. InformRequest fixes this as an acknowledgement is returned on receipt.
-- --
+
+---
+
 ### Source
 - [Youtube video](https://youtu.be/2IXP0TkwNJU)
 - [Certbros YT Video](https://youtu.be/Lq7j-QipNrI)

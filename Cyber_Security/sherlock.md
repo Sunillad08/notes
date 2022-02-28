@@ -1,9 +1,13 @@
 # Sherlock
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is sherlock??
 🔎 Hunt down social media accounts by username across social networks!
-- --
+
+---
+
 ## Usage
 get git repo on device
 pip3 install -r requirements.txt
@@ -30,7 +34,9 @@ python3 sherlock USERNAME
 |--browse, -b| Browse to all results on default browser.|
 |--local, -l | Force the use of the local data.json file.|
 
-- --
+
+---
+
 ### Source:
 - [Null Byte YT video](https://youtu.be/HrqYGTK8-bo)
 - [Sherlock repository](https://github.com/sherlock-project/sherlock)

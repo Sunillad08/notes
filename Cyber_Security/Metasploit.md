@@ -1,6 +1,8 @@
 # Metasploit
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is metasploit?
 The **Metasploit** Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development. It is owned by Boston, Massachusetts-based security company Rapid7.
 
@@ -9,10 +11,14 @@ Its best-known sub-project is the open-source Metasploit Framework, a tool for d
 The Metasploit Project includes anti-forensic and evasion tools, some of which are built into the Metasploit Framework. Metasploit is pre-installed in the Kali Linux operating system. - Wikipedia 
 
 The [Metasploit Framework](https://github.com/rapid7/metasploit-framework) (MSF) is far more than just a collection of exploits–it is also a solid foundation that you can build upon and easily customize to meet your needs.
-- --
+
+---
+
 ## Architecture
 ![Metasploit architecture|700](https://www.offensive-security.com/wp-content/uploads/2015/04/msfarch2.png)
-- --
+
+---
+
 ## File system
 ![Msf file system|700](https://www.offensive-security.com/wp-content/uploads/2018/05/msfu-lib0-1.png)
 
@@ -24,7 +30,9 @@ The [Metasploit Framework](https://github.com/rapid7/metasploit-framework) (MSF)
 - SCRIPTS : The scripts directory contains Meterpreter and other scripts.
 - TOOLS : The tools directory has various useful command-line utilities.
 
-- --
+
+---
+
 ## METASPLOIT MODULES AND LOCATIONS
 In the Metasploit Framework, _exploit_ modules are defined as modules that use payloads.
 Auxiliary modules include port scanners, fuzzers, sniffers, and more. Payloads consist of code that runs remotely, while encoders ensure that payloads make it to their destination intact. Nops keep the payload sizes consistent across exploit attempts. If you need to load additional modules from with msfconsole, use the loadpath command.
@@ -40,7 +48,9 @@ _Payloads_ are slightly different.
 -   Payloads are created at runtime from various components
 -   Glue together stagers with stages
 
-- --
+
+---
+
 ## msfconsole
 msfconsole is console version to use metasploit.
 Here are basic commands :
@@ -94,7 +104,9 @@ unsetg        Unsets one or more global variables
 use           Selects a module by name
 version       Show the framework and console library version numbers
 ```
-- --
+
+---
+
 ## Payload
 A payload in Metasploit refers to an exploit module. There are three different types of payload modules in the Metasploit Framework: Singles, Stagers, and Stages.
 
@@ -102,7 +114,9 @@ A payload in Metasploit refers to an exploit module. There are three different t
 - **Stagers** setup a network connection between the attacker and victim and are designed to be small and reliable. It is difficult to always do both of these well so the result is multiple similar stagers. Metasploit will use the best one when it can and fall back to a less-preferred one when necessary.
 - **Stages** are payload components that are downloaded by Stagers modules. The various payload stages provide advanced features with no size limits such as Meterpreter, VNC Injection, and the iPhone ‘ipwn’ Shell.
 
-- --
+
+---
+
 ## Database in metasploit
 When conducting a penetration test, it is frequently a challenge to keep track of everything you have done on (or to) the target network. This is where having a database configured can be a great timesaver. Metasploit has built-in support for the PostgreSQL database system.
 
@@ -133,7 +147,9 @@ Issuing the ```workspace``` command from the msfconsole, will display the curren
 
 Adding workspace : ```workspace -a lab4```
 Removing workspace : ```workspace -d lab4```
-- --
+
+---
+
 ## Meterpreter
 **Meterpreter**, the short form of Meta-Interpreter is an advanced, multi-faceted payload that operates via dll injection. The Meterpreter resides completely in the memory of the remote host and leaves no traces on the hard drive, making it very difficult to detect with conventional forensic techniques. Scripts and plugins can be loaded and unloaded dynamically as required and Meterpreter development is very strong and constantly evolving.
 
@@ -166,12 +182,16 @@ upload          uploads file on remote machine
 webcam_list     display currently available web cams on the target host
 webcam_snap     grabs a picture from a connected web cam on the target system
 ```
-- --
+
+---
+
 ## Information gathering in metasploit
 db_nmap command to run [nmap](nmap.md) against our targets and our scan results would than be stored automatically in our database.
 
 Metasploit has many more port scanners located in  auxiliary/scanner/.
-- --
+
+---
+
 ## Components in Metasploit
 - Auxiliary: Any supporting module, such as scanners, crawlers and fuzzers.
 - Encoders: Encoders will allow you to encode the exploit and payload in the hope that a signature-based antivirus solution may miss them.
@@ -180,13 +200,19 @@ Metasploit has many more port scanners located in  auxiliary/scanner/.
 - NOPs: NOPs (No OPeration) do nothing, literally. 
 - Payloads: Payloads are codes that will run on the target system. 
 - Post: Post modules will be useful on the final stage of the penetration testing process listed above, post-exploitation.
-- --
+
+---
+
 ## Ranking modules
 ![Ranking in msf|700](https://tryhackme-images.s3.amazonaws.com/user-uploads/603df7900d7b6f1dff18b0bd/room-content/a88c8d37283878e01447853a68578deb.png)
-- --
+
+---
+
 ## Many more ..
 There are many more applications of metasploit , check official website , Youtube playlist for more.
-- --
+
+---
+
 ### Source
 - [offensive security metasploit](https://www.offensive-security.com/metasploit-unleashed/)
 - [Hackersploit playlist](https://youtube.com/playlist?list=PLBf0hzazHTGN31ZPTzBbk70bohTYT7HSm)

@@ -1,12 +1,18 @@
 # SQL Injection
-[Back to Cyber security page](../index.md)
-- --
+[Back to Cyber security page](./index.md)
+
+---
+
 ## What is Database?
 A database is a way of electronically storing collections of data in an organised manner. A database is controlled by a DBMS which is an acronym for  Database Management System, DBMS's fall into two camps Relational or Non-Relational, the focus of this room will be on Relational databases,  some common one's you'll come across are MySQL, Microsoft SQL Server, Access, PostgreSQL and SQLite. 
-- --
+
+---
+
 ## SQL
 SQL (Structured Query Language) is a feature-rich language used for querying databases, these SQL queries are better referred to as statements.
-- --
+
+---
+
 ## What is SQL Injection?
 The point wherein a web application using SQL can turn into SQL Injection is when user-provided data gets included in the SQL query.
 

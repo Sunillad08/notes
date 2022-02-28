@@ -1,10 +1,14 @@
 # Hping3
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## Hping3
 Hping3 is used to ping sweep network
 [nmap](nmap.md) can do same but this gives us options of basic level
-- --
+
+---
+
 ## Syntax
 usage: hping3 host options
 - Basic
@@ -25,7 +29,9 @@ usage: hping3 host options
   -Z  --unbind    unbind ctrl+z
       --beep      beep for every matching packet received
 ```
-- --
+
+---
+
 - Mode
 ```bash
   default mode     TCP
@@ -36,7 +42,9 @@ usage: hping3 host options
                    Example: hping --scan 1-30,70-90 -S www.target.host
   -9  --listen     listen mode
 ```
-- --
+
+---
+
 - IP
 ```bash
   -a  --spoof      spoof source address
@@ -57,7 +65,9 @@ usage: hping3 host options
   --ssrr           strict source routing and record route
   -H  --ipproto    set the IP protocol field, only in RAW IP mode
 ```
-- --
+
+---
+
 - ICMP
 ```bash
   -C  --icmptype   icmp type (default echo request)
@@ -68,7 +78,9 @@ usage: hping3 host options
       --icmp-addr  Alias for --icmp --icmptype 17 (ICMP address subnet mask)
       --icmp-help  display help for others icmp options
 ```
-- --
+
+---
+
 - UDP/TCP
 ```bash
   -s  --baseport   base source port             (default random)
@@ -94,7 +106,9 @@ usage: hping3 host options
   --tcp-mss        enable the TCP MSS option with the given value
   --tcp-timestamp  enable the TCP timestamp option to guess the HZ/uptime
 ```
-- --
+
+---
+
 - Common
 ```bash
   -d  --data       data size                    (default is 0)
@@ -111,7 +125,9 @@ usage: hping3 host options
 ARS packet description (new, unstable)
   --apd-send       Send the packet described with APD (see docs/APD.txt)
 ```
-- --
+
+---
+
 ### Source
 - CEH Book
 - man page

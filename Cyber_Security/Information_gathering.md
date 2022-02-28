@@ -1,10 +1,13 @@
 # Information Gathering
-[Back to Cyber security page](../index.md)
+[Back to Cyber security page](./index.md)
 
--  -- 
+---
+
 ### Why?
 - Information gathering gives bigger surface for attacks and helps to find vulnerable systems easily.
-- --
+
+---
+
 ### Subdomain Enumeration
 - subdomains may have outdated or buggy software which can help us to get access to main domain
 - Forgotten subdomain are rarely maintained so chances of being easy targets.
@@ -19,6 +22,7 @@
 - amass
 	- ```amass -d google.com```
 
-- --
+---
+
 ### Sources :
 - [ine website](https://my.ine.com/CyberSecurity/courses/6f986ca5/penetration-testing-basics)

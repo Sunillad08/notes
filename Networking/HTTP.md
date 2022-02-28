@@ -1,6 +1,8 @@
 # HTTP
-[Back to networking page](../index.md)
-- --
+[Back to networking page](./index.md)
+
+---
+
 ## What is HTTP?
 **Hyper Text Transfer Protocol**
 The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.
@@ -8,11 +10,15 @@ The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the I
 Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989. Development of early HTTP Requests for Comments (RFCs) was a coordinated effort by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C), with work later moving to the IETF.
 
 Runs on port 80.
-- --
+
+---
+
 ## Why HTTP is used?
 HTTP is used to tranfer data which is in form of web pages and many more things.
 Internet basically runs on HTTP protocol.
-- --
+
+---
+
 ## Request methods
 
 An HTTP/1.1 request made using telnet. The request message, response header section, and response body are highlighted.
@@ -43,7 +49,9 @@ Method names are case sensitive This is in contrast to HTTP header field names w
 All general-purpose HTTP servers are required to implement at least the GET and HEAD methods, and all other methods are considered optional by the specification.
 
 ![http|700](https://media.geeksforgeeks.org/wp-content/uploads/20191025104128/1041.png)
-- --
+
+---
+
 ## Status code
 A basic breakdown of the status codes is:
 
@@ -54,7 +62,9 @@ A basic breakdown of the status codes is:
 500-599: Server errors (The server tried, but something went wrong on their side)
 
 Check more detailed status code [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) ....
-- --
+
+---
+
 ## HTTP versions
 - HTTP/1.0 (1996)  
 - HTTP/1.1 (1997)  
@@ -67,10 +77,14 @@ Check more detailed status code [here](https://developer.mozilla.org/en-US/docs/
 - HTTP/1.1: Authentication (2014)  
 - HTTP/2 (2015)  
 - HTTP/2: HPACK Header Compression (2015)
-- --
+
+---
+
 ## HTTP Problem
 - Because HTTP transfers data in Plain text and that is security issue. That's why [HTTPS](HTTPS.md) is used.
-- --
+
+---
+
 ### Sources :
 - [Wiki](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 - [Detailed Youtube video](https://youtu.be/0OrmKCB0UrQ)

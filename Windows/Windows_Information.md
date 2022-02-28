@@ -1,6 +1,8 @@
 # Windows file system
 [Back to windows page](./index.md)
-- --
+
+---
+
 ## Windows versions
 The Windows operating system has a long history dating back to 1985, and currently, it is the dominant operating system in both home use and corporate networks. Because of this, Windows has always been targeted by hackers & malware writers.
 
@@ -11,7 +13,9 @@ When Microsoft announced the end-of-life date for Windows XP, many customers pan
 Windows 7, as quickly as it was released soon after, was marked with an end of support date. Windows 8.x came and left and it was short-lived, like Vista. Then arrived Windows 10, which is the current Windows operating system version for desktop computers. Windows 10 comes in 2 flavors, Home and Pro. You can read the difference between the Home and Pro here. Even though we didn't talk about servers, the current version of the Windows operating system for servers is Windows Server 2019.Many critics like to bash on Microsoft, but they have made long strides to improve the usability and security with each new version of Windows.
 
 "Microsoft will continue to support at least one Windows 10 Semi-Annual Channel until October 14, 2025". Windows 11 now is the current Windows operating system for end-users.
-- --
+
+---
+
 ## File system
 The file system used in modern versions of Windows is the **New Technology File System** or simply [NTFS](https://docs.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview).
 
@@ -64,7 +68,9 @@ From a security perspective, malware writers have used ADS to hide data.
 Not all its uses are malicious. For example, when you download a file from the Internet, there are identifiers written to ADS to identify that the file was downloaded from the Internet.
 
 To learn more about ADS, refer to the following link from MalwareBytes [here](https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/).
-- --
+
+---
+
 ## Windows System 32 folder
 The Windows folder (`C:\Windows`) is traditionally known as the folder which contains the Windows operating system. 
 
@@ -79,7 +85,9 @@ The System32 folder holds the important files that are critical for the operatin
 You should proceed with extreme caution when interacting with this folder. Accidentally deleting any files or folders within System32 can render the Windows OS inoperational. Read more about this action [here](https://www.howtogeek.com/346997/what-is-the-system32-directory-and-why-you-shouldnt-delete-it/). 
 
 **Note**: Many of the tools that will be covered in the Windows Fundamentals series reside within the System32 folder.
-- --
+
+---
+
 ## User Account
 User accounts can be one of two types on a typical local Windows system: Administrator & Standard User. 
 
@@ -114,6 +122,8 @@ Each user profile will have the same folders; a few of them are:
 - Downloads
 - Music
 - Pictures
+
+
 Another way to access this information, and then some, is using Local User and Group Management. 
 
 Right-click on the Start Menu and click Run. Type lusrmgr.msc. See below
@@ -125,7 +135,9 @@ If you click on Groups, you see all the names of the local groups along with a b
 Each group has permissions set to it, and users are assigned/added to groups by the Administrator. When a user is assigned to a group, the user inherits the permissions of that group. A user can be assigned to multiple groups.
 
 Note: If you click on Add someone else to this PC from Other users, it will open Local Users and Management. 
-- --
+
+---
+
 ## User Account Control
 The large majority of home users are logged into their Windows systems as local administrators. Remember from the previous task that any user with administrator as the account type can make changes to the system.
 
@@ -154,7 +166,9 @@ Double-click the program, and you'll see the UAC prompt. Notice that the built-i
 After some time, if a password is not entered, the UAC prompt disappears, and the program does not install. 
 
 This feature reduces the likelihood of malware successfully compromising your system. You can read more about UAC here.
-- --
+
+---
+
 ## System Configuration
 The System Configuration utility (MSConfig) is for advanced troubleshooting, and its main purpose is to help diagnose startup issues. 
 
@@ -175,7 +189,9 @@ In the Boot tab, we can define various boot options for the Operating System.
 The Services tab lists all services configured for the system regardless of their state (running or stopped). A service is a special type of application that runs in the background.  
 
 As you can see, Microsoft advises using Task Manager (taskmgr) to manage (enable/disable) startup items. The System Configuration utility is NOT a startup management program. 
-- --
+
+---
+
 ## Computer Management
 We're continuing with Tools that are available through the System Configuration panel.
 
@@ -199,9 +215,13 @@ Event Viewer has three panes.
 There are five types of events that can be logged. Below is a table from [docs.microsoft.com](https://docs.microsoft.com/en-us/windows/win32/eventlog/event-types) providing a brief description for each.
 
 ![events](https://assets.tryhackme.com/additional/win-event-logs/five-event-types.png)
-- --
+
+---
+
 and many more information on windows on tryhackme rooms ....
-- --
+
+---
+
 ### Source 
 - [Tryhackme windows 1](https://tryhackme.com/room/windowsfundamentals1xbx)
 - [Tryhackme windows 2](https://tryhackme.com/room/windowsfundamentals2x0x)

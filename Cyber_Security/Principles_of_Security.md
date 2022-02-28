@@ -1,17 +1,25 @@
 # Principles of Security
-[Back to Cyber security page](../index.md)
-- --
+[Back to Cyber security page](./index.md)
+
+---
+
 ## CIA Triad
 [CIA_Triad](CIA_Triad.md)
-- --
+
+---
+
 ##  Principles of Privileges
 **Privileged Identity Management** : create a system role that is based on a users role/responsibilities with an organisation
 
 **Privileged Access Management** : Manage the privileges a system access role had
-- --
+
+---
+
 ## Security models
 [Control_policies_and_models](Control_policies_and_models.md)
-- --
+
+---
+
 ## Threat Modelling & Incident Response
  ### **STRIDE** 
 |Principle|Description|
@@ -25,6 +33,7 @@
 
 
 ### Computer Security Incident Response Team (CSIRT)
+
 |Action|Description|
 |:-:|:-|
 |Preparation|Do we have the resources and plans in place to deal with the security incident?|
@@ -33,6 +42,8 @@
 |Eradication|Remove the active threat.|
 |Recovery |Perform a full review of the impacted systems to return to business as usual operations.|
 |Lessons Learned|What can be learnt from the incident? I.e. if it was due to a phishing email, employees should be trained better to detect phishing emails.|
-- --
+
+---
+
 ### Source
 - [tryhackme room](https://tryhackme.com/room/principlesofsecurity)

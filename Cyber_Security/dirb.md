@@ -1,9 +1,13 @@
 # dirb
-[Back to cyber security page](../index.md)
-- --
+[Back to cyber security page](./index.md)
+
+---
+
 ## What is dirb?
 DIRB IS a Web Content Scanner. It looks for existing (and/or hidden) Web Objects. It basically works by launching a dictionary basesd attack against a web server and analizing the response.
-- --
+
+---
+
 ## Syntax
 dirb <url_base> <url_base> <wordlist_file(s)> options
 ```bash
@@ -42,6 +46,8 @@ dirb <url_base> <url_base> <wordlist_file(s)> options
 -z <milisecs>
                Amplify search with this extensions.
 ```
-- --
+
+---
+
 ### Source
 - Man page
