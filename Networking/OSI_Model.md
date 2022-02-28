@@ -1,13 +1,18 @@
 # OSI Model
 [Back to Networking page](./index.md)
-- --
+
+---
+
 - Open system interconnection model
 - 7 Layers
 - Developed by ISO
+
 ---
+
 ## OSI Model Diagram
+
 |Layer number|Name|
-|:--:|:--:|
+|:----------:|:--:|
 |7|Application layer|
 |6|Presentation layer|
 |5|Session layer|
@@ -15,7 +20,9 @@
 |3|Network layer|
 |2|Data link layer|
 |1|Physical layer|
-- --
+
+---
+
 - Application Layer : Layer consists many protocols such as file transfer protocol FTP , web service HTTP & HTTPS and for emails SMTP.
 
 - Presentation Layer : Presentation layer handles translation to binary , compresion & encryption/decryption.
