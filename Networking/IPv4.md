@@ -18,12 +18,12 @@ Example:
 191.52.148.36
 192.168.0.104
 
-![format|700](https://www.cuehosting.com/blog/wp-content/uploads/2019/04/ipv41.jpg)
+![format](https://www.cuehosting.com/blog/wp-content/uploads/2019/04/ipv41.jpg)
 
 ---
 
 ## Header format
-![header|700](https://cdn.networklessons.com/wp-content/uploads/2015/07/xip-packet-header-fields.png.pagespeed.ic.dUO9mx29JP.png)
+![header](https://cdn.networklessons.com/wp-content/uploads/2015/07/xip-packet-header-fields.png.pagespeed.ic.dUO9mx29JP.png)
 
 - Version
 	The first header field in an IP packet is the four-bit version field. For IPv4, this is always equal to 4.
@@ -62,7 +62,7 @@ Example:
 
 **Difference between IPv4 and IPv6**
 
-![difference|700](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
+![difference](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
 
 ---
 

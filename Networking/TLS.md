@@ -12,7 +12,7 @@ Certificate cheking is key component.
 ---
 
 ## About TLS
-![TLS|700](https://miro.medium.com/max/1838/1*sitCoc2_vodeiFMC1hcU9A.png)
+![TLS](https://miro.medium.com/max/1838/1*sitCoc2_vodeiFMC1hcU9A.png)
 
 
 ---

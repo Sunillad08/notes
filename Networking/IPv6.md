@@ -22,7 +22,7 @@ Example:
 ---
 
 ## IPv6 Header
-![header|700](https://upload.wikimedia.org/wikipedia/commons/6/6b/IPv6_header_rv1.png)
+![header](https://upload.wikimedia.org/wikipedia/commons/6/6b/IPv6_header_rv1.png)
 
 - Version (4 bits)
 	The constant 6 (bit sequence 0110).
@@ -48,13 +48,13 @@ In order to increase performance, and since current link layer technology and tr
 ---
 
 ## Extension headers
-![extension headers|700](https://media.geeksforgeeks.org/wp-content/uploads/next-header-2.png)
+![extension headers](https://media.geeksforgeeks.org/wp-content/uploads/next-header-2.png)
 
 ---
 
 **Difference between IPv4 and IPv6**
 
-![difference|700](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
+![difference](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
 
 ---
 

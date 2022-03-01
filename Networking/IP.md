@@ -29,9 +29,9 @@ Private IP is IP given in Internal network and using [Subnetting](Subnetting.md)
 ---
 
 ## IP addresses divided in classes: 
- ![ip address blocks|700](https://4.bp.blogspot.com/--yi2nvFpat4/U-3d8GB9KvI/AAAAAAAANoo/EjfJIHi8jM4/s1600/Classes%2Bof%2BIP.png)
+ ![ip address blocks](https://4.bp.blogspot.com/--yi2nvFpat4/U-3d8GB9KvI/AAAAAAAANoo/EjfJIHi8jM4/s1600/Classes%2Bof%2BIP.png)
  
-  ![ip address blocks|700](https://embeddedgeeks.com/wp-content/uploads/2020/06/ip_Class-1.png)
+  ![ip address blocks](https://embeddedgeeks.com/wp-content/uploads/2020/06/ip_Class-1.png)
 
 ---
 
@@ -42,7 +42,7 @@ Classful Routing does not import subnet mask. And in this also subnet mask is pr
 ### Classless addressing
 Classless Routing imports subnet mask and in this, triggered updates are used. In classless routing, VLMS (Variable Length Subnet Mask) is supported and also CIDR (Classless Inter-Domain Routing).
 
-![classless vs classfull|700](https://i1.wp.com/ipwithease.com/wp-content/uploads/2018/01/119-classful-vs-classless-routing-01.png?resize=686%2C568)
+![classless vs classfull](https://i1.wp.com/ipwithease.com/wp-content/uploads/2018/01/119-classful-vs-classless-routing-01.png?resize=686%2C568)
 
 ---
 
@@ -67,11 +67,11 @@ Classless Routing imports subnet mask and in this, triggered updates are used. I
 	- XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
 	- 2^128 devices can be connected
 
-![headers|700](https://www.researchgate.net/profile/Muzhir-Al-Ani/publication/269810379/figure/fig1/AS:295073662160901@1447362451826/Comparison-of-IPv4-and-IPv6-headers-structures-15.png)
+![headers](https://www.researchgate.net/profile/Muzhir-Al-Ani/publication/269810379/figure/fig1/AS:295073662160901@1447362451826/Comparison-of-IPv4-and-IPv6-headers-structures-15.png)
 
 **Difference between IPv4 and IPv6**
 
-![difference|700](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
+![difference](https://4.bp.blogspot.com/-pBo1LxiPYoE/WNOgKMJmBII/AAAAAAAAAeY/D_kfnwJQYIAc74IFyxcjgQJ489ZsFtf-gCLcB/s1600/p4.png)
 
 ---
 

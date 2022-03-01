@@ -17,7 +17,7 @@ Devices in a Local Area Network(LAN) are programmed to communicate using link la
 ## How does it work?
 - Every device that is capable of handling IPv4 packets has an ARP table. An ARP table consists of IPv4 address to MAC address mappings. Switches do not have an ARP table as they are not equipped to handle IP packets. However, switches maintain another kind of cache mapping the MAC address of the non-switch devices connected to this LAN to the port where packets should go to reach that device. Switches will send out the packet on all the enabled ports if they do not have the destination MAC address in the cache.
 
-![ARP|700](https://www.section.io/engineering-education/address-resolution-protocol/arpExample.jpg)
+![ARP](https://www.section.io/engineering-education/address-resolution-protocol/arpExample.jpg)
 - When device 1 with IP 192.168.10.154 wants to send a packet to device 3 with IP 192.168.10.160, it looks into its ARP cache to fetch device 3’s MAC address. If the IP to MAC translation for device 3 does not exist in the ARP cache, device 1 sends a broadcast packet to the network using the ARP protocol to ask “who has 192.168.10.160?".
 - All the devices in that network receive the ARP broadcast packet. The device with the requested IP address will reply with an ARP response that contains its MAC address. Note that the ARP response is unicast i.e it is sent only to the device that sent the ARP request. On receiving the ARP response, device 1 updates its ARP table with an entry for device 3. The switch too, updates its ARP cache noting which of its ports is connected to device 3.
 

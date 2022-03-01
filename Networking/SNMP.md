@@ -6,7 +6,7 @@
 ## What is SNMP?
 **Simple Network Management Protocol** (SNMP) is an Internet Standard protocol for collecting and organizing information about managed devices on IP networks and for modifying that information to change device behaviour. Devices that typically support SNMP include cable modems, routers, switches, servers, workstations, printers, and more.
 
-![snmp|700](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SNMP_communication_principles_diagram.PNG/500px-SNMP_communication_principles_diagram.PNG)
+![snmp](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SNMP_communication_principles_diagram.PNG/500px-SNMP_communication_principles_diagram.PNG)
 
 ---
 

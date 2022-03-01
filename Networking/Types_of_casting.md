@@ -5,7 +5,7 @@
 
 ## Types of casting
 
-![types of casting|700](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Types-of-Casting.png)
+![types of casting](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Types-of-Casting.png)
 
 ---
 
@@ -13,7 +13,7 @@
 One host to one destination
 One to one trasmission
 
-![unicast|700](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Unicast-Diagram.png)
+![unicast](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Unicast-Diagram.png)
 
 ---
 
@@ -24,12 +24,12 @@ One to all transmission
 ### Limited broadcast
 One source to all host in **same network**
 
-![limited broadcast|300](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Limited-Broadcast-Diagram.png)
+![limited broadcast](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Limited-Broadcast-Diagram.png)
 
 ### Direct broadcast
 One source to all host in **different network**
 
-![limited broadcast|700](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Direct-Broadcast-Diagram.png)
+![limited broadcast](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Direct-Broadcast-Diagram.png)
 
 ---
 
@@ -37,7 +37,7 @@ One source to all host in **different network**
 One source to more than 1 destination
 One to many transmission
 
-![multicast|700](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Multicast-Diagram.png)
+![multicast](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Multicast-Diagram.png)
 
 ---
 
@@ -45,7 +45,7 @@ One to many transmission
 Introduced because IPv6 doesn't support broadcast
 One to one(random/Nearest)
 
-![anycast|700](https://ma.ttias.be/wp-content/uploads/2010/03/anycast.png)
+![anycast](https://ma.ttias.be/wp-content/uploads/2010/03/anycast.png)
 
 ---
 

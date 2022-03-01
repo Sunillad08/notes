@@ -32,7 +32,7 @@ When a recursive resolver receives a response from a TLD nameserver, that respon
 ---
 
 ## How does DNS work?
-![DNS|700](https://www.appneta.com/assets/Screen-Shot-2018-12-20-at-4.25.01-PM.png)
+![DNS](https://www.appneta.com/assets/Screen-Shot-2018-12-20-at-4.25.01-PM.png)
 - DNS resolver checks its cache for IP address.
 - If not found then DNS query is sent by DNS resolver to root name server. 
 - Root name server then checks domain extention such as .com or .net

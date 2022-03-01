@@ -9,7 +9,7 @@ About [TCP_IP](TCP_IP.md)
 ---
 
 ## Protocol Suite
-![Diagram|700](https://www.distributednetworks.com/dhcp-tcp-ip/module3/images/protocol_main.gif)
+![Diagram](https://www.distributednetworks.com/dhcp-tcp-ip/module3/images/protocol_main.gif)
 
 This and many more protocols are disscussed in [Network_protocols](Network_protocols.md) section.
 

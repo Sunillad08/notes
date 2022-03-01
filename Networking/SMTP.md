@@ -13,7 +13,7 @@ SMTP stands for **Simple Mail Transfer Protocol**. SMTP is a set of communicatio
 ---
 
 ## How SMTP works?
-![SMTP|700](https://serversmtp.com/wp-content/uploads/2018/02/what-is-an-smtp-server.png)
+![SMTP](https://serversmtp.com/wp-content/uploads/2018/02/what-is-an-smtp-server.png)
 
 SMTP sends email to sender's receiving SMTP server.
 Then it is sent to receiver's [[POP3]] or [[IMAP]] server and downloaded to receiver's device.

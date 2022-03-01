@@ -28,7 +28,7 @@ We will take a look at important operators:
 
 ... check all [Advance Operators](https://en.wikipedia.org/wiki/Google_hacking)
 
-![dorking|700](https://www.cybrary.it/wp-content/uploads/2016/06/Google-Dorks-Guide-8.5x14-1.jpg)
+![dorking](https://www.cybrary.it/wp-content/uploads/2016/06/Google-Dorks-Guide-8.5x14-1.jpg)
 
 ---
 

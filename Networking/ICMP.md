@@ -12,7 +12,7 @@ ICMP differs from transport protocols such as TCP and UDP in that it is not typi
 ---
 
 ## ICMP Headers
-![ICMP|700](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fo_t2kyR404k%2Fmaxresdefault.jpg&f=1&nofb=1)
+![ICMP](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fo_t2kyR404k%2Fmaxresdefault.jpg&f=1&nofb=1)
 
 - Type : ICMP type, see Control messages.
 - Code : ICMP subtype, see Control messages.

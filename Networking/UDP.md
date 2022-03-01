@@ -19,7 +19,7 @@ The protocol was designed by David P. Reed in 1980 and formally defined in RFC 7
 ---
 
 ## UDP Header
-![UDP header|700](https://i2.wp.com/ipwithease.com/wp-content/uploads/2018/01/091-udp-user-datagram-protocol-01.png)
+![UDP header](https://i2.wp.com/ipwithease.com/wp-content/uploads/2018/01/091-udp-user-datagram-protocol-01.png)
 A UDP datagram consists of a datagram header and a data section. The UDP datagram header consists of 4 fields, each of which is 2 bytes (16 bits). The data section follows the header and is the payload data carried for the application.
 
 - Source port number

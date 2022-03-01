@@ -16,7 +16,7 @@ Example:
 192.168.0.8:80 -> 1.2.3.4:12
 192.168.0.8:85 -> 1.2.3.4:13
 
-![PAT|700](https://qph.fs.quoracdn.net/main-qimg-61f8d3d6d39bcce4f1398a319aa2775a)
+![PAT](https://qph.fs.quoracdn.net/main-qimg-61f8d3d6d39bcce4f1398a319aa2775a)
 
 ---
 

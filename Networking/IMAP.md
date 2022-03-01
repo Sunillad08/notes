@@ -11,7 +11,7 @@ Much better than [POP3](POP3.md).
 
 ---
 
-![pop3|700](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Simple-Mail-Transfer-Protocol-1.png)
+![pop3](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Simple-Mail-Transfer-Protocol-1.png)
 
 ---
 

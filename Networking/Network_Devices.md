@@ -10,7 +10,7 @@
 - Works on Physical layer
 - No more used 
 
-![hub|700](https://upload.wikimedia.org/wikipedia/commons/d/d9/4_port_netgear_ethernet_hub.jpg)
+![hub](https://upload.wikimedia.org/wikipedia/commons/d/d9/4_port_netgear_ethernet_hub.jpg)
 
 ---
 
@@ -19,7 +19,7 @@
 - Used for extending range , improving speed
 - Mainly used in wireless but wired use too
 
-![Repeater|700](https://ecomputerconcepts.com/wp-content/uploads/2020/11/Network-Repeater.jpg)
+![Repeater](https://ecomputerconcepts.com/wp-content/uploads/2020/11/Network-Repeater.jpg)
 
 ---
 
@@ -38,7 +38,7 @@
 - Used to modulate and demodulate
 - Need high speed conversion
 
-![Modem|700](https://i2.wp.com/www.edupointbd.com/wp-content/uploads/2017/08/1.png?w=606&ssl=1)
+![Modem](https://i2.wp.com/www.edupointbd.com/wp-content/uploads/2017/08/1.png?w=606&ssl=1)
 
 ---
 
@@ -56,7 +56,7 @@
 - Used in LAN to create network
 - Effiecient at connecting devices
 
-![Switch|700](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/555px-2550T-PWR-Front.jpg)
+![Switch](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/555px-2550T-PWR-Front.jpg)
 
 ---
 
@@ -68,7 +68,7 @@
 - Can be used for wireless connection
 - Have in-built switch properties
 
-![Router|700](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Adsl_connections.jpg/1200px-Adsl_connections.jpg)
+![Router](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Adsl_connections.jpg/1200px-Adsl_connections.jpg)
 
 ---
 

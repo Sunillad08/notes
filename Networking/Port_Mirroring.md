@@ -11,7 +11,7 @@ Port mirroring is used on a network switch or a router to send a copy of network
 ## Why port mirroring is used?
 For inspecting and analyzing traffic on particular device.
 
-![port mirroring|700](https://www.pcwdld.com/wp-content/uploads/port-mirroring-explanation-and-howto-tutorial-and-lab-730x480.jpg)
+![port mirroring](https://www.pcwdld.com/wp-content/uploads/port-mirroring-explanation-and-howto-tutorial-and-lab-730x480.jpg)
 
 ---
 

@@ -23,8 +23,9 @@ MAC address works at link layer of OSI model whereas, [IP](IP.md) address works 
 - Hardcoded on [NIC](NIC.md) 
 - 48 bits length
 
-![MAC|700](https://miro.medium.com/max/1200/1*FLrfO7JzkOWSBkPBYly37w.png)
-![mac|700](https://cdn.guru99.com/images/2/022220_0757_WhatisaMACA1.png)
+![MAC](https://miro.medium.com/max/1200/1*FLrfO7JzkOWSBkPBYly37w.png)
+
+![mac](https://cdn.guru99.com/images/2/022220_0757_WhatisaMACA1.png)
 
 ---
 

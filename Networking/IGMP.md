@@ -8,7 +8,7 @@
 
 IGMP is used on [IPv4](IPv4.md) networks. Multicast management on [IPv6](IPv6.md) networks is handled by Multicast Listener Discovery (MLD) which is a part of ICMPv6 in contrast to IGMP's bare IP encapsulation.
 
-![IGMP|700](https://networklessons.com/wp-content/uploads/2018/02/multicast-igmp-proxy-example.png)
+![IGMP](https://networklessons.com/wp-content/uploads/2018/02/multicast-igmp-proxy-example.png)
 
 ---
 

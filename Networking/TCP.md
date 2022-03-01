@@ -15,7 +15,7 @@ TCP is connection-oriented, and a connection between client and server is establ
 ---
 
 ## TCP Header
-![TCP|700](https://www.lifewire.com/thmb/OhU9Rn5-Myfpbzjyy98U8UMAMCs=/1235x695/smart/filters:no_upscale()/tcp-headers-f2c0881ea4c94e919794b7c0677ab90a.jpg)
+![TCP](https://www.lifewire.com/thmb/OhU9Rn5-Myfpbzjyy98U8UMAMCs=/1235x695/smart/filters:no_upscale()/tcp-headers-f2c0881ea4c94e919794b7c0677ab90a.jpg)
 - Source port (16 bits) : Identifies the sending port.
 - Destination port (16 bits) : Identifies the receiving port.
 - Sequence number (32 bits) : Has a dual role:
@@ -48,7 +48,7 @@ TCP is connection-oriented, and a connection between client and server is establ
 Check [TCP_IP_3_way_handshake](TCP_IP_3_way_handshake.md) for connection info
 
 For termination this is procedure
-![TCP close connection|700](http://www.cablefree.net/support/radio/software/images/f/fc/Image2001.gif)
+![TCP close connection](http://www.cablefree.net/support/radio/software/images/f/fc/Image2001.gif)
 
 ---
 

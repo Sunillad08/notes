@@ -22,7 +22,7 @@ NIC is both a physical layer and a data link layer device, i.e. it provides the 
 NIC allows communications between computers connected via local area network LAN as well as communications over large-scale network through Internet Protocol [IP](IP.md).
 
 
-![NIC card|700](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/An_Intel_82574L_Gigabit_Ethernet_NIC%2C_PCI_Express_x1_card.jpg/1200px-An_Intel_82574L_Gigabit_Ethernet_NIC%2C_PCI_Express_x1_card.jpg)
+![NIC card](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/An_Intel_82574L_Gigabit_Ethernet_NIC%2C_PCI_Express_x1_card.jpg/1200px-An_Intel_82574L_Gigabit_Ethernet_NIC%2C_PCI_Express_x1_card.jpg)
 
 
 ---

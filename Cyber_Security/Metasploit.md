@@ -15,12 +15,12 @@ The [Metasploit Framework](https://github.com/rapid7/metasploit-framework) (MSF)
 ---
 
 ## Architecture
-![Metasploit architecture|700](https://www.offensive-security.com/wp-content/uploads/2015/04/msfarch2.png)
+![Metasploit architecture](https://www.offensive-security.com/wp-content/uploads/2015/04/msfarch2.png)
 
 ---
 
 ## File system
-![Msf file system|700](https://www.offensive-security.com/wp-content/uploads/2018/05/msfu-lib0-1.png)
+![Msf file system](https://www.offensive-security.com/wp-content/uploads/2018/05/msfu-lib0-1.png)
 
 - DATA : The data directory contains editable files used by Metasploit to store binaries required for certain exploits, wordlists, images, and more.
 - DOCUMENTATION : As its name suggests, the documentation directory contains the available documentation for the framework.
@@ -204,7 +204,7 @@ Metasploit has many more port scanners located in  auxiliary/scanner/.
 ---
 
 ## Ranking modules
-![Ranking in msf|700](https://tryhackme-images.s3.amazonaws.com/user-uploads/603df7900d7b6f1dff18b0bd/room-content/a88c8d37283878e01447853a68578deb.png)
+![Ranking in msf](https://tryhackme-images.s3.amazonaws.com/user-uploads/603df7900d7b6f1dff18b0bd/room-content/a88c8d37283878e01447853a68578deb.png)
 
 ---
 

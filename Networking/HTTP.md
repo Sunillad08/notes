@@ -48,7 +48,7 @@ Method names are case sensitive This is in contrast to HTTP header field names w
 	
 All general-purpose HTTP servers are required to implement at least the GET and HEAD methods, and all other methods are considered optional by the specification.
 
-![http|700](https://media.geeksforgeeks.org/wp-content/uploads/20191025104128/1041.png)
+![http](https://media.geeksforgeeks.org/wp-content/uploads/20191025104128/1041.png)
 
 ---
 

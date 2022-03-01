@@ -8,7 +8,7 @@ Border Gateway Protocol (BGP) is a standardized exterior gateway protocol design
 
 BGP used for routing within an autonomous system is called Interior Border Gateway Protocol, Internal BGP (iBGP). In contrast, the Internet application of the protocol is called Exterior Border Gateway Protocol, External BGP (eBGP).
 
-![BGP|700](https://www.ajsnetworking.com/wp-content/uploads/2018/01/Overview-Topo.png)
+![BGP](https://www.ajsnetworking.com/wp-content/uploads/2018/01/Overview-Topo.png)
 
 Point to point communication.
 
@@ -20,7 +20,7 @@ BGP neighbors, called peers, are established by manual configuration among route
 ---
 
 ## Header of BGP
-![header of BGP|700](https://image1.slideserve.com/3012582/bgp-messages-l.jpg)
+![header of BGP](https://image1.slideserve.com/3012582/bgp-messages-l.jpg)
 
 ---
 

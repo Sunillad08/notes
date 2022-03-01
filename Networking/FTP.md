@@ -18,7 +18,7 @@ Uses TCP
 - Upload files on server
 - Not encrypted , clear text transfer
 
-![FTP|700](https://images.ctfassets.net/bg6mjhdcqk2h/3kFoQpGfA7LNgm6kG5lq2W/b93b67522195335aec9c5b172d2e6500/Raysync_FTP_Server.png)
+![FTP](https://images.ctfassets.net/bg6mjhdcqk2h/3kFoQpGfA7LNgm6kG5lq2W/b93b67522195335aec9c5b172d2e6500/Raysync_FTP_Server.png)
 
 ---
 

@@ -13,7 +13,7 @@ EUI-64 (Extended Unique Identifier) is a method we can use to automatically conf
 - FIrst 24 bits of MAC + "FF" + "FE" + last 24 bits of MAC 
 - Then 7th bit from left to right (0->) is flipped .
 
-![calculation|700](https://kishorsonar1.files.wordpress.com/2011/05/eui1.png)
+![calculation](https://kishorsonar1.files.wordpress.com/2011/05/eui1.png)
 
 ---
 
