@@ -48,6 +48,7 @@
 - [sqlmap](sqlmap.md)
 - [smbmap](smbmap.md)
 - [smbclient](smbclient.md)
+- [steghide](steghide.md)
 
 ---
 
