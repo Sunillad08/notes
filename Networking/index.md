@@ -6,6 +6,8 @@
 ## Core Concept
 - [OSI_Model](OSI_Model.md)
 - [TCP_IP](TCP_IP.md)
+- [Physical Addressing](Physical%20Addressing.md)
+- [Logical Addressing](Logical%20Addressing.md)
 - [Subnetting](Subnetting.md)
 - [Switching](Switching.md)
 - [Frames](Frames.md)
