@@ -4,7 +4,9 @@
 ---
 
 ## TCP IP
-- TCP/IP model is actual implementation of [OSI_Model](OSI_Model.md)
+- TCP/IP model is kind of implementation of [OSI_Model](OSI_Model.md)
+- Vertical approach
+- Services , interface and protocols are not clearly distinguished
 - 5 Layers
 - Layer 7 to 5 of OSI layer combined into application layer in TCP/IP model.
 - Also layer 1 to 2 of OSI layer combined to form network access layer .
@@ -13,6 +15,17 @@
 ---
 
 ## TCP/IP Model Diagram
+
+|Layer number|Name|
+|:--:|:--:|
+|4|Application layer|
+|3|Transport layer|
+|2|Internet layer|
+|1|Host to network layer|
+
+---
+
+## TCP/IP Model Diagram (Hybrid)
 
 |Layer number|Name|
 |:--:|:--:|
@@ -35,6 +48,10 @@
 - Data Link Layer : Physical addressing like MAC done here. Also does framing i.e. creating frames.
 
 - Physical Layer :  Handles data conversion such as signal to bits . Determines types of media like light i.e. optical fiber, voltage like cable or signal  like wifi.
+
+---
+
+![TCP/IP](https://www.guru99.com/images/1/093019_0615_TCPIPModelW2.png)
 
 ---
 

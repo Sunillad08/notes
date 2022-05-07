@@ -7,7 +7,7 @@
 
 The Linux operating system is structured in a tree-like hierarchy and is documented in the [Filesystem Hierarchy](http://www.pathname.com/fhs/) Standard (FHS). Linux is structured with the following standard top-level directories:
 
-![linux file sytem|800](https://academy.hackthebox.eu/storage/modules/18/NEW_filesystem.png)
+![linux file sytem](https://academy.hackthebox.eu/storage/modules/18/NEW_filesystem.png)
 
 |**Path**|**Description**|
 |:-:|:-|

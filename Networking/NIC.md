@@ -30,11 +30,13 @@ NIC allows communications between computers connected via local area network LAN
 ## Types of NIC card
 **Internal Network Cards**
 In internal networks cards, motherboard has a slot for the network card where it can be inserted. It requires network cables to provide network access. Internal network cards are of two types. The first type uses Peripheral Component Interconnect (PCI) connection, while the second type uses Industry Standard Architecture (ISA).
-![Internal NIC|500](https://www.tutorialspoint.com/assets/questions/media/17618/chip.jpg)
+
+![Internal NIC](https://www.tutorialspoint.com/assets/questions/media/17618/chip.jpg)
 
 **External Network Cards**
 In desktops and laptops that do not have an internal NIC, external NICs are used. External network cards are of two types: Wireless and USB based. Wireless network card needs to be inserted into the motherboard, however no network cable is required to connect to the network. They are useful while traveling or accessing a wireless signal.
-![External NIC|500](https://www.tutorialspoint.com/assets/questions/media/17618/network.jpg)
+
+![External NIC](https://www.tutorialspoint.com/assets/questions/media/17618/network.jpg)
 
 
 ---

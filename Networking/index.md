@@ -6,8 +6,18 @@
 ## Core Concept
 - [OSI_Model](OSI_Model.md)
 - [TCP_IP](TCP_IP.md)
-- [Physical Addressing](Physical%20Addressing.md)
-- [Logical Addressing](Logical%20Addressing.md)
+
+---
+
+## Addressing
+- [Physical_Addressing](Physical_Addressing.md)
+- [Logical_Addressing](Logical_Addressing.md)
+- [Port_Addressing](Port_Addressing.md)
+- [Application_specific_address](Application_specific_address.md)
+
+---
+
+## Concepts
 - [Subnetting](Subnetting.md)
 - [Switching](Switching.md)
 - [Frames](Frames.md)
@@ -17,12 +27,13 @@
 
 ## Network Concepts
 - [Network_topologies](Network_topologies.md)
+- [Network_types](Network_types.md)
 - [Types_of_casting](Types_of_casting.md)
 - [Ports](Ports.md)
-- [Network_types](Network_types.md)
 - [TCP_IP_3_way_handshake](TCP_IP_3_way_handshake.md)
 - [Firewalls](Firewalls.md)
 - [VLAN](VLAN.md)
+- [Client-server_architecture](Client-server_architecture.md)
 
 ---
 

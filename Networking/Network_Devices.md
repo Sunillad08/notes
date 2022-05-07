@@ -3,7 +3,7 @@
 
 ---
 
-## HUB
+## Hub
 - Connects all Internal devices
 - Not so smart , transmitts packets to all connected devices
 - unnecessary traffic and wasting bandwidth
@@ -25,25 +25,12 @@
 
 ## Bridge
 - Intelligent repeater
+- Works as network bridging 
 - Works on data link layer
 - Keeps log of MAC address
 - Passes packets based on MAC address and where device is located
 
 ![Bridge](https://www.lifewire.com/thmb/Xkm1rc4iiMVjeoWz5N5cX19d07w=/1500x1000/filters:fill(auto,1)/how-network-bridges-work-816357-eea65d0c474e429883dca2bfdcc83c30.png)
-
----
-
-## Modem
-- Converts data from analog to digital and vice-versa
-- Used to modulate and demodulate
-- Need high speed conversion
-
-![Modem](https://i2.wp.com/www.edupointbd.com/wp-content/uploads/2017/08/1.png?w=606&ssl=1)
-
----
-
-## NIC
-- For more Info check [NIC](NIC.md)
 
 ---
 
@@ -57,6 +44,11 @@
 - Effiecient at connecting devices
 
 ![Switch](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/555px-2550T-PWR-Front.jpg)
+
+---
+
+## NIC
+- For more Info check [NIC](NIC.md)
 
 ---
 
@@ -75,11 +67,21 @@
 ## Gateways
 -  Works like router 
 -  Used to connect networks which uses different protocols
+-  provide translation services
 
 ---
 
 ## Wireless access point (WAP)
 - Basically routers with wireless connectivity 
+
+---
+
+## Modem
+- Converts data from analog to digital and vice-versa
+- Used to modulate and demodulate
+- Need high speed conversion
+
+![Modem](https://i2.wp.com/www.edupointbd.com/wp-content/uploads/2017/08/1.png?w=606&ssl=1)
 
 ---
 

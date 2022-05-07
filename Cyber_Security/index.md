@@ -49,6 +49,9 @@
 - [smbmap](smbmap.md)
 - [smbclient](smbclient.md)
 - [steghide](steghide.md)
+- [zsteg](zsteg.md)
+- [exiftool](exiftool.md)
+- [wfuzz](wfuzz.md)
 
 ---
 
