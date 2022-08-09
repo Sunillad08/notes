@@ -4,7 +4,8 @@
 ---
 
 ## What is TCP
-Transmission Control Protocol
+**Transmission Control Protocol**
+
 The **Transmission Control Protocol** (TCP) is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP). Therefore, the entire suite is commonly referred to as TCP/IP. TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network. Major internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP, which is part of the Transport Layer of the TCP/IP suite. SSL/TLS often runs on top of TCP.
 
 ---
@@ -15,7 +16,9 @@ TCP is connection-oriented, and a connection between client and server is establ
 ---
 
 ## TCP Header
-![TCP](https://www.lifewire.com/thmb/OhU9Rn5-Myfpbzjyy98U8UMAMCs=/1235x695/smart/filters:no_upscale()/tcp-headers-f2c0881ea4c94e919794b7c0677ab90a.jpg)
+
+![TCP](https://www.gatevidyalay.com/wp-content/uploads/2018/09/TCP-Header-Format.png)
+
 - Source port (16 bits) : Identifies the sending port.
 - Destination port (16 bits) : Identifies the receiving port.
 - Sequence number (32 bits) : Has a dual role:

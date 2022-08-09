@@ -10,16 +10,28 @@ Example : play.google.com -> 185.056.012.155
 
 The Domain Name System is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities.
 
-Port 53 is used.
+Port 53 is used. UDP is used. Total 128 levels and level 0 is root.
+Root label is empty , each node has name(maximum 63 characters) .
 
 ---
 
 ## Why?
-DNS is phonebook of Internet. Domain name is searched and they return IP. Remebering numerical values that changes frequently is not the best way to remember any website. DNS is used to resolve domain names to IP's so that we only have to remember particular string.
+DNS is phonebook of Internet. Domain name is searched and they return IP. Remebering numerical values that changes frequently is not the best way to remember any website. DNS is used to resolve domain names to IP's so that we only have to remember articular string.
+
+---
+
+## Name Architectures
+**Flat name architecture : ** 
+There is no clear relationship between names .
+
+**Hierarchical Name Architecture : **
+There is defined relationship between names spaces.
+
 
 ---
 
 ## Types of DNS
+
 ### Root Name Server
 A root server accepts a recursive resolver’s query which includes a domain name, and the root nameserver responds by directing the recursive resolver to a TLD nameserver, based on the extension of that domain (.com, .net, .org, etc.). 13 Root name server(a-m).
 
@@ -29,10 +41,18 @@ A TLD nameserver maintains information for all the domain names that share a com
 ### Authoritative name server
 When a recursive resolver receives a response from a TLD nameserver, that response will direct the resolver to an authoritative nameserver. The authoritative nameserver is usually the resolver’s last step in the journey for an IP address. The authoritative nameserver contains information specific to the domain name it serves (e.g. google.com) and it can provide a recursive resolver with the IP address of that server found in the DNS A record, or if the domain has a CNAME record it will provide the recursive resolver with an alias domain, at which point the recursive resolver will have to perform a whole new DNS lookup to procure a record from an authoritative nameserver (often an A record containing an IP address).
 
+### Primary server 
+It is server which stores file about its zone. I tis authorized to create , maintain and update the zone filie. 
+
+### Secondary server 
+It is used for backup to primary server , it doesn't have authority to create or update zone file.
+
 ---
 
 ## How does DNS work?
+
 ![DNS](https://www.appneta.com/assets/Screen-Shot-2018-12-20-at-4.25.01-PM.png)
+
 - DNS resolver checks its cache for IP address.
 - If not found then DNS query is sent by DNS resolver to root name server. 
 - Root name server then checks domain extention such as .com or .net
@@ -41,6 +61,24 @@ When a recursive resolver receives a response from a TLD nameserver, that respon
 - TLD server returns IP of Authoritative name server.
 - DNS resolver sends request to Authoritative name servers
 - Authoritative name servers returns with IP.
+
+---
+
+## DNS in Internet
+
+1. **Generic domains** : Generic domains are defined from categories like .com or .gov .
+2. **Country domain** : Country domain are created using two character country name abbreviation like .in , .us .
+3. **Inverse Domain** : Used for mapping IP address to a name for reverse resolution like 121.52.5.8.in_addr_.arpa .
+
+![DNS in internet](https://www.tutorialride.com/images/computer-network/dns-in-internet.jpeg)
+
+---
+
+## DNS Message format
+1. Query : Header and question section
+2. Response : Query message + Answer section + authoritative section + Additonal section information
+
+![Message format](https://i.imgur.com/68escU5.png)
 
 ---
 

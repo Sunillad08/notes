@@ -38,7 +38,7 @@
 - Connects all Internal devices
 - Smart , transmitts packets to only destination device
 - Used in internal communication
-- Works on Physical layer
+- Works on data link layer & some switches are capable at working on network layer
 - Keeps record of MAC address of devices
 - Used in LAN to create network
 - Effiecient at connecting devices

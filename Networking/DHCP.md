@@ -34,7 +34,13 @@ Ports use for DHCP communication :
 
 ---
 
+## DHCP messsage format
+
+![DHCP message format](https://www.researchgate.net/profile/Jaeseung-Song/publication/263813522/figure/fig10/AS:667882941866005@1536247110658/Packet-format-for-DHCP.png)
+
 If DHCP fails then windows has backup plan called [APIPA](APIPA.md)
+If DHCP server is not in same network then we need to set relay agent which will act as mailman for communication.
+To check if address is alotted , it pings devices. If reply gets to DHCP server and conflict is found then server automatically removes that IP from server pool.
 
 ---
 

@@ -9,6 +9,9 @@
 Synchronisation of emails and folder on mail server. Better for multiple device usage. All emails are kept on server for limited time.
 Much better than [POP3](POP3.md).
 
+User can partially download e-mail.
+Option to create mailboxes and folders.
+
 ---
 
 ![pop3](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Simple-Mail-Transfer-Protocol-1.png)

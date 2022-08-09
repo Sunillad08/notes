@@ -9,13 +9,35 @@ The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the I
 
 Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989. Development of early HTTP Requests for Comments (RFCs) was a coordinated effort by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C), with work later moving to the IETF.
 
-Runs on port 80.
+Runs on port 80. TCP is used.
+Stateless protocol so cookies are used.
 
 ---
 
 ## Why HTTP is used?
 HTTP is used to tranfer data which is in form of web pages and many more things.
 Internet basically runs on HTTP protocol.
+
+---
+
+## URL 
+Uniform Resource Locator i.e URL is way of specifying how , where and what information to get.
+
+URL : **Method :// Host : Port / Path**
+
+Example : ```http://www.w4.org/hypertext/www/project.html```
+
+---
+
+## Cookies
+Cookies are used because http is stateless protocol. It can't identify the client. Cookies are simple information packets that can identify user. set-cookie is method used to create cookie. Cookies are controversial as they invade privacy.
+
+---
+
+## Web documents 
+1. Static documents : Simple HTTP pages with information
+2. Dynamic documents : Document created on server based on clients input or authentication. 
+3. Active documents : This document will run of clients browser for example gif , animated graphics. Browser is responsible to manage and execute this files.
 
 ---
 
@@ -27,24 +49,15 @@ The HTTP/1.0 specification defined the GET, HEAD and POST methods, and the HTTP/
 
 Method names are case sensitive This is in contrast to HTTP header field names which are case-insensitive.
 
-- GET
-	The GET method requests that the target resource transfers a representation of its state. GET requests should only retrieve data and should have no other effect. (This is also true of some other HTTP methods.) The W3C has published guidance principles on this distinction, saying, "Web application design should be informed by the above principles, but also by the relevant limitations." See safe methods below.
-- HEAD
-	The HEAD method requests that the target resource transfers a representation of its state, like for a GET request, but without the representation data enclosed in the response body. This is useful for retrieving the representation metadata in the response header, without having to transfer the entire representation.
-- POST
-	The POST method requests that the target resource processes the representation enclosed in the request according to the semantics of the target resource. For example, it is used for posting a message to an Internet forum, subscribing to a mailing list, or completing an online shopping transaction.
-- PUT
-	The PUT method requests that the target resource creates or updates its state with the state defined by the representation enclosed in the request.
-- DELETE
-	The DELETE method requests that the target resource deletes its state.
-- CONNECT
-	The CONNECT method request that the intermediary establishes a TCP/IP tunnel to the origin server identified by the request target. It is often used to secure connections through one or more HTTP proxies with TLS. See HTTP CONNECT method.
-- OPTIONS
-	The OPTIONS method requests that the target resource transfers the HTTP methods that it supports. This can be used to check the functionality of a web server by requesting '\*' instead of a specific resource.
-- TRACE
-	The TRACE method requests that the target resource transfers the received request in the response body. That way a client can see what (if any) changes or additions have been made by intermediaries.
-- PATCH
-	The PATCH method requests that the target resource modifies its state according to the partial update defined in the representation enclosed in the request.
+- GET : The GET method requests that the target resource transfers a representation of its state. GET requests should only retrieve data and should have no other effect. 
+- HEAD : The HEAD method requests that the target resource transfers a representation of its state, like for a GET request, but without the representation data enclosed in the response body. This is useful for retrieving the representation metadata in the response header, without having to transfer the entire representation.
+- POST : The POST method requests that the target resource processes the representation enclosed in the request according to the semantics of the target resource. For example, it is used for posting a message to an Internet forum, subscribing to a mailing list, or completing an online shopping transaction.
+- PUT : The PUT method requests that the target resource creates or updates its state with the state defined by the representation enclosed in the request.
+- DELETE : 	The DELETE method requests that the target resource deletes its state.
+- CONNECT : The CONNECT method request that the intermediary establishes a TCP/IP tunnel to the origin server identified by the request target. It is often used to secure connections through one or more HTTP proxies with TLS.
+- OPTIONS : The OPTIONS method requests that the target resource transfers the HTTP methods that it supports. This can be used to check the functionality of a web server by requesting '\*' instead of a specific resource.
+- TRACE : The TRACE method requests that the target resource transfers the received request in the response body. That way a client can see what (if any) changes or additions have been made by intermediaries.
+- PATCH : 	The PATCH method requests that the target resource modifies its state according to the partial update defined in the representation enclosed in the request.
 	
 All general-purpose HTTP servers are required to implement at least the GET and HEAD methods, and all other methods are considered optional by the specification.
 

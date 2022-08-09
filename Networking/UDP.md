@@ -34,6 +34,17 @@ A UDP datagram consists of a datagram header and a data section. The UDP datagra
 
 ---
 
+## Advantages
+1. Minimum overhead
+2. Easy sending process
+3. Less interaction between sender and receiver
+
+## Disadvantages
+1. No error control
+2. No congestion control
+
+---
+
 ### Sources
 - [WIki](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
 - [Detailed UDP](https://youtu.be/HF_znV8x9a0)

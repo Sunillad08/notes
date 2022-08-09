@@ -11,11 +11,11 @@
 #### Virtual Ports : 
 - Virtual ports are there to get access to data for particular application
 - logical connection to exchange data
-- Ports can be open , closed  | *note : filtered(not sure state)*
+- Ports can be open , closed 
 - Ports provide particular service
 -   From 0 to 1023 – well known ports assigned to common protocols and services
 -   From 1024 to 49151 – registered ports assigned by ICANN to a specific service
--   From 49152 to 65 535 – dynamic (private, high) ports range from 49,152 to 65,535. Can be used by any service on an ad hoc basis. Ports are assigned when a session is established, and released when the session ends.
+-   From 49152 to 65535 – ephemeral ports or (dynamic ,private, high) ports . Can be used by any service on an ad hoc basis. Ports are assigned when a session is established, and released when the session ends.
 
 Common port numbers 
 
@@ -25,7 +25,7 @@ Common port numbers
 |22|Secure Shell (SSH)|TCP and UDP|
 |23|Telnet|TCP|
 |25|Simple Mail Transfer Protocol (SMTP)|TCP|
-|50, 51|IPSec||
+|50, 51|IPSec (ESP , AH)||
 |53|Domain Name System (DNS)|TCP and UDP|
 |67, 68|Dynamic Host Configuration Protocol (DHCP)|UDP|
 |69|Trivial File Transfer Protocol (TFTP)|UDP|

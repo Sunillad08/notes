@@ -10,6 +10,8 @@ Uses port 25 for plaintext and 587 for encrypted text
 
 SMTP stands for **Simple Mail Transfer Protocol**. SMTP is a set of communication guidelines that allow software to transmit an electronic mail over the internet is called Simple Mail Transfer Protocol. It is a program used for sending messages to other computer users based on e-mail addresses.
 
+SMTP is used twice to transfer main from client's user agent to client's server and then from client's server to other person's server.
+
 ---
 
 ## How SMTP works?

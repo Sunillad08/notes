@@ -4,8 +4,14 @@
 ---
 
 ## What is telnet?
-**Teletype network**
+**Terminal network**
 Telnet is an application protocol used on the Internet or local area network to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection. User data is interspersed in-band with Telnet control information in an 8-bit byte oriented data connection over the Transmission Control Protocol (TCP).
+
+---
+
+## NVT : Network Virtual Terminal
+
+NVT chatacter set is a universal interface defined by telnet to ensure user can access any remote computer. 
 
 ---
 

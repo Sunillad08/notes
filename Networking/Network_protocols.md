@@ -24,7 +24,7 @@ Protocol is defined as set of rules agreed upon by the sending and receiving com
 ### [DHCP](DHCP.md) : Dynamic Host Configuration Protocol
 - Automatically assigns IP address
 
-### [Telnet](Telnet.md)
+### [Telnet](Telnet.md) : Teletype Network
 - Uses a text-based connection to a remote TCP/IP computer
 
 ### [SMTP](SMTP.md) : Simple Mail Transfer Protocol
@@ -45,17 +45,14 @@ Protocol is defined as set of rules agreed upon by the sending and receiving com
 ### [TLS](TLS.md) : Transport Layer Security
 - Secure method to make connection with server and authenticate it
 
-### PAP
-
-### RPC
-
 ### [TCP](TCP.md) : Transmission control protocol
 - Transports data on the Internet with connection
 
 ### [UDP](UDP.md) : User Datagram Protocols
 - Transports data on the Internet with connection-less
 
-### SCTP
+### [SCTP](SCTP.md) : Stream Control Transmission Protocol
+- Transports data like TCP and UDP combination with features like multihoming and multiple streams. Used for real-time reliable communication. 
 
 ### [ICMP](ICMP.md) : Internet Control Message Protocol
 - Supporting protocol for IP , used for error reporting and controlling.
