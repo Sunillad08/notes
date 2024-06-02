@@ -1,6 +1,6 @@
 # Resources
 [Back to Index page](index.md)
-- --
+-- -
 ## **Networking**  
 - [x] [Bitten tech Youtube Series](https://www.youtube.com/playlist?list=PLkW9FMxqUvyZaSQNQslneeODER3bJCb2K) 
 - [ ] [Youtube Series](https://www.youtube.com/playlist?list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd)  

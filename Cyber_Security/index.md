@@ -13,7 +13,7 @@
 - [Phases_of_Ethical_Hacking](Phases_of_Ethical_Hacking.md)
 - [Principles_of_Security](Principles_of_Security.md)
 - [Software_vulnerabilities](Software_vulnerabilities.md)
-- [Reverse_&_Bind_shell](Reverse_&_Bind_shell.md)
+- [Reverse_and_Bind_shell](Reverse_and_Bind_shell.md)
 - [SQL_injection](SQL_injection.md)
 
 ---
@@ -21,7 +21,7 @@
 ## Steps for PenTest
 - [Pentesting_fundamentals](Pentesting_fundamentals.md)
 - [Information_gathering](Information_gathering.md)
-- [Footprinting_&_scanning](Footprinting_&_scanning.md)
+- [Footprinting_and_scanning](Footprinting_and_scanning.md)
 - [Content_Discovery](Content_Discovery.md)
 - [DNS_Enumeration](DNS_Enumeration.md)
 
