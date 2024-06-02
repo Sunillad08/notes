@@ -67,7 +67,7 @@ Then move to that directory and paste command found on [gtfobins](https://gtfobi
 -  Readable 
 	Each line of the file represents a user. A user's password hash (if they have one) can be found between the first and second colons (:) of each line.
 
-	Copy file to another file . Use [John_the_ripper](John_the_ripper.md) to crack weak root password.
+	Copy file to another file . Use [John_the_ripper](Tools/John_the_ripper.md) to crack weak root password.
 
 	Save the root user's hash to a file called hash.txt on your Kali VM and use john the ripper to crack it. You may have to unzip /usr/share/wordlists/rockyou.txt.gz first and run the command using sudo depending on your version of Kali:
 	```john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt```

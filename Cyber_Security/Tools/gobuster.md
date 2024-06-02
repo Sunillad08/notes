@@ -1,5 +1,5 @@
 # gobuster
-[Back to Cyber security page](./index.md)
+[Back to Cyber security page](../index.md)
 
 ---
 

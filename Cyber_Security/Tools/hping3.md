@@ -1,5 +1,5 @@
 # Hping3
-[Back to cyber security page](./index.md)
+[Back to cyber security page](../index.md)
 
 ---
 

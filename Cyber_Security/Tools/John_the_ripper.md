@@ -1,5 +1,5 @@
 # John the ripper (JTR)
-[Back to cyber security page](./index.md)
+[Back to cyber security page](../index.md)
 
 ---
 

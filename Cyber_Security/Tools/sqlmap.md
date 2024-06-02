@@ -1,5 +1,5 @@
 # sqlmap
-[back to cyber security page](./index.md)
+[back to cyber security page](../index.md)
 
 ---
 

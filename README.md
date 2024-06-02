@@ -1,6 +1,9 @@
-# Cyber security notes
+# Notes
 [Back to Index page](index.md)
 - --
-## Note taking
-Taking notes of different concepts , tools and commands is necessary as we can refer it back and refresh concept if necessary.
+
+> Collective notes about networking, Cyber security , Linux and Windows.
+
+> Notes while learning for eJPT Certification
+
 - --

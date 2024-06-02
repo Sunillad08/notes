@@ -51,7 +51,7 @@ It is used for backup to primary server , it doesn't have authority to create or
 
 ## How does DNS work?
 
-![DNS](https://www.appneta.com/assets/Screen-Shot-2018-12-20-at-4.25.01-PM.png)
+![DNS Working](http://www.tcpipguide.com/free/diagrams/dnsresolution.png)
 
 - DNS resolver checks its cache for IP address.
 - If not found then DNS query is sent by DNS resolver to root name server. 
@@ -81,6 +81,20 @@ It is used for backup to primary server , it doesn't have authority to create or
 ![Message format](https://i.imgur.com/68escU5.png)
 
 ---
+
+### DNS Record types
+
+![DNS Record types](https://en.wikipedia.org/wiki/List_of_DNS_record_types#/media/File:All_active_dns_record_types.png)
+
+A - Resolves hostname to IPv4
+AAAA - Resolves hostname to IPv6
+NS - Reference to Domain name server
+MX - Mail server
+CNAME - domain alias
+TXT - text records
+SOA - Domain authority 
+SRV - Service records
+PTR - IP address to hostname
 
 ### Sources
 - [Wiki](https://en.wikipedia.org/wiki/Domain_Name_System)

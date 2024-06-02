@@ -26,7 +26,7 @@ First we need ip of network to scan.
 	- --
 - nmap
 	- nmap -sn 192.168.0.1
-	- [More about nmap](nmap.md)
+	- [More about nmap](Tools/nmap.md)
 
 ---
 
@@ -72,7 +72,7 @@ First we need ip of network to scan.
 ### Tools:
 - nmap 
 	- nmap -O 192.168.0.2
-	- [More about nmap](nmap.md)
+	- [More about nmap](Tools/nmap.md)
 
 ---
 

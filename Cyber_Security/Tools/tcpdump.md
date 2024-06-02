@@ -1,12 +1,12 @@
 # tcpdump
-[Back to cyber security page](./index.md)
+[Back to cyber security page](../index.md)
 
 ---
 
 ## What is tcpdump?
 tcpdump (8)          - dump traffic on a network
 tcpdump is used to track traffic in network.
-Basically command line [Wireshark](Wireshark.md).
+Basically command line [Wireshark](Tools/Wireshark.md).
 
 ---
 

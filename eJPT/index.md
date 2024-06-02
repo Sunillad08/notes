@@ -1,7 +1,7 @@
 # eJPT Notes
-[Back to Index Page](../index.md)
+[Back](../index.md)
 
 -- -
 
 ## [Information Gathering](Information_Gathering/index.md)
-##
+## [Footprinting and Scanning](Footprinting_and_Scanning/index.md)

@@ -1,7 +1,13 @@
 ## Information Gathering
-[Back to index page](../index.md)
+[Back](../index.md)
 
 -- -
+
+## [Passive_information_gathering](Passive_information_gathering.md)
+
+## [Active_information_gathering](Active_information_gathering.md)
+
+
 
 ## Information Gathering
 
@@ -14,6 +20,4 @@ Information gathering refers to gathering or collecting information about person
 ### What information to collect?
 - Passive : IP address, DNS details, Email address, Web technology, subdomains, etc.
 - Active : Open ports, internal infrastructure of target, information about target systems.
-
-
 

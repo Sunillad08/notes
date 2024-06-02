@@ -1,5 +1,5 @@
 # dirb
-[Back to cyber security page](./index.md)
+[Back to cyber security page](../index.md)
 
 ---
 

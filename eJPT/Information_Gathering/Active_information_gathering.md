@@ -1,40 +1,47 @@
 # Active Information Gathering
 
-[index](./index.md)
+[Back](./index.md)
+
+-- -
+
+Read [DNS](../../Networking/DNS.md)
 
 -- -
 
 ## DNS Zone Transfer
 
-[DNS](../../Networking/DNS.md)
-
-A - Resolves hostname to IPv4
-AAAA - Resolves hostname to IPv6
-NS - Reference to Domain name server
-MX - Mail server
-CNAME - domain alias
-TXT - text records
-SOA - Domain authority 
-SRV - Service records
-PTR - IP address to hostmame
-
--- -
-
-## DNS Interrogation 
-Enumeration of DNS records
-
 DNS Zone Transfer : Process of copy or transfer of zone files from one DNS server to another.
 
+![DNS Zone Transfer](https://images.ctfassets.net/aoyx73g9h2pg/1PGX1tDUWI2LvZaMfcuLLD/f98d47c3d88a0756e6d13884fec69628/What-are-DNS-zone-transfers-Diagram.jpg)
+
+- [DNS Zone Transfer Hackersploit](https://youtu.be/kdYnSfzb3UA?si=lxAt7FEex7ZcDcKv)
+- [DNS Zone Transfer Hindi](https://youtu.be/4-vKfKVyjHA?si=HmQssVkYpXaDXsOS)
+
 -- -
+
+## dig
+DNS Zone Transfer using dig
+```
+dig axfr @"nameserver" "site"
+```
+
 
 ## dnsenum
 Enumeration of publically available information, zone transfer and bruteforce subdomains.
-## dig
-DNS Zone Transfer: 
-dig axfr @"nameserver" "site"
+```
+dnsenum "site"
+```
+
+
 ## fierce 
+
+```
+fierce –dns domain_name
+```
 
 
 ## Nmap
 
-Timing templates , Options about scanning 
+Read [nmap](../../Cyber_Security/Tools/nmap.md) , [hping3](../../Cyber_Security/Tools/hping3.md)
+
+To enumerate active machines using ping scan to gather active machines IP.

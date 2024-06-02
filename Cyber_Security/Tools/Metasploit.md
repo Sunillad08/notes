@@ -1,5 +1,5 @@
 # Metasploit
-[Back to cyber security page](./index.md)
+[Back to cyber security page](../index.md)
 
 ---
 
@@ -186,7 +186,7 @@ webcam_snap     grabs a picture from a connected web cam on the target system
 ---
 
 ## Information gathering in metasploit
-db_nmap command to run [nmap](nmap.md) against our targets and our scan results would than be stored automatically in our database.
+db_nmap command to run [nmap](Tools/nmap.md) against our targets and our scan results would than be stored automatically in our database.
 
 Metasploit has many more port scanners located in  auxiliary/scanner/.
 
