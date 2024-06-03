@@ -19,6 +19,8 @@ ICMP differs from transport protocols such as TCP and UDP in that it is not typi
 - Checksum : Internet checksum (RFC 1071) for error checking, calculated from the ICMP header and data with value 0 substituted for this field.
 - Rest of header : Four-byte field, contents vary based on the ICMP type and code.
 
+![icpm types ](https://devnull0.com/wp-content/uploads/2017/09/icmp_types.png)
+
 For control messages , check this [Wikipedia page](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Control_messages)
 
 ---
