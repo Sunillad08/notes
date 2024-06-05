@@ -10,13 +10,13 @@ Ethernet uses a 6-byte (48-bit) physical address that is imprinted on the [Netwo
 
 ---
 
-## [MAC](MAC.md)
+## [MAC](Protocols/MAC.md)
 
 Most local area networks use a 48-bit (6-byte) physical address written as 12 hexadecimal digits; every byte (2 hexadecimal digits) is separated by a colon, as shown below:
 
 **07:01:02:01:2C:4B**
 
-A 6-byte (12 hexadecimal digits) physical address or [MAC](MAC.md) address.
+A 6-byte (12 hexadecimal digits) physical address or [MAC](Protocols/MAC.md) address.
 
 Physical addresses can be either unicast (one single recipient), multicast (a group of recipients), or broadcast (to be received by all systems in the network).
 

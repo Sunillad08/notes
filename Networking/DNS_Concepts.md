@@ -4,12 +4,12 @@
 ---
 
 ## What is DNS
-Check other pages about [DNS](DNS.md) and [DNS_Enumeration](../Cyber_Security/DNS_Enumeration.md).
+Check other pages about [DNS](Protocols/DNS.md) and [DNS_Enumeration](../Cyber_Security/DNS_Enumeration.md).
 
 ---
 
 ## DNS Server
-![Types of DNS](DNS.md#Types%20of%20DNS)
+![Types of DNS](Protocols/DNS.md#Types%20of%20DNS)
 
 ---
 
@@ -36,6 +36,6 @@ In the early days of the Internet, IP addresses rarely changed, which made manag
 ---
 
 ### Source
-- [DNS](DNS.md)
+- [DNS](Protocols/DNS.md)
 - [DNS_Enumeration](../Cyber_Security/DNS_Enumeration.md)
 - [Cloudflare DDNS](https://www.cloudflare.com/en-in/learning/dns/glossary/dynamic-dns/)

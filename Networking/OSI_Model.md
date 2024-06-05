@@ -69,12 +69,12 @@ and application (layer 7).
 - Error control : To avoid errors and cover up errors if it happens.
 
 ### Network Layer
-- Logical Addressing : Logical addressing using [IP](IP.md) to distinguish multiple devices on internet.
+- Logical Addressing : Logical addressing using [IP](Protocols/IP.md) to distinguish multiple devices on internet.
 - Routing : Transfer of packets from one device to other.
 
 ### Data link Layer
 - Framing : Divide packets into frames for manageable data units.
-- Physical addressing : Physical addressing using [MAC](MAC.md) address.
+- Physical addressing : Physical addressing using [MAC](Protocols/MAC.md) address.
 - Flow control : Control flow of data transfer
 - Access control : Determine access to link for two or more devices.
 - Error control : Add trailer to achieve error control.

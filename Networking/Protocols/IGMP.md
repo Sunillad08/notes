@@ -1,12 +1,12 @@
 # IGMP
-[Back to networking page](./index.md)
+[Back to networking page](../index.md)
 
 ---
 
 ## What is IGMP?
 **Internet Group Management Protocol** (IGMP) is a communications protocol used by hosts and adjacent routers on IPv4 networks to establish multicast group memberships. IGMP is an integral part of IP multicast and allows the network to direct multicast transmissions only to hosts that have requested them.
 
-IGMP is used on [IPv4](IPv4.md) networks. Multicast management on [IPv6](IPv6.md) networks is handled by Multicast Listener Discovery (MLD) which is a part of ICMPv6 in contrast to IGMP's bare IP encapsulation.
+IGMP is used on [IPv4](Protocols/IPv4.md) networks. Multicast management on [IPv6](Protocols/IPv6.md) networks is handled by Multicast Listener Discovery (MLD) which is a part of ICMPv6 in contrast to IGMP's bare IP encapsulation.
 
 ![IGMP](https://networklessons.com/wp-content/uploads/2018/02/multicast-igmp-proxy-example.png)
 

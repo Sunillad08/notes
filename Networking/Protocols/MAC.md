@@ -1,5 +1,5 @@
 # MAC
-[Back to networking page](./index.md)
+[Back to networking page](../index.md)
 
 ---
 
@@ -13,7 +13,7 @@ Within the Open Systems Interconnection (OSI) network model, MAC addresses are u
 ## Why MAC?
 MAC address is a **unique number which is used to track a device in a network**. MAC address provides a secure way to find senders or receivers in the network and helps prevent unwanted network access. Mac address is also used in Wi-Fi networks at the airport for a specific device in order to identify it.
 
-MAC address works at link layer of OSI model whereas, [IP](IP.md) address works at network layer of OSI model.
+MAC address works at link layer of OSI model whereas, [IP](Protocols/IP.md) address works at network layer of OSI model.
 
 ---
 

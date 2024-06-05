@@ -1,5 +1,5 @@
 # APIPA
-[Back to networking page](./index.md)
+[Back to networking page](../index.md)
 
 ---
 
@@ -10,9 +10,9 @@ Automatic Private IP Addressing (APIPA) is a feature of _Windows-based operating
 ---
 
 ## Why?
-If [DHCP](DHCP.md) server fails then it can assign itself IP from  169.254.0.0/16 (_169.254.0.0_ through _169.254.255.255_) and subnet mask of 255.255.0.0.
+If [DHCP](Protocols/DHCP.md) server fails then it can assign itself IP from  169.254.0.0/16 (_169.254.0.0_ through _169.254.255.255_) and subnet mask of 255.255.0.0.
 Now Device can connect with internal devices only. **NO INTERNET**
-Device need to broadcast [ARP](ARP.md) message so other won't pick up same IP.
+Device need to broadcast [ARP](Protocols/ARP.md) message so other won't pick up same IP.
 Continuously searches for DHCP over time for valid IP.
 
 ![APIPA](https://media.geeksforgeeks.org/wp-content/uploads/20200428145226/APIPA_21.png)

@@ -9,9 +9,9 @@ Logical addresses are necessary for universal communications that are independen
 
 ---
 
-## [IP](IP.md)
+## [IP](Protocols/IP.md)
 
-A logical address in the Internet is currently a 32-bit address that is [IPv4](IPv4.md) that can uniquely define a host connected to the Internet. No two publicly addressed and visible hosts on the Internet can have the same IP address.
+A logical address in the Internet is currently a 32-bit address that is [IPv4](Protocols/IPv4.md) that can uniquely define a host connected to the Internet. No two publicly addressed and visible hosts on the Internet can have the same IP address.
 
 ---
 

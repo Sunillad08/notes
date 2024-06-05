@@ -1,5 +1,5 @@
 # IP address
-[Back to networking page](./index.md)
+[Back to networking page](../index.md)
 
 ---
 
@@ -17,7 +17,7 @@ On internet we need to communicate using packets . So where should we send one? 
 
 ## How do we get one?
 We get IP address based on router , subnetting and many more things.
-[DHCP](DHCP.md) protocol gives us IP address.
+[DHCP](Protocols/DHCP.md) protocol gives us IP address.
 In home network router is your DHCP server.
 
 ---

@@ -1,11 +1,11 @@
 # HTTPS
-[Back to networking page](./index.md)
+[Back to networking page](../index.md)
 
 ---
 
 ## What is HTTPS?
 **Hyper Text Transfer Protocol Secure**
-Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol [HTTP](HTTP.md). It is used for secure communication over a computer network, and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
+Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol [HTTP](Protocols/HTTP.md). It is used for secure communication over a computer network, and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
 
 ---
 
@@ -18,7 +18,7 @@ HTTP is not encrypted and thus is vulnerable to man-in-the-middle and eavesdropp
 ---
 
 ## Status codes
-[Status code](HTTP.md#Status%20code)
+[Status code](Protocols/HTTP.md#Status%20code)
 
 ---
 

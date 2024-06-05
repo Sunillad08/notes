@@ -1,5 +1,5 @@
 # ICMP
-[Back to Networking page](./index.md)
+[Back to Networking page](../index.md)
 
 ---
 

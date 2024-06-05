@@ -1,10 +1,10 @@
 # IPv4
-[Back to networking page](./index.md)
+[Back to networking page](../index.md)
 
 ---
 
 ## What is IPv4?
-Check what is [IP](IP.md)
+Check what is [IP](Protocols/IP.md)
 Internet Protocol version 4 (IPv4) is the fourth version of the Internet Protocol (IP). It is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 was the first version deployed for production on SATNET in 1982 and on the ARPANET in January 1983. It is still used to route most Internet traffic today, despite the ongoing deployment of a successor protocol, [IPv6](IPv6.md).
 
 -- -

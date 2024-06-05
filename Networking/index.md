@@ -47,10 +47,10 @@
 ## Routing Protocols
 - [link_and_vectors](link_and_vectors.md)
 - [Routing_metrics](Routing_metrics.md)
-- [EIGRP](EIGRP.md)
-- [OSPF](OSPF.md)
-- [RIP](RIP.md)
-- [BGP](BGP.md)
+- [EIGRP](Protocols/EIGRP.md)
+- [OSPF](Protocols/OSPF.md)
+- [RIP](Protocols/RIP.md)
+- [BGP](Protocols/BGP.md)
 - [Routing_table](Routing_table.md)
 - [NAT](NAT.md)
 - [PAT](PAT.md)
@@ -64,43 +64,43 @@
 ---
 
 ### Application Layer
-- [DNS](DNS.md)
-- [HTTP](HTTP.md)
-- [HTTPS](HTTPS.md)
-- [FTP](FTP.md)
-- [Telnet](Telnet.md)
-- [SSH](SSH.md)
-- [DHCP](DHCP.md)
-- [SMTP](SMTP.md)
-- [POP3](POP3.md)
-- [IMAP](IMAP.md)
-- [APIPA](APIPA.md)
-- [SNMP](SNMP.md)
+- [DNS](Protocols/DNS.md)
+- [HTTP](Protocols/HTTP.md)
+- [HTTPS](Protocols/HTTPS.md)
+- [FTP](Protocols/FTP.md)
+- [Telnet](Protocols/Telnet.md)
+- [SSH](Protocols/SSH.md)
+- [DHCP](Protocols/DHCP.md)
+- [SMTP](Protocols/SMTP.md)
+- [POP3](Protocols/POP3.md)
+- [IMAP](Protocols/IMAP.md)
+- [APIPA](Protocols/APIPA.md)
+- [SNMP](Protocols/SNMP.md)
 
 ---
 
 ### Transport Layer
-- [TCP](TCP.md)
-- [UDP](UDP.md)
-- [SCTP](SCTP.md)
-- [SSL](SSL.md) *
-- [TLS](TLS.md) *
+- [TCP](Protocols/TCP.md)
+- [UDP](Protocols/UDP.md)
+- [SCTP](Protocols/SCTP.md)
+- [SSL](Protocols/SSL.md) *
+- [TLS](Protocols/TLS.md) *
 
 ---
 
 ### Network Layer
-- [IP](IP.md)
-- [IPv4](IPv4.md)
-- [IPv6](IPv6.md)
-- [ICMP](ICMP.md)
-- [IGMP](IGMP.md)
-- [IPSec](IPSec.md) *
-- [ARP](ARP.md) *
+- [IP](Protocols/IP.md)
+- [IPv4](Protocols/IPv4.md)
+- [IPv6](Protocols/IPv6.md)
+- [ICMP](Protocols/ICMP.md)
+- [IGMP](Protocols/IGMP.md)
+- [IPSec](Protocols/IPSec.md) *
+- [ARP](Protocols/ARP.md) *
 
 ---
 
 ### Data Link Layer
-- [MAC](MAC.md)
+- [MAC](Protocols/MAC.md)
 
 
 ---

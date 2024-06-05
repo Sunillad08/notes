@@ -3,7 +3,7 @@
 
 ---
 
-- [TCP](TCP.md) connection is done through 3 way handshake process
+- [TCP](Protocols/TCP.md) connection is done through 3 way handshake process
 - 3 way handshake establishes connection.
 
 ### Diagram

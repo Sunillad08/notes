@@ -24,7 +24,7 @@ Logical subdivision of a network is called subnetting.
 a.b.c.d / x is CIDR format (Classless inter domain routing)
 where a,b,c,d are octets and x is value that denotes common bits from left to right
 example : 192.168.0.1/24 -> 255 Devices can be identified
-Check [IP](IP.md) for classes about subnetting in IP's classes.
+Check [IP](Protocols/IP.md) for classes about subnetting in IP's classes.
 
 ![wiki](https://upload.wikimedia.org/wikipedia/commons/b/b3/Subnetting_Concept.svg)
 

@@ -1,5 +1,5 @@
 # SSH
-[Back to networking page](./index.md)
+[Back to networking page](../index.md)
 
 ---
 
@@ -35,7 +35,7 @@ SSH tunneling or port forwarding is service provided by ssh to other protocols s
 
 ---
 ## About SSH
-SSH was designed as a replacement for [Telnet](Telnet.md) and for unsecured remote shell protocols such as the Berkeley rsh and the related rlogin and rexec protocols. Those protocols send sensitive information, notably passwords, in plaintext, rendering them susceptible to interception and disclosure using packet analysis. The encryption used by SSH is intended to provide confidentiality and integrity of data over an unsecured network, such as the Internet.
+SSH was designed as a replacement for [Telnet](Protocols/Telnet.md) and for unsecured remote shell protocols such as the Berkeley rsh and the related rlogin and rexec protocols. Those protocols send sensitive information, notably passwords, in plaintext, rendering them susceptible to interception and disclosure using packet analysis. The encryption used by SSH is intended to provide confidentiality and integrity of data over an unsecured network, such as the Internet.
 
 ---
 

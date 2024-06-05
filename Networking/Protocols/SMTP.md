@@ -1,5 +1,5 @@
 # SMTP
-[Back to networking page](./index.md)
+[Back to networking page](../index.md)
 
 ---
 
@@ -18,7 +18,7 @@ SMTP is used twice to transfer main from client's user agent to client's server 
 ![SMTP](https://serversmtp.com/wp-content/uploads/2018/02/what-is-an-smtp-server.png)
 
 SMTP sends email to sender's receiving SMTP server.
-Then it is sent to receiver's [[POP3]] or [[IMAP]] server and downloaded to receiver's device.
+Then it is sent to receiver's [[Protocols/POP3]] or [[Protocols/IMAP]] server and downloaded to receiver's device.
 
 ---
 

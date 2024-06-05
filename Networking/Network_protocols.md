@@ -9,54 +9,54 @@ Protocol is defined as set of rules agreed upon by the sending and receiving com
 
 ---
 
-### [DNS](DNS.md) : Domain name server
+### [DNS](Protocols/DNS.md) : Domain name server
 - Gives IP of requested domain 
 
-### [HTTP](HTTP.md) : Hyper Text Transfer Protocol
+### [HTTP](Protocols/HTTP.md) : Hyper Text Transfer Protocol
 - Defines how files are exchanged on the web
 
-### [HTTPS](HTTPS.md) : Hyper Text Transfer Protocol Secure with SSL
+### [HTTPS](Protocols/HTTPS.md) : Hyper Text Transfer Protocol Secure with SSL
 - Defines how files are exchanged on the web with security
 
-### [FTP](FTP.md) : File Transfer Protocol
+### [FTP](Protocols/FTP.md) : File Transfer Protocol
 - Provides services for file transfer and manipulation
 
-### [DHCP](DHCP.md) : Dynamic Host Configuration Protocol
+### [DHCP](Protocols/DHCP.md) : Dynamic Host Configuration Protocol
 - Automatically assigns IP address
 
-### [Telnet](Telnet.md) : Teletype Network
+### [Telnet](Protocols/Telnet.md) : Teletype Network
 - Uses a text-based connection to a remote TCP/IP computer
 
-### [SMTP](SMTP.md) : Simple Mail Transfer Protocol
+### [SMTP](Protocols/SMTP.md) : Simple Mail Transfer Protocol
 - Send emails to mail server
 
-### [POP3](POP3.md) : Post office protocol
+### [POP3](Protocols/POP3.md) : Post office protocol
 - Downloads e-mail messages from an e-mail server
 
-### [IMAP](IMAP.md) : Post office protocol
+### [IMAP](Protocols/IMAP.md) : Post office protocol
 - Downloads e-mail messages from an e-mail server
 
-### [SSL](SSL.md) : Secure Socket Layer
+### [SSL](Protocols/SSL.md) : Secure Socket Layer
 - Deprecated method of autheticating servers
 
-### [SSH](SSH.md) : Secure Shell
+### [SSH](Protocols/SSH.md) : Secure Shell
 - secure connection mostly used for remote connection
 
-### [TLS](TLS.md) : Transport Layer Security
+### [TLS](Protocols/TLS.md) : Transport Layer Security
 - Secure method to make connection with server and authenticate it
 
-### [TCP](TCP.md) : Transmission control protocol
+### [TCP](Protocols/TCP.md) : Transmission control protocol
 - Transports data on the Internet with connection
 
-### [UDP](UDP.md) : User Datagram Protocols
+### [UDP](Protocols/UDP.md) : User Datagram Protocols
 - Transports data on the Internet with connection-less
 
-### [SCTP](SCTP.md) : Stream Control Transmission Protocol
+### [SCTP](Protocols/SCTP.md) : Stream Control Transmission Protocol
 - Transports data like TCP and UDP combination with features like multihoming and multiple streams. Used for real-time reliable communication. 
 
-### [ICMP](ICMP.md) : Internet Control Message Protocol
+### [ICMP](Protocols/ICMP.md) : Internet Control Message Protocol
 - Supporting protocol for IP , used for error reporting and controlling.
 
-### [IGMP](IGMP.md): Internet Group Message Protocol
+### [IGMP](Protocols/IGMP.md): Internet Group Message Protocol
 - To set multicast communicatin rules
 

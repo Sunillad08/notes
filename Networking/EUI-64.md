@@ -5,7 +5,7 @@
 
 ## What is EUI-64
 **Extended Unique Identifier**
-EUI-64 (Extended Unique Identifier) is a method we can use to automatically configure IPv6 host addresses. An IPv6 device will use the MAC address of its interface to generate a unique 64-bit interface ID. However, a [MAC](MAC.md) address is 48 bit and the interface ID is 64 bit.
+EUI-64 (Extended Unique Identifier) is a method we can use to automatically configure IPv6 host addresses. An IPv6 device will use the MAC address of its interface to generate a unique 64-bit interface ID. However, a [MAC](Protocols/MAC.md) address is 48 bit and the interface ID is 64 bit.
 
 ---
 

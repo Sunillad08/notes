@@ -18,7 +18,7 @@ Packet headers are attached to outgoing data. Packets can pass through many gate
 Different headers for different format
 ![diagram of IPv4](https://erg.abdn.ac.uk/users/gorry/course/images/ip-header.gif)
 
-Check more about IP header [Two types of IP address](IP.md#Two%20types%20of%20IP%20address)
+Check more about IP header [Two types of IP address](Protocols/IP.md#Two%20types%20of%20IP%20address)
 
 ---
 
