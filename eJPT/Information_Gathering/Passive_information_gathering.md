@@ -16,7 +16,7 @@ Web reconnaissance  and footprinting focusses on gathering information about web
 
 ## Domain Information gathering
 
-Read [DNS](../../Networking/DNS.md)
+Read [DNS](../../Networking/Protocols/DNS.md)
 
 ### Whois
 Command line tool to gather DNS information about host

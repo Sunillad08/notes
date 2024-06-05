@@ -32,6 +32,8 @@ Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
 
 ---
 
+When trying to discover hosts, always try to use multiple methods such as -P* to discover host which block ICMP Ping.
+
 - Host Discovery
 ```bash
 -sL: List Scan - simply list targets to scan
@@ -40,6 +42,7 @@ Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
 -PS/PA/PU/PY[portlist]: TCP SYN/ACK, UDP or SCTP discovery to given ports
 -PE/PP/PM: ICMP echo, timestamp, and netmask request discovery probes
 -PO[protocol list]: IP Protocol Ping
+-PR: ARP ping scan
 -n/-R: Never do DNS resolution/Always resolve [default: sometimes]
 --dns-servers <serv1[,serv2],...>: Specify custom DNS servers
 --system-dns: Use OS's DNS resolver
@@ -68,7 +71,8 @@ Ex: -p22; -p1-65535; -p U:53,111,137,T:21-25,80,139,8080,S:9
 --port-ratio <ratio>: Scan ports more common than <ratio>
 ```
 
----
+
+-- -
 
 SERVICE/VERSION DETECTION:
 ```bash
@@ -79,7 +83,7 @@ SERVICE/VERSION DETECTION:
 --version-trace: Show detailed version scan activity (for debugging)
 ```
 
----
+-- -
 
 SCRIPT SCAN:
 ```bash
@@ -95,7 +99,7 @@ SCRIPT SCAN:
 	   script-categories.
 ```
 
----
+-- -
 
 OS DETECTION:
 ```bash
@@ -104,7 +108,7 @@ OS DETECTION:
 --osscan-guess: Guess OS more aggressively
 ```
 
----
+-- -
 
 TIMING AND PERFORMANCE:
 ```bash
@@ -122,7 +126,21 @@ Options which take <time> are in seconds, or append 'ms' (milliseconds),
 --max-rate <number>: Send packets no faster than <number> per second
 ```
 
----
+-T is timing templates. 
+
+
+|Template| Usage |
+| ---   | ---        |
+|  -T0  |  Paranoid  |
+|  -T1  |  Sneaky    |
+|  -T2  |  Polite    |
+|  -T3  |  Normal    |
+|  -T4  |  Aggressive|
+|  -T5  |  Insane    |
+
+Refer [Nmap Timing templates guide](https://nmap.org/book/performance-timing-templates.html)
+
+-- -
 
 FIREWALL/IDS EVASION AND SPOOFING:
 ```bash
@@ -141,7 +159,7 @@ FIREWALL/IDS EVASION AND SPOOFING:
 --badsum: Send packets with a bogus TCP/UDP/SCTP checksum
 ```
 
----
+-- -
 
 OUTPUT:
 ```bash
@@ -162,7 +180,7 @@ OUTPUT:
 --no-stylesheet: Prevent associating of XSL stylesheet w/XML output
 ```
 
----
+-- -
 
 MISC:
 ```bash

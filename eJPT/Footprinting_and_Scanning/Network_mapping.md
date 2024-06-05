@@ -3,7 +3,7 @@
 
 -- -
 
-Prerequisite: [IP](../../Networking/IP.md), [ICMP](../../Networking/ICMP.md), [IPv4](../../Networking/IPv4.md), [IPv6](../../Networking/IPv6.md), [TCP](../../Networking/TCP.md), [UDP](../../Networking/UDP.md), [TCP_IP_3_way_handshake](../../Networking/TCP_IP_3_way_handshake.md)
+Prerequisite: [IP](../../Networking/Protocols/IP.md), [ICMP](../../Networking/Protocols/ICMP.md), [IPv4](../../Networking/Protocols/IPv4.md), [IPv6](../../Networking/Protocols/IPv6.md), [TCP](../../Networking/Protocols/TCP.md), [UDP](../../Networking/Protocols/UDP.md), [TCP_IP_3_way_handshake](../../Networking/TCP_IP_3_way_handshake.md)
 
 ## Objective
 - Discovery of live hosts
@@ -36,6 +36,8 @@ Windows> Netstat -ano
 - TCP ACK
 - SYN ACK
 
+
+### Read [nmap](../../Cyber_Security/Tools/nmap.md) to learn about host discovery using ICMP sweep, ARP sweep and multiple other ways.
 
 
 

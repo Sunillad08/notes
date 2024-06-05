@@ -4,7 +4,7 @@
 
 -- -
 
-Read [DNS](../../Networking/DNS.md)
+Read [DNS](../../Networking/Protocols/DNS.md)
 
 -- -
 

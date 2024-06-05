@@ -4,7 +4,7 @@
 ---
 
 ## What is DNS Enumeration?
-DNS enumeration is the process of locating all the [DNS](../Networking/DNS.md) servers and their corresponding records for an organization.
+DNS enumeration is the process of locating all the [DNS](../Networking/Protocols/DNS.md) servers and their corresponding records for an organization.
 
 It gives up information about IP adddress and internal and external DNS
 
