@@ -3,10 +3,6 @@
 
 -- -
 
-Quick Access:
-- [Passive Information Gathering](#Passive%20Information%20Gathering)
-- [Active Information Gathering](#Active%20Information%20Gathering)
-
 ## Information Gathering
 
 Information gathering refers to gathering or collecting information about person, company and system that you're targeting.
